@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Cortopia/Prefabs/Tests/Traps/WallChomper/WallChomper.controller.meta
+guid: 7d10dead871981f46a0f3e29ff497075
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+========
+guid: c92f40bfc9df8b340ae66b1142cc7681
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+>>>>>>>> develop:Assets/Cortopia/PhysicsMaterials/Blood.physicMaterial.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

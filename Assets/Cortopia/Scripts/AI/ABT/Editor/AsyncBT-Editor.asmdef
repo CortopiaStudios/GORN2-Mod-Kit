@@ -1,0 +1,19 @@
+{
+  "name": "AsyncBT-Editor",
+  "rootNamespace": "",
+  "references": [
+    "GUID:bb048f0ae8dd42cb8c17f4f9fc6dca89",
+    "GUID:dcae28ccc93277043bc2c04be65516cf"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

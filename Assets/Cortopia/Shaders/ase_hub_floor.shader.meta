@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f27875199ceee064b83adeedf8bcd746
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TEX_Sand_02_Dif: {fileID: 2800000, guid: d03600fac3d720545b869739898aa516, type: 3}
+  - _TEX_ArmoryGutsGrass_Dif: {fileID: 2800000, guid: 20f5bac38c24ff24490279c565a8d852, type: 3}
+  - _TEX_SandPrints_01: {fileID: 2800000, guid: 3e0b309da29752b428e6ecaef5bfa434, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

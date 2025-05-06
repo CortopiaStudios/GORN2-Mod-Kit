@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: ase_function_DifSmooth
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor v1.9.2\n// Available at the
+    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.FunctionOutput;0;640,-325;Inherit;False;True;-1;Albedo;0;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.FunctionOutput;14;635,-213.5;Inherit;False;False;-1;Emission;1;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.FunctionOutput;16;601,-105.5;Inherit;False;False;-1;Smoothness;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;15;624,33.5;Inherit;False;False;-1;Metallic;2;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.StaticSwitch;1;281.576,-323.6658;Inherit;False;Property;_SmoothnessView;SmoothnessView;6;0;Create;True;0;0;0;False;0;False;0;0;0;False;_SmoothnessView;Toggle;2;Key0;Key1;Reference;4;False;True;All;9;1;FLOAT4;0,0,0,0;False;0;FLOAT4;0,0,0,0;False;2;FLOAT4;0,0,0,0;False;3;FLOAT4;0,0,0,0;False;4;FLOAT4;0,0,0,0;False;5;FLOAT4;0,0,0,0;False;6;FLOAT4;0,0,0,0;False;7;FLOAT4;0,0,0,0;False;8;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.StaticSwitch;3;281.585,-211.3024;Inherit;False;Property;_SmoothnessView;SmoothnessView;6;0;Create;True;0;0;0;False;0;False;0;0;0;False;_SmoothnessView;Toggle;2;Key0;Key1;Reference;4;False;True;All;9;1;FLOAT4;0,0,0,0;False;0;FLOAT4;0,0,0,0;False;2;FLOAT4;0,0,0,0;False;3;FLOAT4;0,0,0,0;False;4;FLOAT4;0,0,0,0;False;5;FLOAT4;0,0,0,0;False;6;FLOAT4;0,0,0,0;False;7;FLOAT4;0,0,0,0;False;8;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.StaticSwitch;7;281.2791,-102.0118;Inherit;False;Property;_DiffuseOnlyMode;DiffuseOnlyMode;7;0;Create;True;0;0;0;False;0;False;0;0;0;False;_DiffuseOnlyMode;Toggle;2;Key0;Key1;Reference;5;False;True;All;9;1;FLOAT;0;False;0;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.StaticSwitch;8;248.533,32.87399;Inherit;False;Property;_DiffuseOnlyMode;DiffuseOnlyMode;7;0;Create;True;0;0;0;False;0;False;0;0;0;False;_DiffuseOnlyMode;Toggle;2;Key0;Key1;Reference;5;False;True;All;9;1;FLOAT;0;False;0;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.StaticSwitch;6;-60.1427,-198.5187;Inherit;False;Property;_SmoothnessView;SmoothnessView;6;0;Create;True;0;0;0;False;0;False;0;0;0;False;_SmoothnessView;Toggle;2;Key0;Key1;Reference;4;False;True;All;9;1;FLOAT4;0,0,0,0;False;0;FLOAT4;0,0,0,0;False;2;FLOAT4;0,0,0,0;False;3;FLOAT4;0,0,0,0;False;4;FLOAT4;0,0,0,0;False;5;FLOAT4;0,0,0,0;False;6;FLOAT4;0,0,0,0;False;7;FLOAT4;0,0,0,0;False;8;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.StaticSwitch;2;-56.33423,-446.0032;Inherit;False;Property;_DiffuseOnlyMode;DiffuseOnlyMode;7;0;Create;True;0;0;0;False;0;False;0;0;0;False;_DiffuseOnlyMode;Toggle;2;Key0;Key1;Reference;5;False;True;All;9;1;FLOAT4;0,0,0,0;False;0;FLOAT4;0,0,0,0;False;2;FLOAT4;0,0,0,0;False;3;FLOAT4;0,0,0,0;False;4;FLOAT4;0,0,0,0;False;5;FLOAT4;0,0,0,0;False;6;FLOAT4;0,0,0,0;False;7;FLOAT4;0,0,0,0;False;8;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.StaticSwitch;4;-60.92133,-86.77249;Inherit;False;Property;_SmoothnessView;SmoothnessView;6;0;Create;True;0;0;0;False;0;False;0;0;0;False;_SmoothnessView;Toggle;2;Key0;Key1;Create;False;True;All;9;1;FLOAT;0;False;0;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.StaticSwitch;5;-58.18713,-341.8004;Inherit;False;Property;_DiffuseOnlyMode;DiffuseOnlyMode;7;0;Create;True;0;0;0;False;0;False;0;0;0;False;_DiffuseOnlyMode;Toggle;2;Key0;Key1;Create;False;True;All;9;1;FLOAT4;0,0,0,0;False;0;FLOAT4;0,0,0,0;False;2;FLOAT4;0,0,0,0;False;3;FLOAT4;0,0,0,0;False;4;FLOAT4;0,0,0,0;False;5;FLOAT4;0,0,0,0;False;6;FLOAT4;0,0,0,0;False;7;FLOAT4;0,0,0,0;False;8;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.FunctionInput;11;-416,-87.5;Inherit;False;Smoothness;1;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;13;-384,36.5;Inherit;False;Metallic;1;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;9;-372.3906,-183.2997;Inherit;False;Constant;_Float1;Float
+    1;5;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;10;-383,-403.5;Inherit;False;Albedo;4;0;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.FunctionInput;17;-382,-288.2516;Inherit;False;Emission;4;2;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nWireConnection;0;0;1;0\nWireConnection;14;0;3;0\nWireConnection;16;0;7;0\nWireConnection;15;0;8;0\nWireConnection;1;1;2;0\nWireConnection;1;0;9;0\nWireConnection;3;1;5;0\nWireConnection;3;0;6;0\nWireConnection;7;1;4;0\nWireConnection;7;0;9;0\nWireConnection;8;1;13;0\nWireConnection;8;0;9;0\nWireConnection;6;1;17;0\nWireConnection;6;0;11;0\nWireConnection;2;1;10;0\nWireConnection;2;0;9;0\nWireConnection;4;1;11;0\nWireConnection;4;0;9;0\nWireConnection;5;1;17;0\nWireConnection;5;0;10;0\nASEEND*/\n//CHKSM=27CD89D6E1A1075D04285817AE700D0C3DEDA2BA"
+  m_functionName: 
+  m_description: Fake diffuse and Smoothness render passes
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_headerStyle: 0
+  m_headerColor: {r: 1, g: 0.4, b: 0, a: 1}
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0
+  m_url: 

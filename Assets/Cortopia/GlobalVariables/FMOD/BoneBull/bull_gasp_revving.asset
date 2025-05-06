@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377286b8e99a35f41b9754b16a7f91cf, type: 3}
+  m_Name: bull_gasp_revving
+  m_EditorClassIdentifier: 
+  event:
+    Guid:
+      Data1: 468216392
+      Data2: 1255730152
+      Data3: -955996997
+      Data4: 278401846
+    Path: event:/sfx/world_events/creatures/bull/bull_revving_gasp

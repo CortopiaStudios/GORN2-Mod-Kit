@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea3a4e6046df4646b6655a244064b68, type: 3}
+  m_Name: GutsCreatureSliceIndicesConfigs
+  m_EditorClassIdentifier: 
+  startVertices: 4504000046040000480400004b0400004e0400006404000065040000670400006c0400006f04000073040000770400007b040000db040000dd040000e3040000e8040000
+  noPathFindingVertices: 
+  keysConnectedMeshAreas: []
+  valuesConnectedMeshAreas: []

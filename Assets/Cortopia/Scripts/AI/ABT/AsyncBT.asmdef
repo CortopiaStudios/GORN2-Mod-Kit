@@ -1,0 +1,17 @@
+﻿{
+  "name": "AsyncBT",
+  "rootNamespace": "",
+  "references": [
+    "GUID:203e2bd8ffb6974479491fc996850d19",
+    "GUID:dcae28ccc93277043bc2c04be65516cf"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

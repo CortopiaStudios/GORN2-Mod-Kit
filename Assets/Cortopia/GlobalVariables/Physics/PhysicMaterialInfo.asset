@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14a4307a9476dc4ca4b704ce5a799ab, type: 3}
+  m_Name: PhysicMaterialInfo
+  m_EditorClassIdentifier: 
+  default:
+    isPenetrable: 0
+  mappings:
+  - physicMaterial: {fileID: 13400000, guid: 3fe8628fcf2daeb449db57c005f721c9, type: 2}
+    info:
+      isPenetrable: 0
+  - physicMaterial: {fileID: 13400000, guid: 8bd8eeb148cf0c34d96f692dc6b51f77, type: 2}
+    info:
+      isPenetrable: 0
+  - physicMaterial: {fileID: 13400000, guid: 20bd18b4fe282dd49b75923b44677ebf, type: 2}
+    info:
+      isPenetrable: 0
+  - physicMaterial: {fileID: 13400000, guid: c8332d8224150f24b8e257007fe5e31c, type: 2}
+    info:
+      isPenetrable: 1
+  - physicMaterial: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+    info:
+      isPenetrable: 0
+  - physicMaterial: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+    info:
+      isPenetrable: 1
+  - physicMaterial: {fileID: 13400000, guid: b5c0b8ecfb9879948973c7d36ed1c629, type: 2}
+    info:
+      isPenetrable: 0
