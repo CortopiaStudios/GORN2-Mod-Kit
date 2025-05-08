@@ -8,6 +8,9 @@ using System;
 using Cortopia.Scripts.Gameplay;
 using Cortopia.Scripts.Reactivity;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace Cortopia.Scripts.Gore
 {
@@ -69,5 +72,30 @@ namespace Cortopia.Scripts.Gore
         {
             throw new NotImplementedException();
         }
+        
+#if UNITY_EDITOR
+        private void OnDrawGizmosSelected()
+        {
+            Vector3 stabTipWorldPos = this.transform.position;
+            Gizmos.color = Color.blue;
+            var worldForwardDirection = this.transform.TransformDirection(
+                ConvertCapsuleDirectionToVector(this.GetComponent<CapsuleCollider>().direction));
+            Gizmos.DrawRay(stabTipWorldPos, this.maxPierceDistance * -worldForwardDirection);
+            Handles.color = Color.cyan;
+            Handles.ArrowHandleCap(0, stabTipWorldPos, Quaternion.LookRotation(worldForwardDirection), 0.1f, EventType.Repaint);
+        }
+#endif
+
+        private static Vector3 ConvertCapsuleDirectionToVector(int direction)
+        {
+            return direction switch
+            {
+                0 => Vector3.right,
+                1 => Vector3.up,
+                2 => Vector3.forward,
+                _ => throw new ArgumentOutOfRangeException(nameof(direction), direction, null)
+            };
+        }
+
     }
 }
