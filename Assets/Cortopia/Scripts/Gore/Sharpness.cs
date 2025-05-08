@@ -7,6 +7,7 @@
 using System;
 using Cortopia.Scripts.Gameplay;
 using Cortopia.Scripts.Reactivity;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 
 namespace Cortopia.Scripts.Gore
@@ -14,7 +15,6 @@ namespace Cortopia.Scripts.Gore
     [RequireComponent(typeof(CapsuleCollider))]
     public class Sharpness : WeaponTrait
     {
-        // [CanBeNull]
         [SerializeField]
         private DamageContext damageContext;
 
@@ -67,5 +67,68 @@ namespace Cortopia.Scripts.Gore
         {
             throw new NotImplementedException();
         }
+        
+        private static (Vector3 p1, Vector3 p2) CapsuleColliderLocalEndPoints(CapsuleCollider capsuleCollider)
+        {
+            Vector3 capsuleDirectionVector = ConvertCapsuleDirectionToVector(capsuleCollider.direction);
+            float capsuleRadius = capsuleCollider.radius;
+            float radiusScale = (Vector3.one - capsuleDirectionVector).MaxComponent();
+            float heightScale = capsuleDirectionVector.sqrMagnitude;
+            float capsuleLengthFromRadius = radiusScale * 2 * capsuleRadius;
+            float capsuleLengthFromHeight = heightScale * capsuleCollider.height;
+            float capsuleLength = Mathf.Max(capsuleLengthFromRadius, capsuleLengthFromHeight);
+
+            Vector3 center = capsuleCollider.center;
+            Vector3 p1 = center + capsuleLength * capsuleDirectionVector / 2;
+            Vector3 p2 = center - capsuleLength * capsuleDirectionVector / 2;
+            return (p1, p2);
+        }
+
+        private (Vector3 point1, Vector3 point2) EndPoints
+        {
+            get
+            {
+                var endPoints = CapsuleColliderLocalEndPoints(this.GetComponent<CapsuleCollider>());
+                Vector3 spherePosition1 = this.transform.TransformPoint(endPoints.p1);
+                Vector3 spherePosition2 = this.transform.TransformPoint(endPoints.p2);
+                return (spherePosition1, spherePosition2);
+            }
+        }
+
+        private static Vector3 ConvertCapsuleDirectionToVector(int direction)
+        {
+            return direction switch
+            {
+                0 => Vector3.right,
+                1 => Vector3.up,
+                2 => Vector3.forward,
+                _ => throw new ArgumentOutOfRangeException(nameof(direction), direction, null)
+            };
+        }
+
+        private void OnDrawGizmosSelected()
+        {
+            const float interval = 0.01f;
+            const float length = 0.05f;
+
+            (Vector3 spherePosition1, Vector3 spherePosition2) = this.EndPoints;
+
+            Gizmos.color = Color.blue;
+            Gizmos.DrawLine(spherePosition1, spherePosition2);
+
+            int count = Mathf.FloorToInt((spherePosition1 - spherePosition2).magnitude / interval) + 1;
+            var ray = new Ray(spherePosition1, (spherePosition2 - spherePosition1).normalized);
+            for (int i = 0; i < count; i++)
+            {
+                Gizmos.color = Color.blue;
+                Vector3 point = ray.GetPoint(i * interval);
+                var capsuleCollider = this.GetComponent<CapsuleCollider>();
+                Gizmos.DrawRay(point, length * this.transform.TransformDirection(ConvertCapsuleDirectionToVector((capsuleCollider.direction + 1) % 3)));
+
+                Gizmos.color = Color.yellow;
+                Gizmos.DrawRay(point, length * 0.5f * this.transform.TransformDirection(ConvertCapsuleDirectionToVector((this.GetComponent<CapsuleCollider>().direction + 2) % 3)));
+            }
+        }
+
     }
 }
