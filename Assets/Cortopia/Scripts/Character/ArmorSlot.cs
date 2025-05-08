@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace Cortopia.Scripts.Character
 {
-    [RequireComponent(typeof(Limb), typeof(Rigidbody))]
+    [RequireComponent(typeof(DamageDetector), typeof(Rigidbody))]
     public class ArmorSlot : MonoBehaviour
     {
         [SerializeField]

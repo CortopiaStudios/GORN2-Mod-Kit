@@ -11,7 +11,7 @@ using UnityEngine.Events;
 
 namespace Cortopia.Scripts.Physics
 {
-    [RequireComponent(typeof(Limb))]
+    [RequireComponent(typeof(DamageDetector))]
     public class LimbHealth : MonoBehaviour
     {
         [SerializeField]

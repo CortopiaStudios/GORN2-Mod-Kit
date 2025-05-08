@@ -14,7 +14,7 @@ namespace Cortopia.Scripts.Physics
 {
     public struct DamageEvent
     {
-        public Limb Limb;
+        public DamageDetector DamageDetector;
         [CanBeNull]
         public Damage Damage;
     }

@@ -14,7 +14,7 @@ using UnityEngine.Events;
 namespace Cortopia.Scripts.Physics
 {
     [RequireComponent(typeof(Rigidbody))]
-    public class Limb : GravesBehaviour
+    public class DamageDetector : GravesBehaviour
     {
         [SerializeField]
         private float damageScale = 1;
