@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3109810401791347450}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.152878, y: -0.4600005, z: 4.451673}
   m_LocalScale: {x: 7.746081, y: 1, z: 8.676951}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4696314246000941006}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7242327854157125501
 MeshFilter:
@@ -152,13 +152,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5842029666670582032}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.0837746, y: -0.4600006, z: 0.19963075}
   m_LocalScale: {x: 9.607465, y: 1, z: 0.380744}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4696314246000941006}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1567485606831250655
 MeshFilter:
@@ -330,9 +330,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: de7ade36831abfd4d9649551e5bdff78, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 824827439780993807}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: de7ade36831abfd4d9649551e5bdff78, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 8443570328394954281}
   m_SourcePrefab: {fileID: 100100000, guid: de7ade36831abfd4d9649551e5bdff78, type: 3}
 --- !u!4 &4696314246000941006 stripped
@@ -345,25 +342,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: de7ade36831abfd4d9649551e5bdff78, type: 3}
   m_PrefabInstance: {fileID: 5090775746692214821}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &824827439780993807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5361386098365713780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dad057f523e34b399e77eea54d73d3c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useLegacyConnection: 1
-  paintSurface: {fileID: 0}
-  paintSurfaceParent:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue: {fileID: 0}
-    breakOnChange: 0
 --- !u!114 &8443570328394954281
 MonoBehaviour:
   m_ObjectHideFlags: 0
