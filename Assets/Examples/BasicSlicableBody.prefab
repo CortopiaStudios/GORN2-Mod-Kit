@@ -207,6 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2458498987428873481}
   - component: {fileID: 7585611541468302836}
+  - component: {fileID: 9218309367276577671}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -236,7 +237,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754692201637327447}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -252,6 +253,27 @@ CapsuleCollider:
   m_Height: 0.95000005
   m_Direction: 2
   m_Center: {x: -3.886369e-10, y: 0.020587463, z: -0.004572719}
+--- !u!114 &9218309367276577671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754692201637327447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &886589605361065927
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463093992741389607}
   - component: {fileID: 5271368764567362586}
+  - component: {fileID: 3102674448868224470}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -322,7 +345,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047428091776657118}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -338,6 +361,27 @@ CapsuleCollider:
   m_Height: 0.22303638
   m_Direction: 0
   m_Center: {x: 0.10238795, y: 0.000000063510086, z: -4.0662618e-10}
+--- !u!114 &3102674448868224470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047428091776657118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &1132888123871675071
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,12 +490,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainLimbEffect:
-    m_AssetGUID: 5ac42ffcccec2354f9d330234a23e72c
+    m_AssetGUID: 8daf34ae4b97c4248b97fb55085e9d49
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   detachedLimbEffect:
-    m_AssetGUID: be27d9baa68478342aaf173cbe103891
+    m_AssetGUID: baaebf92287690a43a71e3a8eb0f9b71
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
@@ -573,6 +617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8299601909740337887}
   - component: {fileID: 4819952399720672893}
+  - component: {fileID: 2112536247312933756}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -602,7 +647,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2790651469304617355}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -618,6 +663,27 @@ CapsuleCollider:
   m_Height: 0.42098314
   m_Direction: 0
   m_Center: {x: 0.21, y: 0, z: 0}
+--- !u!114 &2112536247312933756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2790651469304617355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &2906843088942801871
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7105745677475036514}
   - component: {fileID: 3143433867583210645}
+  - component: {fileID: 3611757763526536496}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -657,7 +724,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2906843088942801871}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -673,6 +740,27 @@ CapsuleCollider:
   m_Height: 0.48705888
   m_Direction: 0
   m_Center: {x: 0.17414658, y: 0, z: -0.0055225175}
+--- !u!114 &3611757763526536496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2906843088942801871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &3620317817979814577
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2402394297656928049}
   - component: {fileID: 9204614014543605537}
+  - component: {fileID: 2550815609909258604}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -712,7 +801,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3620317817979814577}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -728,6 +817,27 @@ CapsuleCollider:
   m_Height: 0.3703438
   m_Direction: 1
   m_Center: {x: 5.9238514e-10, y: 0.0048280954, z: 1.05839296e-10}
+--- !u!114 &2550815609909258604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3620317817979814577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &3689602653206992676
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,6 +848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4535959353216918571}
   - component: {fileID: 6876296388705352476}
+  - component: {fileID: 5217618325568967408}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -767,7 +878,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3689602653206992676}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -783,6 +894,27 @@ CapsuleCollider:
   m_Height: 0.86
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5217618325568967408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689602653206992676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &3784032434204822866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +1215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8005582721267052468}
   - component: {fileID: 2499947153339479192}
+  - component: {fileID: 3363191911700347980}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -1112,7 +1245,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4240481476060213209}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1128,6 +1261,27 @@ CapsuleCollider:
   m_Height: 0.46598393
   m_Direction: 0
   m_Center: {x: -0.13299222, y: 0.00000022706419, z: -0.00000024316083}
+--- !u!114 &3363191911700347980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240481476060213209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &4290114701744474032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,6 +1292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9187245089627192442}
   - component: {fileID: 7508897151786907677}
+  - component: {fileID: 7711657624779286789}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -1167,7 +1322,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4290114701744474032}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1183,6 +1338,27 @@ CapsuleCollider:
   m_Height: 0.49797776
   m_Direction: 0
   m_Center: {x: 0.14898984, y: -0.0000007235344, z: 0.0000006280603}
+--- !u!114 &7711657624779286789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290114701744474032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &4553923132839000322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161379171883355908}
   - component: {fileID: 2956825630094269706}
+  - component: {fileID: 2380373509136363177}
   m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
@@ -1315,7 +1492,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4951322254271965895}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1331,6 +1508,27 @@ CapsuleCollider:
   m_Height: 1.5754335
   m_Direction: 1
   m_Center: {x: -0.024459058, y: 0.21228336, z: -0.000000009733937}
+--- !u!114 &2380373509136363177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4951322254271965895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &5211687165118260753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,6 +1539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3784946677869128650}
   - component: {fileID: 7036656557653618000}
+  - component: {fileID: 2530310672207205291}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -1370,7 +1569,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5211687165118260753}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1386,6 +1585,27 @@ CapsuleCollider:
   m_Height: 0.42098314
   m_Direction: 0
   m_Center: {x: 0.21, y: 0, z: 0}
+--- !u!114 &2530310672207205291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5211687165118260753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &5409318918370335719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,6 +1761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5494130899509722847}
   - component: {fileID: 5172556027002567705}
+  - component: {fileID: 4237883145090297216}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -1570,7 +1791,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6910704440985562843}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1586,6 +1807,27 @@ CapsuleCollider:
   m_Height: 0.234731
   m_Direction: 0
   m_Center: {x: -0.101111226, y: -5.1528626e-10, z: -0.000000054293032}
+--- !u!114 &4237883145090297216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6910704440985562843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &6944884021961873708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,6 +1965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1745416517718208202}
   - component: {fileID: 7908820876289661858}
+  - component: {fileID: 6043509280095956583}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -1752,7 +1995,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7127393830097778642}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1768,6 +2011,27 @@ CapsuleCollider:
   m_Height: 0.48705888
   m_Direction: 0
   m_Center: {x: 0.17414658, y: 0, z: -0.0055225175}
+--- !u!114 &6043509280095956583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7127393830097778642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &7287603390440535628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,6 +2042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5922009898781372156}
   - component: {fileID: 450715457429193792}
+  - component: {fileID: 8064146515090393432}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -1807,7 +2072,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7287603390440535628}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1823,6 +2088,27 @@ CapsuleCollider:
   m_Height: 0.81964743
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: -0.0045727203}
+--- !u!114 &8064146515090393432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7287603390440535628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &7453968428804568001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,6 +2190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1500434204860158823}
   - component: {fileID: 3845822187451035002}
+  - component: {fileID: 1233957520112756673}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -1933,7 +2220,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8222810285845530352}
-  m_Material: {fileID: 13400000, guid: c8332d8224150f24b8e257007fe5e31c, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1949,6 +2236,27 @@ CapsuleCollider:
   m_Height: 0.3
   m_Direction: 1
   m_Center: {x: 0.03, y: 0.09, z: 0}
+--- !u!114 &1233957520112756673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8222810285845530352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: d965bf8d5d479ea47abea9086c897bf7, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &8247612950499678534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,6 +2346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7270587145508965664}
   - component: {fileID: 813042174778937092}
+  - component: {fileID: 2942323942836893005}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -2067,7 +2376,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8297184029854105582}
-  m_Material: {fileID: 13400000, guid: c8332d8224150f24b8e257007fe5e31c, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2083,6 +2392,27 @@ CapsuleCollider:
   m_Height: 0.3
   m_Direction: 1
   m_Center: {x: 0.03, y: 0.09, z: 0}
+--- !u!114 &2942323942836893005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297184029854105582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: d965bf8d5d479ea47abea9086c897bf7, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &8353663337139499085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701725954818839826}
   - component: {fileID: 4048450987161491177}
+  - component: {fileID: 5599483828524575748}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -2122,7 +2453,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8353663337139499085}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2138,6 +2469,27 @@ CapsuleCollider:
   m_Height: 0.59045506
   m_Direction: 0
   m_Center: {x: -0.19522634, y: 0.0000000070162667, z: -0.0000013322199}
+--- !u!114 &5599483828524575748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8353663337139499085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &8625775633086550927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,6 +2531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6382441002602431705}
   - component: {fileID: 2000819535533613294}
+  - component: {fileID: 3925886084802838940}
   m_Layer: 6
   m_Name: Collider (1)
   m_TagString: Untagged
@@ -2208,7 +2561,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8789711175791738135}
-  m_Material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2224,6 +2577,27 @@ CapsuleCollider:
   m_Height: 0.619288
   m_Direction: 0
   m_Center: {x: 0.20964241, y: 0.00000000817568, z: -0.00000045414276}
+--- !u!114 &3925886084802838940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789711175791738135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 7ccf1660c3dbebc4ea5b3372ebfd5e3e, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1001 &68249030068567200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2414,19 +2788,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3847198292774408164, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.22975972
+      value: 0.22975986
       objectReference: {fileID: 0}
     - target: {fileID: -3847198292774408164, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7256151
+      value: 0.72561586
       objectReference: {fileID: 0}
     - target: {fileID: -3847198292774408164, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.21360224
+      value: 0.21360178
       objectReference: {fileID: 0}
     - target: {fileID: -3847198292774408164, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.6124275
+      value: 0.6124266
       objectReference: {fileID: 0}
     - target: {fileID: -3766989957647683359, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_Layer
@@ -2726,19 +3100,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6320059427591990502, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.63003856
+      value: 0.63003796
       objectReference: {fileID: 0}
     - target: {fileID: 6320059427591990502, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.15982406
+      value: 0.15982485
       objectReference: {fileID: 0}
     - target: {fileID: 6320059427591990502, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.74170744
+      value: -0.7417075
       objectReference: {fileID: 0}
     - target: {fileID: 6320059427591990502, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.16546221
+      value: -0.1654635
       objectReference: {fileID: 0}
     - target: {fileID: 6389490462263266594, guid: d8de519ef93418c478c11c03467329ff, type: 3}
       propertyPath: m_Layer
