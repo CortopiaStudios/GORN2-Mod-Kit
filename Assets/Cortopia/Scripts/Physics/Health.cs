@@ -12,7 +12,7 @@ using UnityEngine.Events;
 namespace Cortopia.Scripts.Physics
 {
     [RequireComponent(typeof(DamageDetector))]
-    public class LimbHealth : MonoBehaviour
+    public class Health : MonoBehaviour
     {
         [SerializeField]
         private float maxHealth = 100;
