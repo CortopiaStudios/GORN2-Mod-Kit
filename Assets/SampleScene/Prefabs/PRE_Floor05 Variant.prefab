@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1976447406052831418}
   - component: {fileID: 5016295199308790791}
   - component: {fileID: 4001573753598867802}
+  - component: {fileID: 6150884579899662134}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -92,7 +93,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814561306035854690}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -125,6 +126,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &6150884579899662134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814561306035854690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &6247370830318257752
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +160,7 @@ GameObject:
   - component: {fileID: 8779516398307317326}
   - component: {fileID: 7722584994744376895}
   - component: {fileID: 8867110647893093399}
+  - component: {fileID: 1710432002229615839}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -217,7 +240,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6247370830318257752}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -250,6 +273,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &1710432002229615839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6247370830318257752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1001 &7591502910265837008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -280,7 +324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ecab25ad45ceef4fad7e9695e9898d6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ecab25ad45ceef4fad7e9695e9898d6, type: 3}
       propertyPath: m_LocalRotation.y

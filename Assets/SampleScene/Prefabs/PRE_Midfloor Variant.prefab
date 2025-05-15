@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6942161646129622575}
   - component: {fileID: 7521362716019872515}
   - component: {fileID: 2804158428175448718}
+  - component: {fileID: 1239612939383747871}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -92,7 +93,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14662861425938017}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -125,6 +126,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &1239612939383747871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14662861425938017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &721181044839727571
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +160,7 @@ GameObject:
   - component: {fileID: 5490586001212735972}
   - component: {fileID: 2061589012101789817}
   - component: {fileID: 2797193418213786519}
+  - component: {fileID: 6968351178451137859}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -217,7 +240,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721181044839727571}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -250,6 +273,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &6968351178451137859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721181044839727571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &1162441328845694987
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +307,7 @@ GameObject:
   - component: {fileID: 3119942669558358579}
   - component: {fileID: 3578169041058792495}
   - component: {fileID: 8725810718273933586}
+  - component: {fileID: 7390139955443597259}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -342,7 +387,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162441328845694987}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -375,6 +420,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &7390139955443597259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162441328845694987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &1545061314787067882
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +454,7 @@ GameObject:
   - component: {fileID: 2804044010633663853}
   - component: {fileID: 4341149090936491904}
   - component: {fileID: 5999640038032572584}
+  - component: {fileID: 392811913215244184}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -467,7 +534,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545061314787067882}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -500,6 +567,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &392811913215244184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545061314787067882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &4541979745907068915
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,6 +601,7 @@ GameObject:
   - component: {fileID: 1712842691619211905}
   - component: {fileID: 8721442203647210653}
   - component: {fileID: 3862352580527260858}
+  - component: {fileID: 6363847606247190902}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -592,7 +681,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4541979745907068915}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -625,6 +714,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &6363847606247190902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4541979745907068915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &6308471732800257105
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +748,7 @@ GameObject:
   - component: {fileID: 2062969402005352493}
   - component: {fileID: 1972896997065372256}
   - component: {fileID: 1563374565723981761}
+  - component: {fileID: 4167998038163119195}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -717,7 +828,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6308471732800257105}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -750,6 +861,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &4167998038163119195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6308471732800257105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &8283411358558166504
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +895,7 @@ GameObject:
   - component: {fileID: 9195859980507829461}
   - component: {fileID: 3058460913470119669}
   - component: {fileID: 6791659624201124768}
+  - component: {fileID: 57687960102742130}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -842,7 +975,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8283411358558166504}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -875,6 +1008,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &57687960102742130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8283411358558166504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &8439748460974110486
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +1042,7 @@ GameObject:
   - component: {fileID: 1184743155102371030}
   - component: {fileID: 8940503809731443079}
   - component: {fileID: 6004417556980874564}
+  - component: {fileID: 5886149168762414084}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -967,7 +1122,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8439748460974110486}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1000,6 +1155,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &5886149168762414084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439748460974110486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &8762381694265598420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,6 +1189,7 @@ GameObject:
   - component: {fileID: 6915650746922453381}
   - component: {fileID: 7704930849807812960}
   - component: {fileID: 5180472999079516266}
+  - component: {fileID: 5400306220890780373}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -1092,7 +1269,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8762381694265598420}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1124,6 +1301,27 @@ MonoBehaviour:
     reference: {fileID: 0}
     propertyName: 
     defaultValue: {fileID: 0}
+    breakOnChange: 0
+--- !u!114 &5400306220890780373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8762381694265598420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
     breakOnChange: 0
 --- !u!1001 &5558875849963912447
 PrefabInstance:

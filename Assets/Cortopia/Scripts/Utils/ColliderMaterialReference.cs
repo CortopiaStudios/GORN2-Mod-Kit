@@ -4,19 +4,16 @@
 // and/or confidential. Reproduction or distribution, in whole or in part, is
 // forbidden except by express written permission of Cortopia Studios.
 
+using Cortopia.Scripts.Reactivity;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 namespace Cortopia.Scripts.Utils
 {
-    // ReSharper disable once InconsistentNaming
-    public class GUIDAddressableReference : MonoBehaviour
+    [RequireComponent(typeof(Collider))]
+    public class ColliderMaterialReference : MonoBehaviour
     {
         [SerializeField]
-        // ReSharper disable once InconsistentNaming
-        private string GUID;
-
-        public AssetReferenceGameObject GameObject => default;
-        public AssetReferenceT<PhysicMaterial> PhysicMaterial => default;
+        private BoundValue<AssetReferenceT<PhysicMaterial>> physicMaterialReference;
     }
 }

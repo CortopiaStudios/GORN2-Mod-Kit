@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4307094871084934144}
   - component: {fileID: 1078687091121393582}
   - component: {fileID: 776963741382078881}
+  - component: {fileID: 5766535485800541087}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -92,7 +93,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2693029917013804084}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -125,6 +126,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &5766535485800541087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2693029917013804084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1 &3741210802292930994
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +160,7 @@ GameObject:
   - component: {fileID: 8241315218437902556}
   - component: {fileID: 5435287646850798354}
   - component: {fileID: 2134925767498874344}
+  - component: {fileID: 2903900033470843214}
   m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
@@ -217,7 +240,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3741210802292930994}
-  m_Material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -250,6 +273,27 @@ MonoBehaviour:
     propertyName: 
     defaultValue: {fileID: 0}
     breakOnChange: 0
+--- !u!114 &2903900033470843214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741210802292930994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physicMaterialReference:
+    reference: {fileID: 6206065718051747025, guid: 2f69e92a72b77134ca0e7640028d2004, type: 3}
+    propertyName: PhysicMaterial
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
 --- !u!1001 &6560263454249010500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -280,7 +324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 372d925e0916ac441bbb5825d3d16412, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 372d925e0916ac441bbb5825d3d16412, type: 3}
       propertyPath: m_LocalRotation.y
@@ -337,6 +381,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 372d925e0916ac441bbb5825d3d16412, type: 3}
   m_PrefabInstance: {fileID: 6560263454249010500}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &565367530283533823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326384346730100757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad057f523e34b399e77eea54d73d3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useLegacyConnection: 1
+  paintSurface: {fileID: 0}
+  paintSurfaceParent:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: {fileID: 0}
+    breakOnChange: 0
 --- !u!114 &718036293214983352
 MonoBehaviour:
   m_ObjectHideFlags: 0
