@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Cortopia.Scripts.Core.Spawn;
 using UnityEditor;
 using UnityEngine;
@@ -7,11 +8,13 @@ public static class ModBuilder
     [MenuItem("CONTEXT/Transform/Cleanup prefab", false, 0)]
     public static void CleanupPrefab(MenuCommand command)
     {
-        var go = ((Transform) command.context).gameObject;
+        // Load the prefab contents into a temporary GameObject
+        var assetPath = AssetDatabase.GetAssetPath(command.context);
+        var prefabRoot = PrefabUtility.LoadPrefabContents(assetPath);
 
-        GameObjectUtility.RemoveMonoBehavioursWithMissingScript(go);
+        GameObjectUtility.RemoveMonoBehavioursWithMissingScript(prefabRoot);
 
-        foreach (var component in go.GetComponents<Component>())
+        foreach (var component in prefabRoot.GetComponents<Component>())
         {
             if (component is SpawnerParameter)
                 continue;
@@ -19,7 +22,9 @@ public static class ModBuilder
             Object.DestroyImmediate(component);
         }
 
-        foreach (var parameter in go.GetComponents<SpawnerParameter>())
+        GameObjectUtility.RemoveMonoBehavioursWithMissingScript(prefabRoot);
+
+        foreach (var parameter in prefabRoot.GetComponents<SpawnerParameter>())
         {
             var serializedObject = new SerializedObject(parameter);
             serializedObject.Update();
@@ -35,8 +40,19 @@ public static class ModBuilder
             serializedObject.ApplyModifiedProperties();
         }
 
-        while (go.transform.childCount > 0) Object.DestroyImmediate(go.transform.GetChild(0).gameObject);
+        var children = new List<GameObject>();
+        for (var i = 0; i < prefabRoot.transform.childCount; i++)
+            children.Add(prefabRoot.transform.GetChild(i).gameObject);
 
-        EditorUtility.SetDirty(go);
+        foreach (var child in children)
+            Object.DestroyImmediate(child);
+
+        // EditorUtility.SetDirty(prefabRoot);
+        
+        // Save changes back to the prefab asset
+        PrefabUtility.SaveAsPrefabAsset(prefabRoot, assetPath);
+
+        // Unload the temporary prefab contents from memory
+        PrefabUtility.UnloadPrefabContents(prefabRoot);
     }
 }
