@@ -490,12 +490,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainLimbEffect:
-    m_AssetGUID: 8daf34ae4b97c4248b97fb55085e9d49
+    m_AssetGUID: 5ac42ffcccec2354f9d330234a23e72c
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   detachedLimbEffect:
-    m_AssetGUID: baaebf92287690a43a71e3a8eb0f9b71
+    m_AssetGUID: be27d9baa68478342aaf173cbe103891
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
