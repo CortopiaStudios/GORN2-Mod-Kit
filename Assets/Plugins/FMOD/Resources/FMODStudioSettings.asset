@@ -288,9 +288,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
   HasSourceProject: 0
-  HasPlatforms: 1
+  HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: 
+  sourceBankPath: Assets/StreamingAssets/FMOD/graves/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -311,8 +311,38 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - default
+  - default.assets
+  - Master.assets
+  - sfx_blood_biome
+  - sfx_blood_biome.assets
+  - sfx_bone_biome
+  - sfx_bone_biome.assets
+  - sfx_brain_biome
+  - sfx_brain_biome.assets
+  - sfx_flesh_biome
+  - sfx_flesh_biome.assets
+  - sfx_guts_biome
+  - sfx_guts_biome.assets
+  - sfx_hub
+  - sfx_hub.assets
+  - speak_blood_biome
+  - speak_blood_biome.assets
+  - speak_bone_biome
+  - speak_bone_biome.assets
+  - speak_brain_biome
+  - speak_brain_biome.assets
+  - speak_enemy_voicelines
+  - speak_enemy_voicelines.assets
+  - speak_flesh_biome
+  - speak_flesh_biome.assets
+  - speak_guts_biome
+  - speak_guts_biome.assets
+  - speak_hub
+  - speak_hub.assets
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
