@@ -9,4 +9,4 @@ The official mod kit for the VR game GORN2
 5. Upload the zip file to the mod in modio
 
 ## Limitations
-* Custom scripts cannot be exported
+* Custom scripts
