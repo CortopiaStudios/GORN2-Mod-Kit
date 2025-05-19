@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: da5015a523adb904bb9788ad3d91823e
   m_currentHash:
     serializedVersion: 2
-    Hash: 6587c0d64301b077588317e31a45aa34
+    Hash: 2b8e828a9c15368b59545140b1d25cff
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -44,6 +44,7 @@ MonoBehaviour:
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
   m_GroupAssets:
+  - {fileID: 11400000, guid: 8c4f7ebdde0139249afa023994c9bdf0, type: 2}
   - {fileID: 11400000, guid: e83b86edcada626449b9c5cda0c0dfad, type: 2}
   - {fileID: 11400000, guid: befb1e10b1789fa4b949ff53b2df819b, type: 2}
   m_BuildSettings:
@@ -59,26 +60,26 @@ MonoBehaviour:
       m_Values:
       - m_Id: 608756cadaa57174693400b80e6c14ea
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
-      - m_Id: f12dc9a0a54f04c40a0760c1ee706e7b
-        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 8a1c32dd8b603694d8e8ffbdbe3e215a
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 914c5d8c47d80194d82a850558b7e751
         m_Value: ServerData/[BuildTarget]
+      - m_Id: f12dc9a0a54f04c40a0760c1ee706e7b
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: fdb639d6da6dfb24189d66996853e89f
         m_Value: '{Cortopia.Scripts.Core.ModLoader.Dir}'
     m_ProfileEntryNames:
     - m_Id: 608756cadaa57174693400b80e6c14ea
       m_Name: BuildTarget
       m_InlineUsage: 0
-    - m_Id: f12dc9a0a54f04c40a0760c1ee706e7b
-      m_Name: Local.BuildPath
-      m_InlineUsage: 0
     - m_Id: 8a1c32dd8b603694d8e8ffbdbe3e215a
       m_Name: Local.LoadPath
       m_InlineUsage: 0
     - m_Id: 914c5d8c47d80194d82a850558b7e751
       m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: f12dc9a0a54f04c40a0760c1ee706e7b
+      m_Name: Local.BuildPath
       m_InlineUsage: 0
     - m_Id: fdb639d6da6dfb24189d66996853e89f
       m_Name: Remote.LoadPath

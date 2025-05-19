@@ -15,20 +15,10 @@ MonoBehaviour:
   m_GroupName: GORN2
   m_Data:
     m_SerializedData: []
-  m_GUID: 9c1318a9e6be3564c81d0670cf5b29c5
+  m_GUID: 1d16f502d860ef4469ca73f079c95c77
   m_SerializeEntries:
   - m_GUID: 2d3a7582a2aaa67439aca13737354701
     m_Address: Assets/Cortopia
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 47781eef2349e224ab607bc53be80b0b
-    m_Address: Assets/Cortopia/Prefabs/Weapons/GoldenD.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4a0d99c87ad6b7645ab8816d7b8cbaa9
-    m_Address: Assets/AssetReferences
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
