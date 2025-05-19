@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.cortopiastudios.gorn2.modpack": {
-      "version": "file:C:/Users/wjoha/Documents/cortopia/Graves mod-package/Packages/com.cortopiastudios.gorn2.modpack",
+    "com.cortopiastudios.gorn2.dependencies": {
+      "version": "file:../com.cortopiastudios.gorn2.dependencies",
       "depth": 0,
       "source": "local",
       "dependencies": {

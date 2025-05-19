@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.cortopiastudios.gorn2.modpack": "file:C:/Users/wjoha/Documents/cortopia/Graves mod-package/Packages/com.cortopiastudios.gorn2.modpack",
+    "com.cortopiastudios.gorn2.dependencies": "file:../com.cortopiastudios.gorn2.dependencies",
     "com.unity.collab-proxy": "2.8.1",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.7",
