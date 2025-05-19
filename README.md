@@ -7,3 +7,6 @@ The official mod kit for the VR game GORN2
 3. Build the addressable group with the Default Build Script
 4. Find the files at the build location ([Project]/ServerData/[Platform/) and zip them
 5. Upload the zip file to the mod in modio
+
+## Limitations
+* Custom scripts cannot be exported
