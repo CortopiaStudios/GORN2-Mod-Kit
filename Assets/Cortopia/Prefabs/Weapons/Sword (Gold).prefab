@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2977663085926861200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: crushOnExit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: maxPierceDistance
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: damage.defaultValue
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slideDamper.defaultValue
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: stabForceThreshold.defaultValue
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: lockJointBreakForce.defaultValue
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312068847860680188, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: lockVelocityThreshold.defaultValue
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104449216129706848, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_Mass
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173981189979378006, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: damper
+      value: 2500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173981189979378006, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashDamage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173981189979378006, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashDuration
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173981189979378006, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: sliceSpeedThreshold
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173981189979378006, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: maxSliceRadius.defaultValue
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173981189979378006, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashAngleThreshold.defaultValue
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173981189979378006, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashSpeedThreshold.defaultValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4415768063344466264, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: grabMassScaleWhenPiercing
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496765864780749800, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614429806099901323, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: damper
+      value: 2500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614429806099901323, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashDamage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614429806099901323, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashDuration
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614429806099901323, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: sliceSpeedThreshold
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614429806099901323, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: maxSliceRadius.defaultValue
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614429806099901323, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashAngleThreshold.defaultValue
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614429806099901323, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: slashSpeedThreshold.defaultValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9021642653397896165, guid: b77a265d1bd876445938a040e1e548eb, type: 3}
+      propertyPath: m_Name
+      value: Sword (Gold)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b77a265d1bd876445938a040e1e548eb, type: 3}

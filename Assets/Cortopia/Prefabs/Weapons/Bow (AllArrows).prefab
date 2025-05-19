@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1670098635808165599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 106465400627511484, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: prefab.defaultValue.m_AssetGUID
+      value: b44d3bb05440d564db80f69d953773a8
+      objectReference: {fileID: 0}
+    - target: {fileID: 682755336885137721, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1059779194093054767, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: prefab.defaultValue.m_AssetGUID
+      value: 3fccd6e2754c67c419dc7b3afb7d6ccd
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690951941509009374, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: prefab.defaultValue.m_AssetGUID
+      value: a7e92be9c91bf1c4c82a525199919fcc
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507623676311251557, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: projectilePrefab.propertyName
+      value: CurrentGameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488926424424017101, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: asset.m_AssetGUID
+      value: 0e2a92da255b2964fac615b2a6c1bf66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704798496934526226, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: m_Name
+      value: Bow (AllArrows)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250969140587629148, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250969140587629148, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250969140587629148, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250969140587629148, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451977939445542117, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: prefab.defaultValue.m_AssetGUID
+      value: ccda25f9cdf363045a919f40b7352988
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283802522068091971, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+      propertyPath: prefab.defaultValue.m_AssetGUID
+      value: 0e2a92da255b2964fac615b2a6c1bf66
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5488926424424017101, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c5f0bd9bc2b4ac45a5fb0b4642abfd2, type: 3}

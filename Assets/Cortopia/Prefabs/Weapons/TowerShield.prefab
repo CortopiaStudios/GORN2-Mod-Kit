@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9094959030932617629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63585465764978861}
+  - component: {fileID: 3441481678129889306}
+  - component: {fileID: 2852178805788300176}
+  - component: {fileID: 2452783711235571413}
+  - component: {fileID: 2883649362055347272}
+  - component: {fileID: 5448374163323942036}
+  - component: {fileID: 5495599260975074225}
+  m_Layer: 7
+  m_Name: TowerShield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &63585465764978861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094959030932617629}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3441481678129889306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094959030932617629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ae5dd5ff3b483fa059ab3c8fd3ad8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameterName: PhysicalRoot
+  direction: 2
+  boundValue:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: {fileID: 0}
+    breakOnChange: 0
+--- !u!114 &2852178805788300176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094959030932617629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db70f604d5aa9ec489977b2c2964736d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameterName: Handle
+  direction: 2
+  boundValue:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: {fileID: 0}
+    breakOnChange: 0
+--- !u!114 &2452783711235571413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094959030932617629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45815a664404488cbd2aaaf3596dc33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameterName: Shield
+  direction: 2
+  boundValue:
+    reference: {fileID: 0}
+    propertyName: Value
+    defaultValue: 1
+    breakOnChange: 0
+--- !u!114 &2883649362055347272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094959030932617629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45815a664404488cbd2aaaf3596dc33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameterName: Grabbed
+  direction: 2
+  boundValue:
+    reference: {fileID: 0}
+    propertyName: Grabbed
+    defaultValue: 0
+    breakOnChange: 0
+--- !u!114 &5448374163323942036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094959030932617629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45815a664404488cbd2aaaf3596dc33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameterName: ShouldDamagePlayer
+  direction: 1
+  boundValue:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: 0
+    breakOnChange: 0
+--- !u!114 &5495599260975074225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094959030932617629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12ff6b4a59b54964ba024652c51313fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameterName: AttackDistance
+  direction: 2
+  boundValue:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: 2.4
+    breakOnChange: 0

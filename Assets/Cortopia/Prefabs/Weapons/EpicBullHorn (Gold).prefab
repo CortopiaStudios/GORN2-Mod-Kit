@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5508829217645800615
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: crushOnExit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: maxPierceDistance
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: canCrushWholeBodies
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: damage.defaultValue
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: slideDamper.defaultValue
+      value: 1350
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: lockJointBreakForce.defaultValue
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 149045864564383405, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: lockVelocityThreshold.defaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: crushOnExit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: maxPierceDistance
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: canCrushWholeBodies
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: damage.defaultValue
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: slideDamper.defaultValue
+      value: 1350
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: lockJointBreakForce.defaultValue
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: lockVelocityThreshold.defaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990044524033827938, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_SlerpDrive.positionDamper
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990044524033827938, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_SlerpDrive.positionSpring
+      value: 500000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466097689536482031, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: slashDamage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2875064334021186850, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d3f31c8a186c6604baa1e5f762334601, type: 2}
+    - target: {fileID: 4544166191488854933, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: slashDamage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597551505166996510, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965668835017634241, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555071615822600923, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: m_Name
+      value: EpicBullHorn (Gold)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95728f597c946424594b2696d22f6af2, type: 3}

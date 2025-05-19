@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8887482383466752842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 229311574573878156, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 229311574573878156, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 229311574573878156, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 358129830589787867, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 358129830589787867, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 358129830589787867, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074477522034225975, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074477522034225975, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074477522034225975, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418780083289401180, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418780083289401180, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418780083289401180, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426137046576295261, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426137046576295261, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426137046576295261, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140410697638516279, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140410697638516279, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140410697638516279, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685782210025153719, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685782210025153719, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685782210025153719, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683487563578538056, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683487563578538056, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683487563578538056, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157598620582680282, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Mass
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487587340543651515, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487587340543651515, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487587340543651515, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556276318086437989, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: condition.defaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612191521721629663, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663785227838203076, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Mass
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869455293524972896, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869455293524972896, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869455293524972896, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994769546471938755, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994769546471938755, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: damageScale.defaultValue
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994769546471938755, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: addConstantForce.defaultValue
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994769546471938755, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: cooldownDuration.defaultValue
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994769546471938755, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: damageMomentumThreshold.defaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994769546471938755, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: forceDirectionUpwardDegrees.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126934535113393796, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: boundValue.reference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269099620907647024, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: boundValue.defaultValue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661541857293824744, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661541857293824744, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 6661541857293824744, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745938616522705021, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745938616522705021, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745938616522705021, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6905938160127239586, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: conditionFloat.defaultValue
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016783779366887353, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728173407053520193, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Name
+      value: EpicMorningStar (Gold)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8117545635547369947, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: boundValue.defaultValue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141725363966502816, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141725363966502816, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: crushDistance
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141725363966502816, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: stabAngleThreshold.defaultValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8198078673056350512, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: grabMassScale
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094281460348761751, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: conditionFloat.defaultValue
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201727968755021090, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bca758fef965ed49af5ad0804bc1cf8, type: 2}
+    m_RemovedComponents:
+    - {fileID: 8641134083063826772, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 8821764010369299465, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 1999859571362984068, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: -5532386428500862048, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 7205750635304576103, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 3689446704530776770, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 3748011051774056334, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 4375428888014353599, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 1054758433270369313, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 4612191521721629663, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    - {fileID: 5926299818399320347, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4144e69a4c0e3184fa59e809a6932d59, type: 3}

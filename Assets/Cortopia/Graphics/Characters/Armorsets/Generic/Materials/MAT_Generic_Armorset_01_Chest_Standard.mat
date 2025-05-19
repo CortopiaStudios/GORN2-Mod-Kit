@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Blood_RDents_G:
-        m_Texture: {fileID: 2800000, guid: e279d4b75d53aaf448adc778a75bdb26, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5657507ec4511ef43a15e0e101373dad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Blood_RDents_GCracks_A:
@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DentsNormal:
-        m_Texture: {fileID: 2800000, guid: d15872163ed00c547b8bbe59846400bb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 91adf5dc7ef24704abca7dd5c80a962b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:

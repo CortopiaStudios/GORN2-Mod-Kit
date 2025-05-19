@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &485092924600738274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 188216009680724329, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: boundValue.reference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489348236993545854, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: boundValue.reference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 640869325112421788, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_Mass
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346275294487525992, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985068097778669518, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: grabMassScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985068097778669518, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: grabMassScaleWhenPiercing
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985068097778669518, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: aimThrowAssistVelocityMultiplier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2734351813779099869, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: boundValue.defaultValue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4454735067290313710, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: boundValue.defaultValue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4792981803317580463, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: crushOnExit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4880202387801194497, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: damage.defaultValue
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4880202387801194497, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: slideDamper.defaultValue
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4880202387801194497, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: lockJointBreakForce.defaultValue
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003763542562253189, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_Mass
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8111559586122647880, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a2e858b0e71e8e45ab0adf69c24dad3, type: 2}
+    - target: {fileID: 8211051165929210185, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+      propertyPath: m_Name
+      value: EpicSpear (Gold)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7996438543459959567, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 3118317127052205913, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 3460818669191630439, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 869107247732931008, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 2290481484986733107, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 8521738506910465338, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 2556276624862761883, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 3583660990995721351, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 6897846089528678404, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 6951228172515245980, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    - {fileID: 7080926944552769941, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11d704cac083ebe49bcd58d793109a81, type: 3}
