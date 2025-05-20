@@ -10,6 +10,9 @@ namespace Cortopia.Scripts.Core
 {
     public abstract class Spawner : MonoBehaviour
     {
+#if UNITY_EDITOR
+        public abstract GameObject Prefab { get; }
+#endif
         public abstract bool AllowOutParameters { get; }
     }
 }

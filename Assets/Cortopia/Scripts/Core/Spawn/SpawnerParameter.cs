@@ -24,6 +24,16 @@ namespace Cortopia.Scripts.Core.Spawn
         public Direction direction;
         public abstract Type ParameterType { get; }
         public abstract string GetName(string propertyName);
+
+#if UNITY_EDITOR
+        private int _editorAlwaysAllowed;
+        public bool EditorAlwaysAllowed => this._editorAlwaysAllowed > 0;
+        public ReactiveSubscription AllowParameterEditor()
+        {
+            this._editorAlwaysAllowed++;
+            return new ReactiveSubscription(x => ((SpawnerParameter) x)._editorAlwaysAllowed--, this);
+        }
+#endif
     }
 
     public class SpawnerParameter<T> : SpawnerParameter

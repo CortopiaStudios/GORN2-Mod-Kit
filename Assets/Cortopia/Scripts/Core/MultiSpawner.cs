@@ -29,6 +29,10 @@ namespace Cortopia.Scripts.Core
 
         public override bool AllowOutParameters => default;
 
+#if UNITY_EDITOR
+        public override GameObject Prefab => this.prefab.IsBound ? null : this.prefab.Reactive.Value.editorAsset;
+#endif
+
         public void SpawnAt(Transform poseTransform)
         {
             throw new NotImplementedException();
