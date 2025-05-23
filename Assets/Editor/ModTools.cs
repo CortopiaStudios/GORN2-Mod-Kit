@@ -1,7 +1,16 @@
+using System;
 using System.Collections.Generic;
+using System.IO;
+using System.IO.Compression;
+using System.Linq;
 using Cortopia.Scripts.Core.Spawn;
 using UnityEditor;
+using UnityEditor.AddressableAssets;
+using UnityEditor.AddressableAssets.Build;
+using UnityEditor.AddressableAssets.Settings;
+using UnityEditor.Build.Content;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Editor
 {
@@ -56,6 +65,89 @@ namespace Editor
 
             // Unload the temporary prefab contents from memory
             PrefabUtility.UnloadPrefabContents(prefabRoot);
+        }
+
+        [MenuItem("Mod Tools/Build mod in current platform")]
+        public static void BuildAddressablesDefault()
+        {
+            var settings = AddressableAssetSettingsDefaultObject.Settings;
+
+            if (settings == null)
+            {
+                Debug.LogError("Addressable settings not found.");
+                return;
+            }
+
+            // Get the default build script from the active profile
+            var builder = settings.ActivePlayerDataBuilder;
+
+            // Build content using the current settings and active builder
+            var result = builder.BuildData<AddressableAssetBuildResult>(new AddressablesDataBuilderInput(settings));
+
+            if (result != null && string.IsNullOrEmpty(result.Error))
+            {
+                Debug.Log("Addressables build completed successfully.");
+            }
+            else
+            {
+                Debug.LogError("Addressables build failed: " + result?.Error);
+                return;
+            }
+
+            // Get the resolved build path from the profile
+            var buildPath = settings.profileSettings
+                .EvaluateString(settings.activeProfileId, $"[{AddressableAssetSettings.kRemoteBuildPath}]");
+            var platformName = EditorUserBuildSettings.activeBuildTarget.ToString();
+
+            // Resolve [BuildTarget] manually if not already replaced
+            if (buildPath.Contains("[BuildTarget]"))
+            {
+                buildPath = buildPath.Replace("[BuildTarget]", platformName);
+            }
+
+            var fullPath = Path.GetFullPath(buildPath);
+            var modFiles = result.FileRegistry.GetFilePaths().Where(x => IsPathInDirectory(x, fullPath)).ToList();
+
+            CreateZipFromFiles(modFiles, $"{fullPath}/{DateTime.Now.ToFileTime()}.zip");
+
+            foreach (var modFile in modFiles)
+            {
+                File.Delete(modFile);
+            }
+        }
+
+        private static bool IsPathInDirectory(string filePath, string directoryPath)
+        {
+            var fileFullPath = Path.GetFullPath(filePath)
+                .TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+            var dirFullPath = Path.GetFullPath(directoryPath)
+                .TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+
+            return fileFullPath.StartsWith(dirFullPath + Path.DirectorySeparatorChar);
+        }
+
+        private static void CreateZipFromFiles(IEnumerable<string> filePaths, string zipFilePath)
+        {
+            // Ensure the target zip does not exist before creating it
+            if (File.Exists(zipFilePath)) File.Delete(zipFilePath);
+
+            using (var zipToCreate = new FileStream(zipFilePath, FileMode.Create))
+            using (var archive = new ZipArchive(zipToCreate, ZipArchiveMode.Create))
+            {
+                foreach (var filePath in filePaths)
+                    if (File.Exists(filePath))
+                    {
+                        // Get file name only to store in zip (not full path)
+                        var entryName = Path.GetFileName(filePath);
+                        archive.CreateEntryFromFile(filePath, entryName);
+                    }
+                    else
+                    {
+                        Debug.Log($"Warning: File not found - {filePath}");
+                    }
+            }
+
+            Debug.Log($"Zip file created: {zipFilePath}");
         }
     }
 }
