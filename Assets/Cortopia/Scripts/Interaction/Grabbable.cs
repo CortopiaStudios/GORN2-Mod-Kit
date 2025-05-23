@@ -9,6 +9,7 @@ using Cortopia.Scripts.Reactivity;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Filtering;
+using Object = UnityEngine.Object;
 
 namespace Cortopia.Scripts.Interaction
 {
@@ -33,34 +34,32 @@ namespace Cortopia.Scripts.Interaction
         private SingleGrabMethod preferredSingleGrabMethod = SingleGrabMethod.Hybrid;
 
         // [CanBeNull]
-        [SerializeField]
-        private Handle handle;
+        [SerializeField] private Handle handle;
 
         [Space]
-        [Tooltip("Two-handed grabbing is currently triggered by a weapon employing some specific AttackType-indexes. For any other object, this is irrelevant.")]
+        [Tooltip(
+            "Two-handed grabbing is currently triggered by a weapon employing some specific AttackType-indexes. For any other object, this is irrelevant.")]
         [SerializeField]
         private NpcTwoHandGrabSettings npcTwoHandGrabSettings;
 
-        [Header("Custom")]
-        [SerializeField]
-        private ConfigurableJoint singleGrabJointSettings;
+        [Header("Custom")] [SerializeField] private ConfigurableJoint singleGrabJointSettings;
 
-        [SerializeField]
-        private ConfigurableJoint npcSingleGrabJointSettings;
+        [SerializeField] private ConfigurableJoint npcSingleGrabJointSettings;
 
-        [SerializeField]
-        private ConfigurableJoint multipleGrabJointSettings;
+        [SerializeField] private ConfigurableJoint multipleGrabJointSettings;
 
         [SerializeField]
         [Tooltip("For objects that are grabbed by two hands, does it takes one or two hands to aim throw the object?")]
         private bool aimThrowWithTwoHands;
 
         [SerializeField]
-        [Tooltip("Scale the rigidbody mass with this value whenever it's being grabbed. Only applied when grabbed by the player.")]
+        [Tooltip(
+            "Scale the rigidbody mass with this value whenever it's being grabbed. Only applied when grabbed by the player.")]
         private float grabMassScale = 1;
 
         [SerializeField]
-        [Tooltip("The grab joint mass scale when the grabbing the object while it's piercing an object. Only applied when grabbed by the player.")]
+        [Tooltip(
+            "The grab joint mass scale when the grabbing the object while it's piercing an object. Only applied when grabbed by the player.")]
         private float grabMassScaleWhenPiercing = -1;
 
         [SerializeField]
@@ -68,7 +67,8 @@ namespace Cortopia.Scripts.Interaction
         private bool disableWhenLimbIsAlive = true;
 
         [Header("Player Scale")]
-        [Tooltip("If the player is below this scale, the player will override this Grabbable's Joint Setting and Select Mode. Set to 0 to effectively disable.")]
+        [Tooltip(
+            "If the player is below this scale, the player will override this Grabbable's Joint Setting and Select Mode. Set to 0 to effectively disable.")]
         [SerializeField]
         private float smallPlayerOverrideSettingsThreshold = 0.5f;
 
@@ -97,6 +97,8 @@ namespace Cortopia.Scripts.Interaction
 
         public Reactive<bool> GrabbedByPlayer => default;
 
+        public Reactive<Object[]> CurrentGrabbers => default;
+
         // IXRSelectFilter
         public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable)
         {
@@ -115,8 +117,7 @@ namespace Cortopia.Scripts.Interaction
         private class NpcTwoHandGrabSettings
         {
             // [CanBeNull]
-            [SerializeField]
-            private Transform grabPointLeft;
+            [SerializeField] private Transform grabPointLeft;
 
             [Tooltip(
                 "How far below the grab point to place the hand if the character's scale is 1.2. The hand's vertical position is interpolated (without clamping) between this value and the maximum, using the scale.")]
@@ -153,8 +154,7 @@ namespace Cortopia.Scripts.Interaction
             private Joint jointSettingsLeft;
 
             // [CanBeNull]
-            [SerializeField]
-            private Joint jointSettingsRight;
+            [SerializeField] private Joint jointSettingsRight;
         }
     }
 }
