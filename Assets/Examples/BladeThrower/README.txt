@@ -1,0 +1,1 @@
+Set the sword Prefab to addressable with the label Sword to make it spawnable in custom mode. It's also possible to give it the same address as weapons in the core game for example Assets/Cortopia/Prefabs/Weapons/Katana.prefab to replace the katana in the game.
