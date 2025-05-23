@@ -1,2 +1,2 @@
-Set the Prefab to addressable with the address Assets/Cortopia/Prefabs/Characters/Rokibe/RokibeGraphicsRig.prefab to replace the Rokibe graphics in the core game.
+Set the Prefab to addressable with the address Assets/Cortopia/Prefabs/Characters/Rokibe/RokibeGraphicsRig.prefab to replace the Rokibe graphics in the core game. The actual material that will be rendered is the one with the address Assets/Cortopia/Graphics/Characters/Rokibe/Material/MAT_Rokibe_01_Sliced.mat since that material has shader that works when rendering sliced meshes.
 Set the slice material to addressable with the address  Assets/Cortopia/Graphics/Characters/Rokibe/Material/MAT_SliceCap.mat to replace the flesh material on the Rokibes.

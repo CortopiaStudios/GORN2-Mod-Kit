@@ -1,0 +1,1 @@
+Set the armor set prefab to addressable with the label "Armor" if you also want the armor set to appear in the custom mode settings in the game. You can also replace the armors used in the core game by setting the address on the prefab to the same address as an armor set in the core game, for example Assets/Cortopia/Prefabs/Armor/ArmorSet_Iron.prefab.
