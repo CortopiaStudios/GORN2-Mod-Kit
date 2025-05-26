@@ -58,8 +58,6 @@ namespace Editor
             foreach (var child in children)
                 Object.DestroyImmediate(child);
 
-            // EditorUtility.SetDirty(prefabRoot);
-
             // Save changes back to the prefab asset
             PrefabUtility.SaveAsPrefabAsset(prefabRoot, assetPath);
 
@@ -67,7 +65,7 @@ namespace Editor
             PrefabUtility.UnloadPrefabContents(prefabRoot);
         }
 
-        [MenuItem("Mod Tools/Build mod in current platform")]
+        [MenuItem("Mod Tools/Build")]
         public static void BuildAddressablesDefault()
         {
             var settings = AddressableAssetSettingsDefaultObject.Settings;
