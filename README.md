@@ -8,5 +8,7 @@ The official mod kit for the VR game GORN2
 4. Find the files at the build location ([Project]/ServerData/[Platform/) and zip them
 5. Upload the zip file to the mod in modio
 
+Instead of going through steps 3 and 4 it's possible to just use the menu tool Mod Tools -> Build.
+
 ## Limitations
 * Custom scripts
