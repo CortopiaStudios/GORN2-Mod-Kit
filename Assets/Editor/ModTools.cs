@@ -8,7 +8,6 @@ using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Build;
 using UnityEditor.AddressableAssets.Settings;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -69,8 +68,7 @@ namespace Editor
         public static void BuildAddressablesDefault()
         {
             var settings = AddressableAssetSettingsDefaultObject.Settings;
-
-            if (settings == null)
+            if (!settings)
             {
                 Debug.LogError("Addressable settings not found.");
                 return;
@@ -98,20 +96,18 @@ namespace Editor
             var platformName = EditorUserBuildSettings.activeBuildTarget.ToString();
 
             // Resolve [BuildTarget] manually if not already replaced
-            if (buildPath.Contains("[BuildTarget]"))
-            {
-                buildPath = buildPath.Replace("[BuildTarget]", platformName);
-            }
+            if (buildPath.Contains("[BuildTarget]")) buildPath = buildPath.Replace("[BuildTarget]", platformName);
 
             var fullPath = Path.GetFullPath(buildPath);
             var modFiles = result.FileRegistry.GetFilePaths().Where(x => IsPathInDirectory(x, fullPath)).ToList();
+            var zipFilePath = $"{fullPath}/{DateTime.Now.ToFileTime()}.zip";
 
-            CreateZipFromFiles(modFiles, $"{fullPath}/{DateTime.Now.ToFileTime()}.zip");
+            CreateZipFromFiles(modFiles, zipFilePath);
 
-            foreach (var modFile in modFiles)
-            {
-                File.Delete(modFile);
-            }
+            var uriPath = "file:///" + zipFilePath.Replace("\\", "/");
+            Debug.Log($"Zip file created: <a href=\"{uriPath}\" line=\"2\">{zipFilePath}</a>");
+
+            foreach (var modFile in modFiles) File.Delete(modFile);
         }
 
         private static bool IsPathInDirectory(string filePath, string directoryPath)
@@ -129,23 +125,19 @@ namespace Editor
             // Ensure the target zip does not exist before creating it
             if (File.Exists(zipFilePath)) File.Delete(zipFilePath);
 
-            using (var zipToCreate = new FileStream(zipFilePath, FileMode.Create))
-            using (var archive = new ZipArchive(zipToCreate, ZipArchiveMode.Create))
-            {
-                foreach (var filePath in filePaths)
-                    if (File.Exists(filePath))
-                    {
-                        // Get file name only to store in zip (not full path)
-                        var entryName = Path.GetFileName(filePath);
-                        archive.CreateEntryFromFile(filePath, entryName);
-                    }
-                    else
-                    {
-                        Debug.Log($"Warning: File not found - {filePath}");
-                    }
-            }
-
-            Debug.Log($"Zip file created: {zipFilePath}");
+            using var zipToCreate = new FileStream(zipFilePath, FileMode.Create);
+            using var archive = new ZipArchive(zipToCreate, ZipArchiveMode.Create);
+            foreach (var filePath in filePaths)
+                if (File.Exists(filePath))
+                {
+                    // Get file name only to store in zip (not full path)
+                    var entryName = Path.GetFileName(filePath);
+                    archive.CreateEntryFromFile(filePath, entryName);
+                }
+                else
+                {
+                    Debug.Log($"Warning: File not found - {filePath}");
+                }
         }
     }
 }
