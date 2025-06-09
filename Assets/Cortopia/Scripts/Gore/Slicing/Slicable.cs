@@ -20,8 +20,6 @@ namespace Cortopia.Scripts.Gore.Slicing
         [SerializeField]
         private BoundValue<SkinnedMeshRenderer> skinnedMeshRenderer;
         [SerializeField]
-        private BoundValue<Material> sliceMaterial;
-        [SerializeField]
         private BoundValue<Material> capMaterial;
         [SerializeField]
         private Rigidbody rootBody;
@@ -31,7 +29,6 @@ namespace Cortopia.Scripts.Gore.Slicing
         [Space]
         [SerializeField]
         private UnityEvent<SliceInfo> onSliced;
-
         [Space]
         [SerializeField]
         private Transform decapitationPlane;
