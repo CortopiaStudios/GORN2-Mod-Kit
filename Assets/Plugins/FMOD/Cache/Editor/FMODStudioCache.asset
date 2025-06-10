@@ -93,7 +93,7 @@ MonoBehaviour:
     Data3: -1410532984
     Data4: -5418659
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -198,30 +198,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-9030074400248531793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638772000331489746
-  FileSizes:
-  - Name: Android
-    Value: 31710
-  - Name: Desktop
-    Value: 31710
-  - Name: PS5
-    Value: 31710
-  Exists: 1
 --- !u!114 &-9018269409863961518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +217,7 @@ MonoBehaviour:
     Data3: 850075809
     Data4: 6759997
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -269,7 +245,7 @@ MonoBehaviour:
     Data3: -1144526967
     Data4: -712369103
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -320,7 +296,7 @@ MonoBehaviour:
     Data3: 1579009450
     Data4: 1409750464
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -348,7 +324,7 @@ MonoBehaviour:
     Data3: 351579282
     Data4: -490643987
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -375,7 +351,7 @@ MonoBehaviour:
     Data3: -1728833361
     Data4: -1263068707
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -426,7 +402,7 @@ MonoBehaviour:
     Data3: 1872101052
     Data4: 1889495401
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -528,7 +504,7 @@ MonoBehaviour:
     Data3: 1357752496
     Data4: 1212952738
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -556,7 +532,7 @@ MonoBehaviour:
     Data3: -243261031
     Data4: 1527996363
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -609,7 +585,7 @@ MonoBehaviour:
     Data3: 148005767
     Data4: -1889580141
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -636,7 +612,7 @@ MonoBehaviour:
     Data3: -999070313
     Data4: 1286338367
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -688,7 +664,7 @@ MonoBehaviour:
     Data3: -1555765096
     Data4: 1415844395
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -716,7 +692,7 @@ MonoBehaviour:
     Data3: -2092873074
     Data4: -1528218344
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -768,7 +744,7 @@ MonoBehaviour:
     Data3: 1731911842
     Data4: -1247795800
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -820,8 +796,8 @@ MonoBehaviour:
     Data3: -499273819
     Data4: 1111353781
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -4899013194757862480}
+  - {fileID: -4785832336176510516}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -872,7 +848,7 @@ MonoBehaviour:
     Data3: -1422945615
     Data4: 791102601
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -923,7 +899,7 @@ MonoBehaviour:
     Data3: -1985139057
     Data4: -968321473
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -984,8 +960,8 @@ MonoBehaviour:
     Data3: 686698681
     Data4: -1389829700
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1060,7 +1036,7 @@ MonoBehaviour:
     Data3: 960738478
     Data4: -1065525071
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1087,7 +1063,7 @@ MonoBehaviour:
     Data3: -1954630007
     Data4: 2101594770
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1142,7 +1118,7 @@ MonoBehaviour:
     Data3: 2119283623
     Data4: 82439711
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1193,7 +1169,7 @@ MonoBehaviour:
     Data3: -1731327071
     Data4: 1907269624
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1245,7 +1221,7 @@ MonoBehaviour:
     Data3: 1840629378
     Data4: -251335689
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1323,7 +1299,7 @@ MonoBehaviour:
     Data3: -350122593
     Data4: -422242505
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1350,7 +1326,7 @@ MonoBehaviour:
     Data3: -1317415264
     Data4: -849151157
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1401,7 +1377,7 @@ MonoBehaviour:
     Data3: 261519753
     Data4: -155298417
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1454,7 +1430,7 @@ MonoBehaviour:
     Data3: -226556029
     Data4: -1015236960
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1481,7 +1457,7 @@ MonoBehaviour:
     Data3: -984595058
     Data4: -373870938
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1508,7 +1484,7 @@ MonoBehaviour:
     Data3: -1848042571
     Data4: 1833909058
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1535,7 +1511,7 @@ MonoBehaviour:
     Data3: -296408392
     Data4: 45111285
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1562,7 +1538,7 @@ MonoBehaviour:
     Data3: 263953041
     Data4: 504788653
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1613,7 +1589,7 @@ MonoBehaviour:
     Data3: 1816312484
     Data4: 129084370
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1642,7 +1618,7 @@ MonoBehaviour:
     Data3: 831798661
     Data4: -1489389447
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1669,7 +1645,7 @@ MonoBehaviour:
     Data3: 1160436355
     Data4: -2007772236
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1696,7 +1672,7 @@ MonoBehaviour:
     Data3: -1965312637
     Data4: 206471776
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1726,7 +1702,7 @@ MonoBehaviour:
     Data3: -1562388603
     Data4: 191468931
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1777,7 +1753,7 @@ MonoBehaviour:
     Data3: 1462256022
     Data4: -2040128423
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1855,7 +1831,7 @@ MonoBehaviour:
     Data3: -1492988518
     Data4: 1108442036
   Banks:
-  - {fileID: -5249121367135236531}
+  - {fileID: -250407773703256111}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1885,7 +1861,7 @@ MonoBehaviour:
     Data3: -150500193
     Data4: 1654758327
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1914,7 +1890,7 @@ MonoBehaviour:
     Data3: -887755132
     Data4: -1653963819
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1968,7 +1944,7 @@ MonoBehaviour:
     Data3: -1153265493
     Data4: 1934817110
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1995,7 +1971,7 @@ MonoBehaviour:
     Data3: -1002195525
     Data4: 445502755
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2022,7 +1998,7 @@ MonoBehaviour:
     Data3: -1342496331
     Data4: -1411763137
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2075,7 +2051,7 @@ MonoBehaviour:
     Data3: -1420841806
     Data4: 464481659
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2102,7 +2078,7 @@ MonoBehaviour:
     Data3: -452117845
     Data4: -1446163992
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2130,7 +2106,7 @@ MonoBehaviour:
     Data3: 292433295
     Data4: -2126751711
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2157,7 +2133,7 @@ MonoBehaviour:
     Data3: -88315501
     Data4: 835269811
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2209,7 +2185,7 @@ MonoBehaviour:
     Data3: 66891141
     Data4: -879567071
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2260,7 +2236,7 @@ MonoBehaviour:
     Data3: 1425435050
     Data4: -1927405547
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2290,7 +2266,7 @@ MonoBehaviour:
     Data3: -247882053
     Data4: -1147788995
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2317,7 +2293,7 @@ MonoBehaviour:
     Data3: 1118930866
     Data4: -481295860
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2344,7 +2320,7 @@ MonoBehaviour:
     Data3: -637356894
     Data4: -1628344212
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2376,30 +2352,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-7407354073116730458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_hub.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_hub.bank
-  Name: speak_hub
-  StudioPath: bank:/hub/speak_hub
-  lastModified: 638772000358552832
-  FileSizes:
-  - Name: Android
-    Value: 6340
-  - Name: Desktop
-    Value: 6340
-  - Name: PS5
-    Value: 6340
-  Exists: 1
 --- !u!114 &-7406816364087038794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2419,7 +2371,7 @@ MonoBehaviour:
     Data3: 111786151
     Data4: -1172554539
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2470,7 +2422,7 @@ MonoBehaviour:
     Data3: -1664692576
     Data4: -1012007886
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2478,30 +2430,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9875
---- !u!114 &-7225245691732801368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_brain_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_brain_biome.assets.bank
-  Name: sfx_brain_biome.assets
-  StudioPath: bank:/brain_biome/sfx_brain_biome.assets
-  lastModified: 638772000349300221
-  FileSizes:
-  - Name: Android
-    Value: 17751296
-  - Name: Desktop
-    Value: 17751296
-  - Name: PS5
-    Value: 15907872
-  Exists: 1
 --- !u!114 &-7200080102292400321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2521,7 +2449,7 @@ MonoBehaviour:
     Data3: -1053456978
     Data4: 1736656024
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2548,7 +2476,7 @@ MonoBehaviour:
     Data3: 1345067671
     Data4: -755877019
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2599,7 +2527,7 @@ MonoBehaviour:
     Data3: 943728314
     Data4: 399585919
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2626,7 +2554,7 @@ MonoBehaviour:
     Data3: -1549839731
     Data4: 979598152
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2682,6 +2610,24 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-6925933110739866051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_enemy_voicelines.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_enemy_voicelines.assets.bank
+  Name: speak_enemy_voicelines.assets
+  StudioPath: bank:/shared/speak_enemy_voicelines.assets
+  lastModified: 638832576134265480
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6882445361894208879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2701,7 +2647,7 @@ MonoBehaviour:
     Data3: 1388937900
     Data4: -1822223402
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2728,7 +2674,7 @@ MonoBehaviour:
     Data3: -1312295516
     Data4: 1960481700
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2855,7 +2801,7 @@ MonoBehaviour:
     Data3: -2131428685
     Data4: -910656643
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2883,7 +2829,7 @@ MonoBehaviour:
     Data3: 1242885516
     Data4: 1741609546
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2891,54 +2837,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1910
---- !u!114 &-6757230153878987490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_flesh_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_flesh_biome.bank
-  Name: sfx_flesh_biome
-  StudioPath: bank:/flesh_biome/sfx_flesh_biome
-  lastModified: 638772000352897467
-  FileSizes:
-  - Name: Android
-    Value: 125364
-  - Name: Desktop
-    Value: 125364
-  - Name: PS5
-    Value: 125364
-  Exists: 1
---- !u!114 &-6717052002291741238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_blood_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_blood_biome.assets.bank
-  Name: speak_blood_biome.assets
-  StudioPath: bank:/blood_biome/speak_blood_biome.assets
-  lastModified: 638772000355750142
-  FileSizes:
-  - Name: Android
-    Value: 3835904
-  - Name: Desktop
-    Value: 3835904
-  - Name: PS5
-    Value: 2767968
-  Exists: 1
 --- !u!114 &-6698371487102626268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2958,7 +2856,7 @@ MonoBehaviour:
     Data3: -139219275
     Data4: 241820212
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -3011,7 +2909,7 @@ MonoBehaviour:
     Data3: 1764392116
     Data4: -443647545
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3038,8 +2936,8 @@ MonoBehaviour:
     Data3: -1241569351
     Data4: 444675001
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 5254332310615631916}
+  - {fileID: -4785832336176510516}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3067,7 +2965,7 @@ MonoBehaviour:
     Data3: 1464776885
     Data4: -375517242
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3128,30 +3026,6 @@ MonoBehaviour:
   - no
   - yes
   Exists: 1
---- !u!114 &-6659670041291865194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_enemy_voicelines.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_enemy_voicelines.bank
-  Name: speak_enemy_voicelines
-  StudioPath: bank:/shared/speak_enemy_voicelines
-  lastModified: 638772000356798474
-  FileSizes:
-  - Name: Android
-    Value: 3376
-  - Name: Desktop
-    Value: 3376
-  - Name: PS5
-    Value: 3376
-  Exists: 1
 --- !u!114 &-6654673577819133668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3171,7 +3045,7 @@ MonoBehaviour:
     Data3: -1725401721
     Data4: 1829594372
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -3198,7 +3072,7 @@ MonoBehaviour:
     Data3: -830548828
     Data4: 1683773300
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -3225,7 +3099,7 @@ MonoBehaviour:
     Data3: -1929108549
     Data4: -761152489
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -3253,7 +3127,7 @@ MonoBehaviour:
     Data3: 568721280
     Data4: -421007698
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3280,7 +3154,7 @@ MonoBehaviour:
     Data3: 156699014
     Data4: 681426524
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -3307,7 +3181,7 @@ MonoBehaviour:
     Data3: -1462712443
     Data4: 1752289193
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3334,7 +3208,7 @@ MonoBehaviour:
     Data3: -477346390
     Data4: 2104351156
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3361,7 +3235,7 @@ MonoBehaviour:
     Data3: 971765173
     Data4: 1084257891
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3443,7 +3317,7 @@ MonoBehaviour:
     Data3: 1707507592
     Data4: 1486209678
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3471,7 +3345,7 @@ MonoBehaviour:
     Data3: -1640257609
     Data4: 856589772
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3498,7 +3372,7 @@ MonoBehaviour:
     Data3: -467519334
     Data4: 791035027
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -3578,7 +3452,7 @@ MonoBehaviour:
     Data3: 533039779
     Data4: 53404021
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -3609,7 +3483,7 @@ MonoBehaviour:
     Data3: -245491022
     Data4: -1551274848
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3636,7 +3510,7 @@ MonoBehaviour:
     Data3: -588390213
     Data4: -69397566
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3664,7 +3538,7 @@ MonoBehaviour:
     Data3: 1144143512
     Data4: -1021290243
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3691,7 +3565,7 @@ MonoBehaviour:
     Data3: 138041533
     Data4: 673827100
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3718,7 +3592,7 @@ MonoBehaviour:
     Data3: -312520561
     Data4: 84307234
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3745,7 +3619,7 @@ MonoBehaviour:
     Data3: 1691605140
     Data4: -2047560466
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3799,7 +3673,7 @@ MonoBehaviour:
     Data3: 1241921449
     Data4: -2086280648
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3826,7 +3700,7 @@ MonoBehaviour:
     Data3: 1172731034
     Data4: -1915290456
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3877,7 +3751,7 @@ MonoBehaviour:
     Data3: 1914967993
     Data4: 797379723
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -3904,7 +3778,7 @@ MonoBehaviour:
     Data3: 1180591032
     Data4: -2102314055
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -3931,7 +3805,7 @@ MonoBehaviour:
     Data3: -1537491013
     Data4: -134997003
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3959,7 +3833,7 @@ MonoBehaviour:
     Data3: -1421016933
     Data4: 697143062
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4016,7 +3890,7 @@ MonoBehaviour:
     Data3: 1533670332
     Data4: -1835540266
   Banks:
-  - {fileID: -5249121367135236531}
+  - {fileID: -250407773703256111}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4024,30 +3898,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 75
   Length: 0
---- !u!114 &-5920275765782238121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_brain_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_brain_biome.assets.bank
-  Name: speak_brain_biome.assets
-  StudioPath: bank:/brain_biome/speak_brain_biome.assets
-  lastModified: 638772000356369197
-  FileSizes:
-  - Name: Android
-    Value: 5213792
-  - Name: Desktop
-    Value: 5213792
-  - Name: PS5
-    Value: 3895456
-  Exists: 1
 --- !u!114 &-5913285059830813311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4067,7 +3917,7 @@ MonoBehaviour:
     Data3: -1676460656
     Data4: -1908719991
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4075,6 +3925,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 591
+--- !u!114 &-5912344388455341238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_hub.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_hub.assets.bank
+  Name: sfx_hub.assets
+  StudioPath: bank:/hub/sfx_hub.assets
+  lastModified: 638832576133095502
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5885718621540606195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4118,10 +3986,10 @@ MonoBehaviour:
     Data3: 1763972517
     Data4: -182593699
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
-  - {fileID: -1459925092406381737}
-  - {fileID: 5254332310615631916}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
+  - {fileID: -4470156319687228557}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -4172,7 +4040,7 @@ MonoBehaviour:
     Data3: 1707159464
     Data4: -1153032692
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -4223,7 +4091,7 @@ MonoBehaviour:
     Data3: -1772184435
     Data4: -631112120
   Banks:
-  - {fileID: 2253744701781632622}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -4250,7 +4118,7 @@ MonoBehaviour:
     Data3: 2133055421
     Data4: -2062165841
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4277,7 +4145,7 @@ MonoBehaviour:
     Data3: -2026988880
     Data4: -804115718
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4338,7 +4206,7 @@ MonoBehaviour:
     Data3: 391421617
     Data4: 641338725
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4365,7 +4233,7 @@ MonoBehaviour:
     Data3: 107917978
     Data4: -729301556
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4475,8 +4343,8 @@ MonoBehaviour:
     Data3: 508598405
     Data4: -132889467
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -4503,7 +4371,7 @@ MonoBehaviour:
     Data3: 944415668
     Data4: 463578400
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -4530,7 +4398,7 @@ MonoBehaviour:
     Data3: -35946328
     Data4: 295469521
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4557,7 +4425,7 @@ MonoBehaviour:
     Data3: -1047673433
     Data4: 86692806
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4584,7 +4452,7 @@ MonoBehaviour:
     Data3: 11234696
     Data4: -418656993
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4612,7 +4480,7 @@ MonoBehaviour:
     Data3: 625421499
     Data4: -1521281186
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4639,7 +4507,7 @@ MonoBehaviour:
     Data3: 768150915
     Data4: -110273026
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -4666,7 +4534,7 @@ MonoBehaviour:
     Data3: 1253597062
     Data4: -1671445578
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -4693,7 +4561,7 @@ MonoBehaviour:
     Data3: -124610419
     Data4: -1637118391
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4771,7 +4639,7 @@ MonoBehaviour:
     Data3: 227764662
     Data4: -401933194
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4798,7 +4666,7 @@ MonoBehaviour:
     Data3: 517263253
     Data4: 1143877909
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4828,7 +4696,7 @@ MonoBehaviour:
     Data3: -1860810108
     Data4: 185203387
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4855,7 +4723,7 @@ MonoBehaviour:
     Data3: 198341549
     Data4: -792885613
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4863,30 +4731,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2469
---- !u!114 &-5249121367135236531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_flesh_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_flesh_biome.bank
-  Name: speak_flesh_biome
-  StudioPath: bank:/flesh_biome/speak_flesh_biome
-  lastModified: 638772000357028759
-  FileSizes:
-  - Name: Android
-    Value: 6812
-  - Name: Desktop
-    Value: 6812
-  - Name: PS5
-    Value: 6812
-  Exists: 1
 --- !u!114 &-5214481690667513911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4906,7 +4750,7 @@ MonoBehaviour:
     Data3: -966687330
     Data4: 366555100
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5029,7 +4873,7 @@ MonoBehaviour:
     Data3: 964325782
     Data4: -2124744773
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -5056,7 +4900,7 @@ MonoBehaviour:
     Data3: -1503868756
     Data4: -324993682
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5083,7 +4927,7 @@ MonoBehaviour:
     Data3: -338975867
     Data4: -438678683
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -5111,7 +4955,7 @@ MonoBehaviour:
     Data3: 973820303
     Data4: -628214084
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -5138,7 +4982,7 @@ MonoBehaviour:
     Data3: 489340577
     Data4: -701249940
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5166,7 +5010,7 @@ MonoBehaviour:
     Data3: 212200072
     Data4: -1384905362
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -5193,7 +5037,7 @@ MonoBehaviour:
     Data3: -1278104916
     Data4: 1879636988
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -5220,7 +5064,7 @@ MonoBehaviour:
     Data3: -1464637280
     Data4: 689755731
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5298,7 +5142,7 @@ MonoBehaviour:
     Data3: -42163539
     Data4: -383165275
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5352,7 +5196,7 @@ MonoBehaviour:
     Data3: -1408856704
     Data4: -459380787
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5360,30 +5204,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10153
---- !u!114 &-4899013194757862480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_brain_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_brain_biome.bank
-  Name: sfx_brain_biome
-  StudioPath: bank:/brain_biome/sfx_brain_biome
-  lastModified: 638772000349372911
-  FileSizes:
-  - Name: Android
-    Value: 172238
-  - Name: Desktop
-    Value: 172238
-  - Name: PS5
-    Value: 172238
-  Exists: 1
 --- !u!114 &-4888346466204336394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5451,8 +5271,8 @@ MonoBehaviour:
     Data3: -654793308
     Data4: -954726124
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -4899013194757862480}
+  - {fileID: -4785832336176510516}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -5479,7 +5299,7 @@ MonoBehaviour:
     Data3: 1357943947
     Data4: 881743708
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5536,6 +5356,24 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &-4785832336176510516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/default.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/default.bank
+  Name: default
+  StudioPath: bank:/shared/default
+  lastModified: 638832576123982072
+  FileSizes: []
   Exists: 1
 --- !u!114 &-4784303954751405991
 MonoBehaviour:
@@ -5604,7 +5442,7 @@ MonoBehaviour:
     Data3: -1220404563
     Data4: 2020440733
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -5633,7 +5471,7 @@ MonoBehaviour:
     Data3: -1760748868
     Data4: -115344809
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -5641,30 +5479,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 33872
---- !u!114 &-4703373926714893600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_brain_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_brain_biome.bank
-  Name: speak_brain_biome
-  StudioPath: bank:/brain_biome/speak_brain_biome
-  lastModified: 638772000356698300
-  FileSizes:
-  - Name: Android
-    Value: 6360
-  - Name: Desktop
-    Value: 6360
-  - Name: PS5
-    Value: 6360
-  Exists: 1
 --- !u!114 &-4699613100128060886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5684,7 +5498,7 @@ MonoBehaviour:
     Data3: -871751285
     Data4: -1895671423
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -5713,8 +5527,8 @@ MonoBehaviour:
     Data3: -1759228795
     Data4: -1885270955
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -5741,7 +5555,7 @@ MonoBehaviour:
     Data3: 1519588022
     Data4: 1240164721
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5768,8 +5582,8 @@ MonoBehaviour:
     Data3: 59943613
     Data4: 1552628914
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 5254332310615631916}
+  - {fileID: -4785832336176510516}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5778,30 +5592,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-4600338736462252330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_hub.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_hub.assets.bank
-  Name: speak_hub.assets
-  StudioPath: bank:/hub/speak_hub.assets
-  lastModified: 638772000358422373
-  FileSizes:
-  - Name: Android
-    Value: 4312928
-  - Name: Desktop
-    Value: 4312928
-  - Name: PS5
-    Value: 4415680
-  Exists: 1
 --- !u!114 &-4580786860180845049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5845,7 +5635,7 @@ MonoBehaviour:
     Data3: 364454802
     Data4: -81554833
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5872,7 +5662,7 @@ MonoBehaviour:
     Data3: 1669714611
     Data4: -460118370
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5950,7 +5740,7 @@ MonoBehaviour:
     Data3: 719851710
     Data4: 1221522464
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6001,7 +5791,7 @@ MonoBehaviour:
     Data3: -223666011
     Data4: 1870664456
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6029,7 +5819,7 @@ MonoBehaviour:
     Data3: 1306729662
     Data4: -1480560287
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -6056,7 +5846,7 @@ MonoBehaviour:
     Data3: 20620211
     Data4: 127669339
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6092,7 +5882,7 @@ MonoBehaviour:
   - elite_rokibe
   - firing_rokibe
   Exists: 1
---- !u!114 &-4484382116493904425
+--- !u!114 &-4470156319687228557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6102,19 +5892,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_hub.bank
+  m_Name: bank:/sfx_blood_biome.bank
   m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_hub.bank
-  Name: sfx_hub
-  StudioPath: bank:/hub/sfx_hub
-  lastModified: 638772000355507769
-  FileSizes:
-  - Name: Android
-    Value: 68776
-  - Name: Desktop
-    Value: 68776
-  - Name: PS5
-    Value: 68776
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_blood_biome.bank
+  Name: sfx_blood_biome
+  StudioPath: bank:/blood_biome/sfx_blood_biome
+  lastModified: 638832576125111984
+  FileSizes: []
   Exists: 1
 --- !u!114 &-4448345883948583922
 MonoBehaviour:
@@ -6159,7 +5943,7 @@ MonoBehaviour:
     Data3: -549637743
     Data4: 1310852815
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6210,7 +5994,7 @@ MonoBehaviour:
     Data3: 991095480
     Data4: 1188184836
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6237,7 +6021,7 @@ MonoBehaviour:
     Data3: 290111398
     Data4: -378531845
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6265,7 +6049,7 @@ MonoBehaviour:
     Data3: -179003725
     Data4: -1643404617
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6340,7 +6124,7 @@ MonoBehaviour:
     Data3: 497414838
     Data4: -1913560673
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6370,8 +6154,8 @@ MonoBehaviour:
     Data3: 1030328762
     Data4: 846599523
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -4899013194757862480}
+  - {fileID: -4785832336176510516}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -6518,7 +6302,7 @@ MonoBehaviour:
     Data3: 506508929
     Data4: -1736049653
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6569,7 +6353,7 @@ MonoBehaviour:
     Data3: 617704857
     Data4: -1918083402
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6596,7 +6380,7 @@ MonoBehaviour:
     Data3: -526227317
     Data4: -16423554
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -6649,7 +6433,7 @@ MonoBehaviour:
     Data3: 1800528058
     Data4: -888689257
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6701,7 +6485,7 @@ MonoBehaviour:
     Data3: -1712987221
     Data4: -108984644
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6730,7 +6514,7 @@ MonoBehaviour:
     Data3: 795350419
     Data4: 1837905281
   Banks:
-  - {fileID: -830772471645755683}
+  - {fileID: 5551649330480297117}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -6759,7 +6543,7 @@ MonoBehaviour:
     Data3: 1018273950
     Data4: 770022131
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6767,6 +6551,42 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1351
+--- !u!114 &-4100689479638933564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_bone_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_bone_biome.bank
+  Name: sfx_bone_biome
+  StudioPath: bank:/bone_biome/sfx_bone_biome
+  lastModified: 638832576128821988
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4067754940849847319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_flesh_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_flesh_biome.bank
+  Name: sfx_flesh_biome
+  StudioPath: bank:/flesh_biome/sfx_flesh_biome
+  lastModified: 638832576131401995
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4036025058580421064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6786,7 +6606,7 @@ MonoBehaviour:
     Data3: 1912745606
     Data4: -743042071
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6816,7 +6636,7 @@ MonoBehaviour:
     Data3: -1131218550
     Data4: -1011673582
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -6844,7 +6664,7 @@ MonoBehaviour:
     Data3: 878926775
     Data4: -443449971
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -6871,7 +6691,7 @@ MonoBehaviour:
     Data3: 2140134279
     Data4: -493704903
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -6900,7 +6720,7 @@ MonoBehaviour:
     Data3: 1379332506
     Data4: -321219462
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6927,7 +6747,7 @@ MonoBehaviour:
     Data3: -2103481712
     Data4: -1205248415
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6955,7 +6775,7 @@ MonoBehaviour:
     Data3: -1532697952
     Data4: -1435151410
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6982,7 +6802,7 @@ MonoBehaviour:
     Data3: -1691755136
     Data4: 1916368899
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7009,7 +6829,7 @@ MonoBehaviour:
     Data3: 1561265828
     Data4: 50622552
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7036,7 +6856,7 @@ MonoBehaviour:
     Data3: 1509510331
     Data4: -523364370
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7045,6 +6865,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 900
+--- !u!114 &-3868159668959491197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_flesh_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_flesh_biome.assets.bank
+  Name: speak_flesh_biome.assets
+  StudioPath: bank:/flesh_biome/speak_flesh_biome.assets
+  lastModified: 638832576134529020
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3817821746669038818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7160,7 +6998,7 @@ MonoBehaviour:
     Data3: -1569531239
     Data4: 478185978
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7259,7 +7097,7 @@ MonoBehaviour:
     Data3: 905115064
     Data4: -596496152
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7286,7 +7124,7 @@ MonoBehaviour:
     Data3: -1457591372
     Data4: 1700159997
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -7314,7 +7152,7 @@ MonoBehaviour:
     Data3: -1679607395
     Data4: -324235952
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7341,7 +7179,7 @@ MonoBehaviour:
     Data3: -1250245479
     Data4: 986524703
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -7368,7 +7206,7 @@ MonoBehaviour:
     Data3: -883490651
     Data4: 1370001118
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7395,7 +7233,7 @@ MonoBehaviour:
     Data3: 562652595
     Data4: 1900906136
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -7422,7 +7260,7 @@ MonoBehaviour:
     Data3: -901697655
     Data4: 1297616840
   Banks:
-  - {fileID: 2253744701781632622}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -7449,7 +7287,7 @@ MonoBehaviour:
     Data3: 1144061340
     Data4: -2100225129
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7476,7 +7314,7 @@ MonoBehaviour:
     Data3: -1125392477
     Data4: -332652648
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7527,7 +7365,7 @@ MonoBehaviour:
     Data3: -1316462164
     Data4: 402124194
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -7556,7 +7394,7 @@ MonoBehaviour:
     Data3: 2018532500
     Data4: 382890364
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7584,7 +7422,7 @@ MonoBehaviour:
     Data3: 277901500
     Data4: 561194502
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -7611,7 +7449,7 @@ MonoBehaviour:
     Data3: -292770426
     Data4: 1929774182
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -7638,7 +7476,7 @@ MonoBehaviour:
     Data3: -1647581507
     Data4: 473935973
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7665,7 +7503,7 @@ MonoBehaviour:
     Data3: 1927611294
     Data4: -2096938378
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7692,7 +7530,7 @@ MonoBehaviour:
     Data3: -1287960413
     Data4: 1176566561
   Banks:
-  - {fileID: 5501692000790631586}
+  - {fileID: 7829266213782053999}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7719,7 +7557,7 @@ MonoBehaviour:
     Data3: 1026677390
     Data4: -797778276
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7746,7 +7584,7 @@ MonoBehaviour:
     Data3: 1995501989
     Data4: 28528010
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -7773,7 +7611,7 @@ MonoBehaviour:
     Data3: 1019185284
     Data4: 1122708871
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -7800,8 +7638,8 @@ MonoBehaviour:
     Data3: 1956629165
     Data4: -974929272
   Banks:
-  - {fileID: 2253744701781632622}
-  - {fileID: 5254332310615631916}
+  - {fileID: -2580570092918199057}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -7828,7 +7666,7 @@ MonoBehaviour:
     Data3: -368074819
     Data4: -22253640
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7904,7 +7742,7 @@ MonoBehaviour:
     Data3: -273177711
     Data4: 908815753
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -7931,7 +7769,7 @@ MonoBehaviour:
     Data3: 1112545427
     Data4: -571396627
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -7939,6 +7777,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8500
+--- !u!114 &-2964551547719487715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_bone_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_bone_biome.assets.bank
+  Name: sfx_bone_biome.assets
+  StudioPath: bank:/bone_biome/sfx_bone_biome.assets
+  lastModified: 638832576128772003
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2939748320535736092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7963,6 +7819,42 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2914846608563526020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_guts_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_guts_biome.bank
+  Name: sfx_guts_biome
+  StudioPath: bank:/guts_biome/sfx_guts_biome
+  lastModified: 638832576132556729
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2862794181852861234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_bone_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_bone_biome.assets.bank
+  Name: speak_bone_biome.assets
+  StudioPath: bank:/bone_biome/speak_bone_biome.assets
+  lastModified: 638832576133735477
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2848058553881871612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7982,7 +7874,7 @@ MonoBehaviour:
     Data3: 2002150023
     Data4: -1395089821
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8060,7 +7952,7 @@ MonoBehaviour:
     Data3: -1974125161
     Data4: -161679235
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -8087,7 +7979,7 @@ MonoBehaviour:
     Data3: -1496683608
     Data4: 1960183720
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -8114,7 +8006,7 @@ MonoBehaviour:
     Data3: -1078752892
     Data4: -476606082
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -8191,7 +8083,7 @@ MonoBehaviour:
     Data3: 16163762
     Data4: -148983977
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8242,7 +8134,7 @@ MonoBehaviour:
     Data3: 1842164644
     Data4: 1859211752
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8250,6 +8142,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2352
+--- !u!114 &-2674077704350843074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_guts_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_guts_biome.assets.bank
+  Name: sfx_guts_biome.assets
+  StudioPath: bank:/guts_biome/sfx_guts_biome.assets
+  lastModified: 638832576132526673
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2627915328284685786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8269,7 +8179,7 @@ MonoBehaviour:
     Data3: 927987639
     Data4: -806984656
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8328,6 +8238,42 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2581286393255870394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_guts_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_guts_biome.bank
+  Name: speak_guts_biome
+  StudioPath: bank:/guts_biome/speak_guts_biome
+  lastModified: 638832576134872299
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2580570092918199057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638832576118722002
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2574078968832131103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8347,7 +8293,7 @@ MonoBehaviour:
     Data3: -630316871
     Data4: 1845181506
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -8377,7 +8323,7 @@ MonoBehaviour:
     Data3: -1586564419
     Data4: -374598205
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -8385,30 +8331,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 22399
---- !u!114 &-2561186874792996807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/default.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/default.bank
-  Name: default
-  StudioPath: bank:/shared/default
-  lastModified: 638772000345033974
-  FileSizes:
-  - Name: Android
-    Value: 2224098
-  - Name: Desktop
-    Value: 2224098
-  - Name: PS5
-    Value: 2224098
-  Exists: 1
 --- !u!114 &-2552514746828303074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8428,7 +8350,7 @@ MonoBehaviour:
     Data3: -955996997
     Data4: 278401846
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8479,7 +8401,7 @@ MonoBehaviour:
     Data3: -1310462798
     Data4: -1372716234
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8506,7 +8428,7 @@ MonoBehaviour:
     Data3: 1576583357
     Data4: -1569678293
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8605,7 +8527,7 @@ MonoBehaviour:
     Data3: 1308520853
     Data4: 1441989281
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -8633,7 +8555,7 @@ MonoBehaviour:
     Data3: -2054914628
     Data4: -565426298
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -8684,7 +8606,7 @@ MonoBehaviour:
     Data3: 2094482580
     Data4: 1077743460
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8711,7 +8633,7 @@ MonoBehaviour:
     Data3: -1422563436
     Data4: -21734786
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8738,7 +8660,7 @@ MonoBehaviour:
     Data3: -727647577
     Data4: -137171910
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8789,7 +8711,7 @@ MonoBehaviour:
     Data3: -1235268957
     Data4: 1462980816
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -8818,7 +8740,7 @@ MonoBehaviour:
     Data3: -601791052
     Data4: -1028577370
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -8869,7 +8791,7 @@ MonoBehaviour:
     Data3: -2076571991
     Data4: 240439124
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -8896,7 +8818,7 @@ MonoBehaviour:
     Data3: -41638756
     Data4: -918912041
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -8925,7 +8847,7 @@ MonoBehaviour:
     Data3: -1535381631
     Data4: -1238191109
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8979,7 +8901,7 @@ MonoBehaviour:
     Data3: 1281528470
     Data4: 1140055010
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9006,7 +8928,7 @@ MonoBehaviour:
     Data3: 1447020966
     Data4: -2143243262
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9034,7 +8956,7 @@ MonoBehaviour:
     Data3: -45488223
     Data4: -343035785
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -9085,7 +9007,7 @@ MonoBehaviour:
     Data3: -1192524869
     Data4: 784328565
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9160,7 +9082,7 @@ MonoBehaviour:
     Data3: -1885844820
     Data4: 2042244038
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9187,7 +9109,7 @@ MonoBehaviour:
     Data3: -62328652
     Data4: -157894769
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9238,7 +9160,7 @@ MonoBehaviour:
     Data3: -1021898354
     Data4: 836272720
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -9266,7 +9188,7 @@ MonoBehaviour:
     Data3: 293926293
     Data4: 597070925
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9293,7 +9215,7 @@ MonoBehaviour:
     Data3: 910168723
     Data4: 1297325801
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9329,30 +9251,6 @@ MonoBehaviour:
   - elite_rokibe
   - firing_rokibe
   Exists: 1
---- !u!114 &-1718836449170162515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_guts_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_guts_biome.bank
-  Name: sfx_guts_biome
-  StudioPath: bank:/guts_biome/sfx_guts_biome
-  lastModified: 638772000354891805
-  FileSizes:
-  - Name: Android
-    Value: 206398
-  - Name: Desktop
-    Value: 206398
-  - Name: PS5
-    Value: 206398
-  Exists: 1
 --- !u!114 &-1716406256196157737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9372,7 +9270,7 @@ MonoBehaviour:
     Data3: 761462431
     Data4: -2090817018
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9450,7 +9348,7 @@ MonoBehaviour:
     Data3: 1256182145
     Data4: 651458662
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -9477,7 +9375,7 @@ MonoBehaviour:
     Data3: 89782656
     Data4: -547184936
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9504,7 +9402,7 @@ MonoBehaviour:
     Data3: -1990830192
     Data4: 1371906478
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9660,7 +9558,7 @@ MonoBehaviour:
     Data3: -1205904485
     Data4: 1969860025
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9668,30 +9566,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2138
---- !u!114 &-1459925092406381737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_blood_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_blood_biome.bank
-  Name: sfx_blood_biome
-  StudioPath: bank:/blood_biome/sfx_blood_biome
-  lastModified: 638772000347100744
-  FileSizes:
-  - Name: Android
-    Value: 219446
-  - Name: Desktop
-    Value: 219446
-  - Name: PS5
-    Value: 219446
-  Exists: 1
 --- !u!114 &-1431198873053499496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9711,7 +9585,7 @@ MonoBehaviour:
     Data3: -616746055
     Data4: -911362154
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -9738,7 +9612,7 @@ MonoBehaviour:
     Data3: -1321991024
     Data4: -460020846
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9765,7 +9639,7 @@ MonoBehaviour:
     Data3: -581192517
     Data4: -1092256170
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9816,7 +9690,7 @@ MonoBehaviour:
     Data3: 419614384
     Data4: -758873791
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9844,7 +9718,7 @@ MonoBehaviour:
     Data3: -1572617316
     Data4: 1251921963
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9895,7 +9769,7 @@ MonoBehaviour:
     Data3: -1397080925
     Data4: -1887932514
   Banks:
-  - {fileID: 3829870530320367286}
+  - {fileID: -2581286393255870394}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9922,7 +9796,7 @@ MonoBehaviour:
     Data3: -68384094
     Data4: -514124243
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9949,8 +9823,8 @@ MonoBehaviour:
     Data3: 757143434
     Data4: 950450347
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -1718836449170162515}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9977,7 +9851,7 @@ MonoBehaviour:
     Data3: -1019638083
     Data4: -2083670628
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10030,7 +9904,7 @@ MonoBehaviour:
     Data3: -1388300627
     Data4: -1510064660
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10058,7 +9932,7 @@ MonoBehaviour:
     Data3: -653827653
     Data4: 1913963227
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10137,7 +10011,7 @@ MonoBehaviour:
     Data3: -1728467268
     Data4: 1736770363
   Banks:
-  - {fileID: 3829870530320367286}
+  - {fileID: -2581286393255870394}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -10147,6 +10021,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &-1096598572406040042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_guts_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_guts_biome.assets.bank
+  Name: speak_guts_biome.assets
+  StudioPath: bank:/guts_biome/speak_guts_biome.assets
+  lastModified: 638832576134852318
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1086077205687682184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10238,7 +10130,7 @@ MonoBehaviour:
     Data3: 870687404
     Data4: -543994097
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -10265,7 +10157,7 @@ MonoBehaviour:
     Data3: -1757347911
     Data4: -1727396434
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10316,7 +10208,7 @@ MonoBehaviour:
     Data3: -2037152891
     Data4: 2044240565
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10324,30 +10216,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 910
---- !u!114 &-847450871240242650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_bone_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_bone_biome.assets.bank
-  Name: sfx_bone_biome.assets
-  StudioPath: bank:/bone_biome/sfx_bone_biome.assets
-  lastModified: 638772000348102526
-  FileSizes:
-  - Name: Android
-    Value: 12538400
-  - Name: Desktop
-    Value: 12538400
-  - Name: PS5
-    Value: 11028000
-  Exists: 1
 --- !u!114 &-837856711136361790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10367,7 +10235,7 @@ MonoBehaviour:
     Data3: -1644449103
     Data4: -336092235
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -10375,30 +10243,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 42857
---- !u!114 &-830772471645755683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_bone_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_bone_biome.bank
-  Name: speak_bone_biome
-  StudioPath: bank:/bone_biome/speak_bone_biome
-  lastModified: 638772000356097072
-  FileSizes:
-  - Name: Android
-    Value: 6378
-  - Name: Desktop
-    Value: 6378
-  - Name: PS5
-    Value: 6378
-  Exists: 1
 --- !u!114 &-813077560181966522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10442,7 +10286,7 @@ MonoBehaviour:
     Data3: 1393642644
     Data4: 116733414
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10498,6 +10342,24 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-737278965480243000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_blood_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_blood_biome.assets.bank
+  Name: speak_blood_biome.assets
+  StudioPath: bank:/blood_biome/speak_blood_biome.assets
+  lastModified: 638832576133415450
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-710270566505289664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10517,7 +10379,7 @@ MonoBehaviour:
     Data3: 636366506
     Data4: 19391988
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10544,7 +10406,7 @@ MonoBehaviour:
     Data3: 183004302
     Data4: -467702825
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10572,7 +10434,7 @@ MonoBehaviour:
     Data3: -239692643
     Data4: 470263174
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10623,7 +10485,7 @@ MonoBehaviour:
     Data3: -1503613029
     Data4: 1301956803
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -10676,7 +10538,7 @@ MonoBehaviour:
     Data3: 1633746319
     Data4: 664894891
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -10733,7 +10595,7 @@ MonoBehaviour:
     Data3: 626687880
     Data4: 754235519
   Banks:
-  - {fileID: -4703373926714893600}
+  - {fileID: 7163085532352974555}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -10786,7 +10648,7 @@ MonoBehaviour:
     Data3: 481285818
     Data4: 808299798
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -10796,6 +10658,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4098
+--- !u!114 &-403427913955781691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_hub.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_hub.assets.bank
+  Name: speak_hub.assets
+  StudioPath: bank:/hub/speak_hub.assets
+  lastModified: 638832576135142315
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-379615198542592701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10815,7 +10695,7 @@ MonoBehaviour:
     Data3: -1440968522
     Data4: 1652401724
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -10943,7 +10823,7 @@ MonoBehaviour:
     Data3: 659827119
     Data4: -480066725
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -10970,7 +10850,7 @@ MonoBehaviour:
     Data3: -1790579547
     Data4: 1328151350
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10999,7 +10879,7 @@ MonoBehaviour:
     Data3: 286924692
     Data4: -1198345481
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11008,6 +10888,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 850
+--- !u!114 &-250407773703256111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_flesh_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_flesh_biome.bank
+  Name: speak_flesh_biome
+  StudioPath: bank:/flesh_biome/speak_flesh_biome
+  lastModified: 638832576134552245
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-244781953367483652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11075,7 +10973,7 @@ MonoBehaviour:
     Data3: -598861696
     Data4: -1357040938
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -11103,7 +11001,7 @@ MonoBehaviour:
     Data3: -77511244
     Data4: 1307837640
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11154,7 +11052,7 @@ MonoBehaviour:
     Data3: -768133212
     Data4: 398162648
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -11182,7 +11080,7 @@ MonoBehaviour:
     Data3: -2003619693
     Data4: -1950315527
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11190,6 +11088,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5400
+--- !u!114 &-58104220886351094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_brain_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_brain_biome.assets.bank
+  Name: speak_brain_biome.assets
+  StudioPath: bank:/brain_biome/speak_brain_biome.assets
+  lastModified: 638832576134045482
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-53911895506622285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11209,7 +11125,7 @@ MonoBehaviour:
     Data3: 574223758
     Data4: -240384786
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11260,7 +11176,7 @@ MonoBehaviour:
     Data3: -739004494
     Data4: -1111548449
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -11287,7 +11203,7 @@ MonoBehaviour:
     Data3: -1455890298
     Data4: -2116143517
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11308,37 +11224,37 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -9030074400248531793}
-  - {fileID: 7984511304320376987}
-  - {fileID: -2561186874792996807}
-  - {fileID: 1181717376511261129}
-  - {fileID: 2253744701781632622}
-  - {fileID: 5389629636270302789}
-  - {fileID: -1459925092406381737}
-  - {fileID: -847450871240242650}
-  - {fileID: 5254332310615631916}
-  - {fileID: -7225245691732801368}
-  - {fileID: -4899013194757862480}
-  - {fileID: 8149278087582393516}
-  - {fileID: -6757230153878987490}
-  - {fileID: 6367520487648382841}
-  - {fileID: -1718836449170162515}
-  - {fileID: 5789749513413639066}
-  - {fileID: -4484382116493904425}
-  - {fileID: -6717052002291741238}
-  - {fileID: 5501692000790631586}
-  - {fileID: 4414401085150745020}
-  - {fileID: -830772471645755683}
-  - {fileID: -5920275765782238121}
-  - {fileID: -4703373926714893600}
-  - {fileID: 3746943020131627489}
-  - {fileID: -6659670041291865194}
-  - {fileID: 3368139438095342191}
-  - {fileID: -5249121367135236531}
-  - {fileID: 8172722745611789961}
-  - {fileID: 3829870530320367286}
-  - {fileID: -4600338736462252330}
-  - {fileID: -7407354073116730458}
+  - {fileID: 1817168945724548533}
+  - {fileID: 7706271471407662403}
+  - {fileID: -4785832336176510516}
+  - {fileID: 4653953895381244759}
+  - {fileID: -2580570092918199057}
+  - {fileID: 3704152176580463257}
+  - {fileID: -4470156319687228557}
+  - {fileID: -2964551547719487715}
+  - {fileID: -4100689479638933564}
+  - {fileID: 7008773921424359903}
+  - {fileID: 6166264858941993813}
+  - {fileID: 4730524478776271200}
+  - {fileID: -4067754940849847319}
+  - {fileID: -2674077704350843074}
+  - {fileID: -2914846608563526020}
+  - {fileID: -5912344388455341238}
+  - {fileID: 7275927497663273849}
+  - {fileID: -737278965480243000}
+  - {fileID: 7829266213782053999}
+  - {fileID: -2862794181852861234}
+  - {fileID: 5551649330480297117}
+  - {fileID: -58104220886351094}
+  - {fileID: 7163085532352974555}
+  - {fileID: -6925933110739866051}
+  - {fileID: 8275641784262249996}
+  - {fileID: -3868159668959491197}
+  - {fileID: -250407773703256111}
+  - {fileID: -1096598572406040042}
+  - {fileID: -2581286393255870394}
+  - {fileID: -403427913955781691}
+  - {fileID: 675815011186500698}
   EditorEvents:
   - {fileID: 5491048664417562579}
   - {fileID: 8324956743386712353}
@@ -11866,10 +11782,10 @@ MonoBehaviour:
   - {fileID: -3817821746669038818}
   - {fileID: 1801678145924204576}
   MasterBanks:
-  - {fileID: 2253744701781632622}
+  - {fileID: -2580570092918199057}
   StringsBanks:
-  - {fileID: -9030074400248531793}
-  cacheTime: 638772000358552832
+  - {fileID: 1817168945724548533}
+  cacheTime: 638832576135162302
   cacheVersion: 131603
 --- !u!114 &40981366877596101
 MonoBehaviour:
@@ -11938,7 +11854,7 @@ MonoBehaviour:
     Data3: -1670339703
     Data4: -2105299004
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -11967,7 +11883,7 @@ MonoBehaviour:
     Data3: -708178044
     Data4: -1783954866
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -11994,7 +11910,7 @@ MonoBehaviour:
     Data3: 367024814
     Data4: 1529262785
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12021,7 +11937,7 @@ MonoBehaviour:
     Data3: -597034561
     Data4: -1344690932
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12048,7 +11964,7 @@ MonoBehaviour:
     Data3: -1464587129
     Data4: 1535802871
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12099,7 +12015,7 @@ MonoBehaviour:
     Data3: -250340989
     Data4: -1174585986
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -12150,7 +12066,7 @@ MonoBehaviour:
     Data3: -2000053110
     Data4: 1734863983
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12178,7 +12094,7 @@ MonoBehaviour:
     Data3: -1696567895
     Data4: -327231535
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12205,7 +12121,7 @@ MonoBehaviour:
     Data3: -759050309
     Data4: -1324431858
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12233,7 +12149,7 @@ MonoBehaviour:
     Data3: -1988448891
     Data4: 465185993
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12262,7 +12178,7 @@ MonoBehaviour:
     Data3: -1651659879
     Data4: 241036389
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12314,7 +12230,7 @@ MonoBehaviour:
     Data3: -127748950
     Data4: -1443958501
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12341,7 +12257,7 @@ MonoBehaviour:
     Data3: -660283494
     Data4: -1273388644
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12421,7 +12337,7 @@ MonoBehaviour:
     Data3: 1328544646
     Data4: 236402365
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12451,7 +12367,7 @@ MonoBehaviour:
     Data3: 1208476855
     Data4: -433226914
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -12479,7 +12395,7 @@ MonoBehaviour:
     Data3: 199950759
     Data4: 1124181275
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12507,7 +12423,7 @@ MonoBehaviour:
     Data3: -1517660228
     Data4: 1040406126
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -12535,7 +12451,7 @@ MonoBehaviour:
     Data3: 929174656
     Data4: 373371810
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -12562,7 +12478,7 @@ MonoBehaviour:
     Data3: -592347489
     Data4: 911378372
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12589,7 +12505,7 @@ MonoBehaviour:
     Data3: 2049098670
     Data4: 232320763
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12640,7 +12556,7 @@ MonoBehaviour:
     Data3: 431684020
     Data4: 1456353053
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12669,7 +12585,7 @@ MonoBehaviour:
     Data3: -1995873389
     Data4: 615965753
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12720,7 +12636,7 @@ MonoBehaviour:
     Data3: -348184907
     Data4: 217494753
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -12747,7 +12663,7 @@ MonoBehaviour:
     Data3: -66370129
     Data4: -1220500200
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -12755,6 +12671,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15179
+--- !u!114 &675815011186500698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_hub.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_hub.bank
+  Name: speak_hub
+  StudioPath: bank:/hub/speak_hub
+  lastModified: 638832576135162302
+  FileSizes: []
+  Exists: 1
 --- !u!114 &712075943600076080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12774,7 +12708,7 @@ MonoBehaviour:
     Data3: 1028982170
     Data4: 214560049
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12826,7 +12760,7 @@ MonoBehaviour:
     Data3: -1385392216
     Data4: 1931544979
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -12856,7 +12790,7 @@ MonoBehaviour:
     Data3: -1338846832
     Data4: 858845374
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12908,7 +12842,7 @@ MonoBehaviour:
     Data3: 462841227
     Data4: -797188468
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12935,7 +12869,7 @@ MonoBehaviour:
     Data3: 1334907297
     Data4: 468931994
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -12962,7 +12896,7 @@ MonoBehaviour:
     Data3: 1879414938
     Data4: -67641071
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12989,8 +12923,8 @@ MonoBehaviour:
     Data3: -649441385
     Data4: 797044079
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -13065,7 +12999,7 @@ MonoBehaviour:
     Data3: -1110636887
     Data4: 744678262
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13116,7 +13050,7 @@ MonoBehaviour:
     Data3: 1431849346
     Data4: -1740145640
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -13143,7 +13077,7 @@ MonoBehaviour:
     Data3: -887533909
     Data4: -1702095417
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -13171,7 +13105,7 @@ MonoBehaviour:
     Data3: -162648931
     Data4: -1890285318
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -13199,7 +13133,7 @@ MonoBehaviour:
     Data3: -86087275
     Data4: -15946767
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -13250,7 +13184,7 @@ MonoBehaviour:
     Data3: 969526147
     Data4: 378961141
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -13258,30 +13192,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7000
---- !u!114 &1181717376511261129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/Master.assets.bank
-  Name: Master.assets
-  StudioPath: bank:/Master.assets
-  lastModified: 638772000331444817
-  FileSizes:
-  - Name: Android
-    Value: 494
-  - Name: Desktop
-    Value: 494
-  - Name: PS5
-    Value: 494
-  Exists: 1
 --- !u!114 &1193816412023125829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13325,7 +13235,7 @@ MonoBehaviour:
     Data3: -1306479688
     Data4: 1507609082
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13402,7 +13312,7 @@ MonoBehaviour:
     Data3: 954343310
     Data4: -48630382
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13429,7 +13339,7 @@ MonoBehaviour:
     Data3: -582399817
     Data4: -1862034042
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -13456,7 +13366,7 @@ MonoBehaviour:
     Data3: -1114510666
     Data4: -1492711484
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -13483,7 +13393,7 @@ MonoBehaviour:
     Data3: 85113774
     Data4: 66159346
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13510,7 +13420,7 @@ MonoBehaviour:
     Data3: 328304293
     Data4: 549354342
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13539,7 +13449,7 @@ MonoBehaviour:
     Data3: -239480417
     Data4: 2071662418
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13567,7 +13477,7 @@ MonoBehaviour:
     Data3: 1312999073
     Data4: -1275362256
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -13594,7 +13504,7 @@ MonoBehaviour:
     Data3: -1612645441
     Data4: -1846919357
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13645,7 +13555,7 @@ MonoBehaviour:
     Data3: 73445270
     Data4: -377358825
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -13849,6 +13759,26 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &1817168945724548533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638832576118731990
+  FileSizes:
+  - Name: 
+    Value: 31710
+  Exists: 1
 --- !u!114 &1840990031769754601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13868,7 +13798,7 @@ MonoBehaviour:
     Data3: -797824582
     Data4: -1981255539
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13967,7 +13897,7 @@ MonoBehaviour:
     Data3: 827362962
     Data4: -2013540151
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14043,7 +13973,7 @@ MonoBehaviour:
     Data3: -2093401682
     Data4: -972583109
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14073,7 +14003,7 @@ MonoBehaviour:
     Data3: -1040618079
     Data4: 564943790
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14101,7 +14031,7 @@ MonoBehaviour:
     Data3: 1285192344
     Data4: -90274011
   Banks:
-  - {fileID: -7407354073116730458}
+  - {fileID: 675815011186500698}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -14154,7 +14084,7 @@ MonoBehaviour:
     Data3: -272947267
     Data4: -1570324035
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -14205,7 +14135,7 @@ MonoBehaviour:
     Data3: 313492378
     Data4: -2054580481
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -14232,8 +14162,8 @@ MonoBehaviour:
     Data3: 109951891
     Data4: -1803041065
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -4899013194757862480}
+  - {fileID: -4785832336176510516}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -14260,7 +14190,7 @@ MonoBehaviour:
     Data3: 724737178
     Data4: -166660008
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14313,7 +14243,7 @@ MonoBehaviour:
     Data3: 126173336
     Data4: 177259180
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14341,7 +14271,7 @@ MonoBehaviour:
     Data3: -2092415337
     Data4: -543355119
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14368,7 +14298,7 @@ MonoBehaviour:
     Data3: -2116807771
     Data4: -787789373
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14444,7 +14374,7 @@ MonoBehaviour:
     Data3: 671918510
     Data4: -43243626
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14471,7 +14401,7 @@ MonoBehaviour:
     Data3: 1030878109
     Data4: -483029355
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -14524,7 +14454,7 @@ MonoBehaviour:
     Data3: -1825888847
     Data4: -677012679
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14533,30 +14463,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 716
---- !u!114 &2253744701781632622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638772000331489746
-  FileSizes:
-  - Name: Android
-    Value: 1490720
-  - Name: Desktop
-    Value: 1490720
-  - Name: PS5
-    Value: 1490720
-  Exists: 1
 --- !u!114 &2259069322841633141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14576,7 +14482,7 @@ MonoBehaviour:
     Data3: 1481005717
     Data4: 1907385276
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14666,7 +14572,7 @@ MonoBehaviour:
     Data3: 1491585424
     Data4: -727840573
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14720,7 +14626,7 @@ MonoBehaviour:
     Data3: 1814154674
     Data4: 1174569170
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -14795,7 +14701,7 @@ MonoBehaviour:
     Data3: -830852935
     Data4: 1844673123
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14822,7 +14728,7 @@ MonoBehaviour:
     Data3: -1539747161
     Data4: 2021262818
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14873,7 +14779,7 @@ MonoBehaviour:
     Data3: -1303125609
     Data4: 571625698
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14900,7 +14806,7 @@ MonoBehaviour:
     Data3: -87465829
     Data4: 1242271065
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -14927,7 +14833,7 @@ MonoBehaviour:
     Data3: -862958681
     Data4: -2005171895
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14955,7 +14861,7 @@ MonoBehaviour:
     Data3: 2043240637
     Data4: -340964696
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15006,7 +14912,7 @@ MonoBehaviour:
     Data3: 488925829
     Data4: -129019706
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -15035,7 +14941,7 @@ MonoBehaviour:
     Data3: -662144845
     Data4: -922220153
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15062,7 +14968,7 @@ MonoBehaviour:
     Data3: 31432343
     Data4: 1826853146
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15161,7 +15067,7 @@ MonoBehaviour:
     Data3: -220957028
     Data4: -232177743
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15191,7 +15097,7 @@ MonoBehaviour:
     Data3: 741495437
     Data4: -1803095626
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15218,7 +15124,7 @@ MonoBehaviour:
     Data3: -1019099233
     Data4: 257594358
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15269,7 +15175,7 @@ MonoBehaviour:
     Data3: -1584893787
     Data4: 1901629186
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -15297,7 +15203,7 @@ MonoBehaviour:
     Data3: -2044031348
     Data4: 1674916448
   Banks:
-  - {fileID: 5501692000790631586}
+  - {fileID: 7829266213782053999}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -15326,7 +15232,7 @@ MonoBehaviour:
     Data3: -1754222463
     Data4: 1722756367
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -15353,7 +15259,7 @@ MonoBehaviour:
     Data3: 1022628783
     Data4: 665813723
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15438,7 +15344,7 @@ MonoBehaviour:
     Data3: 26035626
     Data4: -767427698
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -15466,7 +15372,7 @@ MonoBehaviour:
     Data3: -1434474049
     Data4: 667065273
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -15493,7 +15399,7 @@ MonoBehaviour:
     Data3: -391302742
     Data4: -418283936
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15520,7 +15426,7 @@ MonoBehaviour:
     Data3: -964906857
     Data4: 934361310
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -15547,7 +15453,7 @@ MonoBehaviour:
     Data3: -475363910
     Data4: -1958642739
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15574,7 +15480,7 @@ MonoBehaviour:
     Data3: -1653956984
     Data4: 1083611509
   Banks:
-  - {fileID: -6659670041291865194}
+  - {fileID: 8275641784262249996}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15625,7 +15531,7 @@ MonoBehaviour:
     Data3: -1744845941
     Data4: -1978040169
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15653,7 +15559,7 @@ MonoBehaviour:
     Data3: 1939962519
     Data4: 589675186
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -15680,7 +15586,7 @@ MonoBehaviour:
     Data3: 700211108
     Data4: -1311590280
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15707,8 +15613,8 @@ MonoBehaviour:
     Data3: 1992343712
     Data4: 1502001481
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -15807,7 +15713,7 @@ MonoBehaviour:
     Data3: -185586280
     Data4: -272750779
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15837,7 +15743,7 @@ MonoBehaviour:
     Data3: -901253202
     Data4: -1060400891
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15848,30 +15754,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &3368139438095342191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_flesh_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_flesh_biome.assets.bank
-  Name: speak_flesh_biome.assets
-  StudioPath: bank:/flesh_biome/speak_flesh_biome.assets
-  lastModified: 638772000356943165
-  FileSizes:
-  - Name: Android
-    Value: 4043424
-  - Name: Desktop
-    Value: 4043424
-  - Name: PS5
-    Value: 2996416
-  Exists: 1
 --- !u!114 &3372476327495384233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15915,7 +15797,7 @@ MonoBehaviour:
     Data3: -1890529661
     Data4: 1336249624
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -15969,7 +15851,7 @@ MonoBehaviour:
     Data3: -1274456911
     Data4: -423211476
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16020,7 +15902,7 @@ MonoBehaviour:
     Data3: 1545423000
     Data4: 1452362640
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16047,7 +15929,7 @@ MonoBehaviour:
     Data3: -2099804270
     Data4: 1405326572
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -16173,7 +16055,7 @@ MonoBehaviour:
     Data3: 2031329199
     Data4: -1728336645
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16201,7 +16083,7 @@ MonoBehaviour:
     Data3: 1807482253
     Data4: -541690123
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16252,7 +16134,7 @@ MonoBehaviour:
     Data3: -425577548
     Data4: -1321445971
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16279,7 +16161,7 @@ MonoBehaviour:
     Data3: -660617822
     Data4: 2056308028
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16306,7 +16188,7 @@ MonoBehaviour:
     Data3: 290126508
     Data4: 1352913563
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16357,7 +16239,7 @@ MonoBehaviour:
     Data3: -325237847
     Data4: 236415839
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16365,6 +16247,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10010
+--- !u!114 &3704152176580463257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_blood_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_blood_biome.assets.bank
+  Name: sfx_blood_biome.assets
+  StudioPath: bank:/blood_biome/sfx_blood_biome.assets
+  lastModified: 638832576125061986
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3708164306152365259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16384,7 +16284,7 @@ MonoBehaviour:
     Data3: 1204896408
     Data4: 1262275278
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16435,7 +16335,7 @@ MonoBehaviour:
     Data3: 1254570397
     Data4: -246526289
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16462,7 +16362,7 @@ MonoBehaviour:
     Data3: 1798925188
     Data4: 2138778307
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16494,30 +16394,6 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
-  Exists: 1
---- !u!114 &3746943020131627489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_enemy_voicelines.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_enemy_voicelines.assets.bank
-  Name: speak_enemy_voicelines.assets
-  StudioPath: bank:/shared/speak_enemy_voicelines.assets
-  lastModified: 638772000356788422
-  FileSizes:
-  - Name: Android
-    Value: 1893664
-  - Name: Desktop
-    Value: 1893664
-  - Name: PS5
-    Value: 1569920
   Exists: 1
 --- !u!114 &3748739517339705360
 MonoBehaviour:
@@ -16562,7 +16438,7 @@ MonoBehaviour:
     Data3: 1299440782
     Data4: 206633447
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -16592,7 +16468,7 @@ MonoBehaviour:
     Data3: -121199210
     Data4: 1501485780
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16600,30 +16476,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1300
---- !u!114 &3829870530320367286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_guts_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_guts_biome.bank
-  Name: speak_guts_biome
-  StudioPath: bank:/guts_biome/speak_guts_biome
-  lastModified: 638772000357453301
-  FileSizes:
-  - Name: Android
-    Value: 6360
-  - Name: Desktop
-    Value: 6360
-  - Name: PS5
-    Value: 6360
-  Exists: 1
 --- !u!114 &3839202128329493498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16667,7 +16519,7 @@ MonoBehaviour:
     Data3: -1518613375
     Data4: -2102470551
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16694,7 +16546,7 @@ MonoBehaviour:
     Data3: -1135717467
     Data4: -70573063
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16721,8 +16573,8 @@ MonoBehaviour:
     Data3: -1644072300
     Data4: 1248175895
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -16749,7 +16601,7 @@ MonoBehaviour:
     Data3: -540105542
     Data4: 935238850
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -16776,8 +16628,8 @@ MonoBehaviour:
     Data3: 658345896
     Data4: 499553300
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -16831,7 +16683,7 @@ MonoBehaviour:
     Data3: -824894055
     Data4: 455392461
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -16858,7 +16710,7 @@ MonoBehaviour:
     Data3: -31786089
     Data4: -677187298
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -16909,7 +16761,7 @@ MonoBehaviour:
     Data3: 2044903334
     Data4: -519781617
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -16987,7 +16839,7 @@ MonoBehaviour:
     Data3: 1263879853
     Data4: -1302233459
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17039,7 +16891,7 @@ MonoBehaviour:
     Data3: 399131785
     Data4: -2077811354
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -17066,7 +16918,7 @@ MonoBehaviour:
     Data3: -680813435
     Data4: -1794647725
   Banks:
-  - {fileID: -4703373926714893600}
+  - {fileID: 7163085532352974555}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17168,7 +17020,7 @@ MonoBehaviour:
     Data3: 1371886738
     Data4: 114763591
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17195,7 +17047,7 @@ MonoBehaviour:
     Data3: -1631217731
     Data4: 1241319674
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -17246,7 +17098,7 @@ MonoBehaviour:
     Data3: -1675739234
     Data4: -972005986
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17273,7 +17125,7 @@ MonoBehaviour:
     Data3: 1194918583
     Data4: -1454466556
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17300,7 +17152,7 @@ MonoBehaviour:
     Data3: -1890950524
     Data4: 1779806374
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17327,7 +17179,7 @@ MonoBehaviour:
     Data3: 1715707054
     Data4: -811917679
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -17378,7 +17230,7 @@ MonoBehaviour:
     Data3: -1799824479
     Data4: 414748649
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -17386,30 +17238,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5750
---- !u!114 &4414401085150745020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_bone_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_bone_biome.assets.bank
-  Name: speak_bone_biome.assets
-  StudioPath: bank:/bone_biome/speak_bone_biome.assets
-  lastModified: 638772000356092004
-  FileSizes:
-  - Name: Android
-    Value: 4610848
-  - Name: Desktop
-    Value: 4610848
-  - Name: PS5
-    Value: 3285152
-  Exists: 1
 --- !u!114 &4440801385709781442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17453,7 +17281,7 @@ MonoBehaviour:
     Data3: 803777423
     Data4: -63192870
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -17480,7 +17308,7 @@ MonoBehaviour:
     Data3: 1510983864
     Data4: -165168742
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17507,7 +17335,7 @@ MonoBehaviour:
     Data3: 184981140
     Data4: -1995035414
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17534,7 +17362,7 @@ MonoBehaviour:
     Data3: 429971629
     Data4: -74115054
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17561,7 +17389,7 @@ MonoBehaviour:
     Data3: -274005101
     Data4: 1357478467
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17612,7 +17440,7 @@ MonoBehaviour:
     Data3: -1237077626
     Data4: 383479066
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -17639,7 +17467,7 @@ MonoBehaviour:
     Data3: -2076898406
     Data4: -1700915511
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17667,7 +17495,7 @@ MonoBehaviour:
     Data3: 2006120580
     Data4: 1250744648
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17675,6 +17503,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1605
+--- !u!114 &4653953895381244759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/Master.assets.bank
+  Name: Master.assets
+  StudioPath: bank:/Master.assets
+  lastModified: 638832576118621928
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4657809703198474957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17724,7 +17570,7 @@ MonoBehaviour:
     Data3: 684708513
     Data4: 2014098363
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -17775,7 +17621,7 @@ MonoBehaviour:
     Data3: -1363816810
     Data4: -1762627829
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17784,6 +17630,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1149
+--- !u!114 &4730524478776271200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_flesh_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_flesh_biome.assets.bank
+  Name: sfx_flesh_biome.assets
+  StudioPath: bank:/flesh_biome/sfx_flesh_biome.assets
+  lastModified: 638832576131361999
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4762423921568014822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17803,7 +17667,7 @@ MonoBehaviour:
     Data3: 1656015256
     Data4: -459272331
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17830,7 +17694,7 @@ MonoBehaviour:
     Data3: 679052462
     Data4: 144049000
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -17857,7 +17721,7 @@ MonoBehaviour:
     Data3: -107361357
     Data4: -598247834
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -17934,7 +17798,7 @@ MonoBehaviour:
     Data3: 264287411
     Data4: 1812393329
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -18065,7 +17929,7 @@ MonoBehaviour:
     Data3: 1334402212
     Data4: -827083135
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -18118,14 +17982,14 @@ MonoBehaviour:
     Data3: 1177734330
     Data4: 493882839
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
-  - {fileID: 5501692000790631586}
-  - {fileID: -830772471645755683}
-  - {fileID: -4703373926714893600}
-  - {fileID: -5249121367135236531}
-  - {fileID: 3829870530320367286}
-  - {fileID: -7407354073116730458}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
+  - {fileID: 7829266213782053999}
+  - {fileID: 5551649330480297117}
+  - {fileID: 7163085532352974555}
+  - {fileID: -250407773703256111}
+  - {fileID: -2581286393255870394}
+  - {fileID: 675815011186500698}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -18176,7 +18040,7 @@ MonoBehaviour:
     Data3: 1542207371
     Data4: 473506690
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18227,7 +18091,7 @@ MonoBehaviour:
     Data3: 265256328
     Data4: 895444943
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -18237,30 +18101,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1650
---- !u!114 &5254332310615631916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_bone_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_bone_biome.bank
-  Name: sfx_bone_biome
-  StudioPath: bank:/bone_biome/sfx_bone_biome
-  lastModified: 638772000348132481
-  FileSizes:
-  - Name: Android
-    Value: 287004
-  - Name: Desktop
-    Value: 287004
-  - Name: PS5
-    Value: 287004
-  Exists: 1
 --- !u!114 &5254922678313810385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18304,7 +18144,7 @@ MonoBehaviour:
     Data3: -1031377495
     Data4: 812920352
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18331,8 +18171,8 @@ MonoBehaviour:
     Data3: 1368656823
     Data4: -521614265
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 5254332310615631916}
+  - {fileID: -4785832336176510516}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18362,7 +18202,7 @@ MonoBehaviour:
     Data3: 481870495
     Data4: -243563075
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18414,7 +18254,7 @@ MonoBehaviour:
     Data3: 715685041
     Data4: 1977942108
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18425,30 +18265,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &5389629636270302789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_blood_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_blood_biome.assets.bank
-  Name: sfx_blood_biome.assets
-  StudioPath: bank:/blood_biome/sfx_blood_biome.assets
-  lastModified: 638772000346721912
-  FileSizes:
-  - Name: Android
-    Value: 15933120
-  - Name: Desktop
-    Value: 15933120
-  - Name: PS5
-    Value: 14272448
-  Exists: 1
 --- !u!114 &5396840841501331266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18468,7 +18284,7 @@ MonoBehaviour:
     Data3: -786623828
     Data4: 1809062186
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18495,7 +18311,7 @@ MonoBehaviour:
     Data3: 928199603
     Data4: 1989716670
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -18546,7 +18362,7 @@ MonoBehaviour:
     Data3: -375274830
     Data4: -445188781
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -18574,7 +18390,7 @@ MonoBehaviour:
     Data3: -158127230
     Data4: 1492814839
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18582,30 +18398,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2100
---- !u!114 &5501692000790631586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_blood_biome.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_blood_biome.bank
-  Name: speak_blood_biome
-  StudioPath: bank:/blood_biome/speak_blood_biome
-  lastModified: 638772000355799238
-  FileSizes:
-  - Name: Android
-    Value: 6360
-  - Name: Desktop
-    Value: 6360
-  - Name: PS5
-    Value: 6360
-  Exists: 1
 --- !u!114 &5517286527410271778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18625,7 +18417,7 @@ MonoBehaviour:
     Data3: 1822009223
     Data4: -1682186558
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -18635,6 +18427,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3361
+--- !u!114 &5551649330480297117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_bone_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_bone_biome.bank
+  Name: speak_bone_biome
+  StudioPath: bank:/bone_biome/speak_bone_biome
+  lastModified: 638832576133755461
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5572335279761076084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18654,8 +18464,8 @@ MonoBehaviour:
     Data3: -1885378126
     Data4: 1861882392
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -1718836449170162515}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18755,7 +18565,7 @@ MonoBehaviour:
     Data3: -1864290942
     Data4: 1077902988
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -18836,7 +18646,7 @@ MonoBehaviour:
     Data3: 416242086
     Data4: 1918909864
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -18844,30 +18654,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 28000
---- !u!114 &5789749513413639066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_hub.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_hub.assets.bank
-  Name: sfx_hub.assets
-  StudioPath: bank:/hub/sfx_hub.assets
-  lastModified: 638772000355496909
-  FileSizes:
-  - Name: Android
-    Value: 8336800
-  - Name: Desktop
-    Value: 8336800
-  - Name: PS5
-    Value: 7888384
-  Exists: 1
 --- !u!114 &5810435970561424826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18965,7 +18751,7 @@ MonoBehaviour:
     Data3: -542781009
     Data4: 515725736
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -18992,7 +18778,7 @@ MonoBehaviour:
     Data3: 1437917101
     Data4: 1710524267
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19019,7 +18805,7 @@ MonoBehaviour:
     Data3: 75842182
     Data4: -1095753280
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19046,7 +18832,7 @@ MonoBehaviour:
     Data3: -1818185310
     Data4: 865200625
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -19073,7 +18859,7 @@ MonoBehaviour:
     Data3: -678765418
     Data4: -323053423
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -19100,7 +18886,7 @@ MonoBehaviour:
     Data3: -716693079
     Data4: -680937741
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19128,7 +18914,7 @@ MonoBehaviour:
     Data3: 1308975532
     Data4: -1061769270
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -19156,7 +18942,7 @@ MonoBehaviour:
     Data3: 1125423241
     Data4: -1641004450
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19231,7 +19017,7 @@ MonoBehaviour:
     Data3: -881770074
     Data4: -2040099683
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19306,7 +19092,7 @@ MonoBehaviour:
     Data3: -959185764
     Data4: 1113573051
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19318,6 +19104,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6166264858941993813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_brain_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_brain_biome.bank
+  Name: sfx_brain_biome
+  StudioPath: bank:/brain_biome/sfx_brain_biome
+  lastModified: 638832576130291990
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6190158764447915578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19364,7 +19168,7 @@ MonoBehaviour:
     Data3: 1173796509
     Data4: -534985608
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19392,8 +19196,8 @@ MonoBehaviour:
     Data3: -1601458557
     Data4: -1317964133
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -4899013194757862480}
+  - {fileID: -4785832336176510516}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19420,7 +19224,7 @@ MonoBehaviour:
     Data3: 1285697198
     Data4: -1668011622
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19447,7 +19251,7 @@ MonoBehaviour:
     Data3: -1185228377
     Data4: 1036301822
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19474,7 +19278,7 @@ MonoBehaviour:
     Data3: -1592825187
     Data4: 664568112
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -19482,30 +19286,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 24909
---- !u!114 &6367520487648382841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_guts_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_guts_biome.assets.bank
-  Name: sfx_guts_biome.assets
-  StudioPath: bank:/guts_biome/sfx_guts_biome.assets
-  lastModified: 638772000354366788
-  FileSizes:
-  - Name: Android
-    Value: 18589792
-  - Name: Desktop
-    Value: 18589792
-  - Name: PS5
-    Value: 16616096
-  Exists: 1
 --- !u!114 &6443580551711179999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19525,7 +19305,7 @@ MonoBehaviour:
     Data3: 2128351896
     Data4: -1189394555
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19579,7 +19359,7 @@ MonoBehaviour:
     Data3: 1320066453
     Data4: -836500683
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19606,7 +19386,7 @@ MonoBehaviour:
     Data3: -1168963956
     Data4: -491245099
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -19658,8 +19438,8 @@ MonoBehaviour:
     Data3: -1475305048
     Data4: -7219616
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -19686,7 +19466,7 @@ MonoBehaviour:
     Data3: 1705926547
     Data4: 1661628900
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19713,7 +19493,7 @@ MonoBehaviour:
     Data3: -1451988312
     Data4: -1398903568
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19764,7 +19544,7 @@ MonoBehaviour:
     Data3: 675982008
     Data4: 1041227391
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -19794,7 +19574,7 @@ MonoBehaviour:
     Data3: -230394992
     Data4: 1606983926
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -19822,7 +19602,7 @@ MonoBehaviour:
     Data3: -1568869991
     Data4: -2002373658
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -19850,7 +19630,7 @@ MonoBehaviour:
     Data3: -390989646
     Data4: -819972887
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19878,7 +19658,7 @@ MonoBehaviour:
     Data3: 46282686
     Data4: -1607928455
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -19930,7 +19710,7 @@ MonoBehaviour:
     Data3: 1852160897
     Data4: -347732127
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -19957,7 +19737,7 @@ MonoBehaviour:
     Data3: 46816660
     Data4: -843669706
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -19984,7 +19764,7 @@ MonoBehaviour:
     Data3: 1576254864
     Data4: 1908869766
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20060,7 +19840,7 @@ MonoBehaviour:
     Data3: -1144185184
     Data4: -519583512
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20087,7 +19867,7 @@ MonoBehaviour:
     Data3: -707968069
     Data4: 527547420
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20126,6 +19906,24 @@ MonoBehaviour:
   - Blood
   - Brain
   Exists: 1
+--- !u!114 &7008773921424359903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_brain_biome.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_brain_biome.assets.bank
+  Name: sfx_brain_biome.assets
+  StudioPath: bank:/brain_biome/sfx_brain_biome.assets
+  lastModified: 638832576130221981
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7016803003826989835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20145,7 +19943,7 @@ MonoBehaviour:
     Data3: -221018178
     Data4: -2082902961
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20220,7 +20018,7 @@ MonoBehaviour:
     Data3: 224296326
     Data4: -667615387
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20247,7 +20045,7 @@ MonoBehaviour:
     Data3: -766868576
     Data4: 553844879
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -20274,7 +20072,7 @@ MonoBehaviour:
     Data3: 534622346
     Data4: 1573532516
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -20349,8 +20147,8 @@ MonoBehaviour:
     Data3: 186493357
     Data4: 1984297037
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 2253744701781632622}
+  - {fileID: -4785832336176510516}
+  - {fileID: -2580570092918199057}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -20358,6 +20156,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &7163085532352974555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_brain_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_brain_biome.bank
+  Name: speak_brain_biome
+  StudioPath: bank:/brain_biome/speak_brain_biome
+  lastModified: 638832576134065468
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7164689538716346402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20425,7 +20241,7 @@ MonoBehaviour:
     Data3: -905779042
     Data4: 1469973733
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -20453,7 +20269,7 @@ MonoBehaviour:
     Data3: 1893094822
     Data4: 923252717
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -20485,6 +20301,24 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &7275927497663273849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx_hub.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/sfx_hub.bank
+  Name: sfx_hub
+  StudioPath: bank:/hub/sfx_hub
+  lastModified: 638832576133135466
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7284812562915513276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20504,7 +20338,7 @@ MonoBehaviour:
     Data3: 852246947
     Data4: -1315010038
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -20579,7 +20413,7 @@ MonoBehaviour:
     Data3: 252822410
     Data4: 1582489171
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20608,7 +20442,7 @@ MonoBehaviour:
     Data3: 992756386
     Data4: -787938885
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20635,7 +20469,7 @@ MonoBehaviour:
     Data3: 93482662
     Data4: 1577300955
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20697,7 +20531,7 @@ MonoBehaviour:
     Data3: 448258238
     Data4: 178131497
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -20724,7 +20558,7 @@ MonoBehaviour:
     Data3: 180457099
     Data4: -1796709567
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20776,7 +20610,7 @@ MonoBehaviour:
     Data3: -1330924891
     Data4: -1419600767
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20832,7 +20666,7 @@ MonoBehaviour:
     Data3: 1183949758
     Data4: -146808158
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -20886,7 +20720,7 @@ MonoBehaviour:
     Data3: 456850613
     Data4: -1063109664
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -20961,7 +20795,7 @@ MonoBehaviour:
     Data3: -693614683
     Data4: -1368940795
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -21012,7 +20846,7 @@ MonoBehaviour:
     Data3: -1774332003
     Data4: 1395549204
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -21090,7 +20924,7 @@ MonoBehaviour:
     Data3: -1212569975
     Data4: 2085461267
   Banks:
-  - {fileID: -830772471645755683}
+  - {fileID: 5551649330480297117}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21098,6 +20932,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 70
   Length: 0
+--- !u!114 &7706271471407662403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/default.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/default.assets.bank
+  Name: default.assets
+  StudioPath: bank:/shared/default.assets
+  lastModified: 638832576123812006
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7730905982892219731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21122,6 +20974,24 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &7829266213782053999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_blood_biome.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_blood_biome.bank
+  Name: speak_blood_biome
+  StudioPath: bank:/blood_biome/speak_blood_biome
+  lastModified: 638832576133435452
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7872490951708211599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21141,7 +21011,7 @@ MonoBehaviour:
     Data3: 2105754042
     Data4: -596627570
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21169,7 +21039,7 @@ MonoBehaviour:
     Data3: 399766423
     Data4: -458535106
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21196,7 +21066,7 @@ MonoBehaviour:
     Data3: 2086824363
     Data4: -1729065335
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21271,7 +21141,7 @@ MonoBehaviour:
     Data3: -1530041415
     Data4: -1645262848
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -21279,30 +21149,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 32937
---- !u!114 &7984511304320376987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/default.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/default.assets.bank
-  Name: default.assets
-  StudioPath: bank:/shared/default.assets
-  lastModified: 638772000344849083
-  FileSizes:
-  - Name: Android
-    Value: 86258624
-  - Name: Desktop
-    Value: 86258624
-  - Name: PS5
-    Value: 80642240
-  Exists: 1
 --- !u!114 &7992121426679501997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21322,7 +21168,7 @@ MonoBehaviour:
     Data3: 1087962547
     Data4: 86058332
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21349,7 +21195,7 @@ MonoBehaviour:
     Data3: -1970896994
     Data4: -62944443
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21377,7 +21223,7 @@ MonoBehaviour:
     Data3: 1550058123
     Data4: -1808450196
   Banks:
-  - {fileID: -6757230153878987490}
+  - {fileID: -4067754940849847319}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21406,7 +21252,7 @@ MonoBehaviour:
     Data3: 1576130971
     Data4: 870783488
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21457,7 +21303,7 @@ MonoBehaviour:
     Data3: 2037823130
     Data4: 1376755551
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21485,7 +21331,7 @@ MonoBehaviour:
     Data3: 684979348
     Data4: -588451960
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -21537,7 +21383,7 @@ MonoBehaviour:
     Data3: -1462746730
     Data4: -1647642793
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21564,7 +21410,7 @@ MonoBehaviour:
     Data3: -2054674242
     Data4: 985934774
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -21572,54 +21418,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 100
   Length: 8500
---- !u!114 &8149278087582393516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx_flesh_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/sfx_flesh_biome.assets.bank
-  Name: sfx_flesh_biome.assets
-  StudioPath: bank:/flesh_biome/sfx_flesh_biome.assets
-  lastModified: 638772000352882163
-  FileSizes:
-  - Name: Android
-    Value: 16987648
-  - Name: Desktop
-    Value: 16987648
-  - Name: PS5
-    Value: 15362528
-  Exists: 1
---- !u!114 &8172722745611789961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/speak_guts_biome.assets.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/graves/Build/Desktop/speak_guts_biome.assets.bank
-  Name: speak_guts_biome.assets
-  StudioPath: bank:/guts_biome/speak_guts_biome.assets
-  lastModified: 638772000357438198
-  FileSizes:
-  - Name: Android
-    Value: 4729216
-  - Name: Desktop
-    Value: 4729216
-  - Name: PS5
-    Value: 3685792
-  Exists: 1
 --- !u!114 &8178224451798846947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21639,7 +21437,7 @@ MonoBehaviour:
     Data3: -907480663
     Data4: -1210021926
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -21666,8 +21464,8 @@ MonoBehaviour:
     Data3: -1525390719
     Data4: -11863896
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: -4899013194757862480}
+  - {fileID: -4785832336176510516}
+  - {fileID: 6166264858941993813}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -21742,7 +21540,7 @@ MonoBehaviour:
     Data3: -1890057080
     Data4: -452452853
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -21793,7 +21591,7 @@ MonoBehaviour:
     Data3: -768378450
     Data4: -179735202
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21801,6 +21599,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 5
   Length: 1250
+--- !u!114 &8275641784262249996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/speak_enemy_voicelines.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/FMOD/graves/Build/speak_enemy_voicelines.bank
+  Name: speak_enemy_voicelines
+  StudioPath: bank:/shared/speak_enemy_voicelines
+  lastModified: 638832576134278970
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8316440784143930201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21820,7 +21636,7 @@ MonoBehaviour:
     Data3: -503914618
     Data4: -610321544
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21850,7 +21666,7 @@ MonoBehaviour:
     Data3: 591228043
     Data4: 984314020
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -21901,7 +21717,7 @@ MonoBehaviour:
     Data3: 459684276
     Data4: 690282535
   Banks:
-  - {fileID: -4484382116493904425}
+  - {fileID: 7275927497663273849}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -21928,7 +21744,7 @@ MonoBehaviour:
     Data3: -1709941348
     Data4: -2105055622
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -21980,7 +21796,7 @@ MonoBehaviour:
     Data3: -757264207
     Data4: -199316492
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22031,7 +21847,7 @@ MonoBehaviour:
     Data3: 1978498985
     Data4: -852788248
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -22058,7 +21874,7 @@ MonoBehaviour:
     Data3: -10096485
     Data4: -1887788832
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -22088,7 +21904,7 @@ MonoBehaviour:
     Data3: -39226704
     Data4: 1112147176
   Banks:
-  - {fileID: -1718836449170162515}
+  - {fileID: -2914846608563526020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22115,7 +21931,7 @@ MonoBehaviour:
     Data3: 2087806854
     Data4: -1049047735
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22142,7 +21958,7 @@ MonoBehaviour:
     Data3: 542879409
     Data4: 361873949
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22169,7 +21985,7 @@ MonoBehaviour:
     Data3: -1235805777
     Data4: 1005836181
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22196,8 +22012,8 @@ MonoBehaviour:
     Data3: 1473136790
     Data4: 1745191520
   Banks:
-  - {fileID: -2561186874792996807}
-  - {fileID: 5254332310615631916}
+  - {fileID: -4785832336176510516}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22225,7 +22041,7 @@ MonoBehaviour:
     Data3: -270963327
     Data4: -1094205365
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -22253,7 +22069,7 @@ MonoBehaviour:
     Data3: -1920801612
     Data4: -2111222711
   Banks:
-  - {fileID: -1459925092406381737}
+  - {fileID: -4470156319687228557}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -22304,7 +22120,7 @@ MonoBehaviour:
     Data3: -1163942512
     Data4: -39233585
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22331,7 +22147,7 @@ MonoBehaviour:
     Data3: 355394475
     Data4: -767249895
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -22358,7 +22174,7 @@ MonoBehaviour:
     Data3: -34647645
     Data4: -1987010710
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22433,7 +22249,7 @@ MonoBehaviour:
     Data3: 711151799
     Data4: 953279079
   Banks:
-  - {fileID: -4899013194757862480}
+  - {fileID: 6166264858941993813}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -22510,7 +22326,7 @@ MonoBehaviour:
     Data3: -338631248
     Data4: 725504932
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -22539,7 +22355,7 @@ MonoBehaviour:
     Data3: 1247899787
     Data4: -551487283
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -22568,7 +22384,7 @@ MonoBehaviour:
     Data3: -79271534
     Data4: 713431950
   Banks:
-  - {fileID: 5254332310615631916}
+  - {fileID: -4100689479638933564}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22646,7 +22462,7 @@ MonoBehaviour:
     Data3: 432506522
     Data4: 801206741
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -22674,7 +22490,7 @@ MonoBehaviour:
     Data3: 306503315
     Data4: -818053759
   Banks:
-  - {fileID: -2561186874792996807}
+  - {fileID: -4785832336176510516}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
