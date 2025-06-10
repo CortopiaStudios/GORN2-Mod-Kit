@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1452505073540809046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6261839631401501997}
+  - component: {fileID: 69198105691154166}
+  - component: {fileID: 2229877370647030905}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &6261839631401501997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452505073540809046}
+  m_LocalRotation: {x: 0.19107068, y: 0.036028072, z: 0.68371296, w: 0.70337087}
+  m_LocalPosition: {x: -0.157, y: 4.38, z: -11.221}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 12.681, y: 18.648, z: 90.466}
+--- !u!33 &69198105691154166
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452505073540809046}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &2229877370647030905
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452505073540809046}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2015217330497715740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6480233206140048720}
+  - component: {fileID: 5302875879943174324}
+  - component: {fileID: 9040162365513236653}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &6480233206140048720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015217330497715740}
+  m_LocalRotation: {x: -0.5622197, y: -0.63856846, z: 0.43345127, w: 0.29708475}
+  m_LocalPosition: {x: -1.136, y: 4.501, z: -12.402}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 12.681, y: -117.317, z: 90.466}
+--- !u!33 &5302875879943174324
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015217330497715740}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &9040162365513236653
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015217330497715740}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2243702603949315806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5540435071121316958}
+  - component: {fileID: 4446608254273930667}
+  - component: {fileID: 4269471521509876000}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &5540435071121316958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243702603949315806}
+  m_LocalRotation: {x: -0.40679038, y: -0.5525242, z: 0.55178744, w: 0.47409827}
+  m_LocalPosition: {x: -1.242, y: 4.469, z: -11.901}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 12.946, y: -86.56, z: 86.464}
+--- !u!33 &4446608254273930667
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243702603949315806}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &4269471521509876000
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243702603949315806}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &4441239763823546074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 149615165276092490}
+  - component: {fileID: 1578169854791891303}
+  - component: {fileID: 3858166540805682185}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &149615165276092490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4441239763823546074}
+  m_LocalRotation: {x: -0.017628623, y: -0.17191084, z: 0.6626451, w: 0.7287231}
+  m_LocalPosition: {x: -0.69, y: 4.392, z: -11.192}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 11.662, y: -16.242, z: 82.892}
+--- !u!33 &1578169854791891303
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4441239763823546074}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &3858166540805682185
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4441239763823546074}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5941805697446899818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4862650558432850098}
+  - component: {fileID: 2086134026635176332}
+  - component: {fileID: 2622266834908186946}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &4862650558432850098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5941805697446899818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.534, y: 5.28, z: -12.865}
+  m_LocalScale: {x: 2.3916, y: 2.2916589, z: 0.13761}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2086134026635176332
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5941805697446899818}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &2622266834908186946
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5941805697446899818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6171752210109391530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 590650298268599985}
+  - component: {fileID: 8698794530792945158}
+  - component: {fileID: 388924160542478501}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &590650298268599985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6171752210109391530}
+  m_LocalRotation: {x: 0.70752776, y: 0.67215145, z: 0.05810715, w: 0.21033442}
+  m_LocalPosition: {x: -0.157, y: 4.543, z: -12.733}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 12.681, y: 158.031, z: 90.467}
+--- !u!33 &8698794530792945158
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6171752210109391530}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &388924160542478501
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6171752210109391530}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &7107376753386194687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7260445113886468940}
+  - component: {fileID: 7346354197953961863}
+  - component: {fileID: 2110202635717565683}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &7260445113886468940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107376753386194687}
+  m_LocalRotation: {x: -0.20477396, y: -0.3717389, z: 0.6457402, w: 0.63474196}
+  m_LocalPosition: {x: -1.035, y: 4.435, z: -11.404}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 12.717, y: -49.016, z: 85.168}
+--- !u!33 &7346354197953961863
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107376753386194687}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &2110202635717565683
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107376753386194687}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &7494996653458133927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6740408444534298656}
+  - component: {fileID: 6154302774579480805}
+  - component: {fileID: 4030218485343255321}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &6740408444534298656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494996653458133927}
+  m_LocalRotation: {x: 0.37033767, y: 0.19647448, z: 0.6383389, w: 0.6455782}
+  m_LocalPosition: {x: 0.239, y: 4.4, z: -11.549}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 13.14, y: 48.246, z: 95.259}
+--- !u!33 &6154302774579480805
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494996653458133927}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &4030218485343255321
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494996653458133927}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &7908866424194798835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4563130649219802120}
+  - component: {fileID: 4635032268642383679}
+  - component: {fileID: 5974056286836667195}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &4563130649219802120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908866424194798835}
+  m_LocalRotation: {x: 0.67335856, y: 0.5433144, z: 0.3035106, w: 0.39909786}
+  m_LocalPosition: {x: 0.263, y: 4.505, z: -12.465}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 11.986, y: 120.55, z: 95.341}
+--- !u!33 &4635032268642383679
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908866424194798835}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &5974056286836667195
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908866424194798835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8285686586723336910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387171171557753757}
+  - component: {fileID: 3195176666568405001}
+  - component: {fileID: 5762696471210379169}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &1387171171557753757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285686586723336910}
+  m_LocalRotation: {x: 0.5892604, y: 0.42528057, z: 0.4540527, w: 0.5155044}
+  m_LocalPosition: {x: 0.389, y: 4.475, z: -12.022}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 12.787, y: 93.303, z: 96.286}
+--- !u!33 &3195176666568405001
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285686586723336910}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &5762696471210379169
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285686586723336910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8286040151037382636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2401098615807463017}
+  - component: {fileID: 3201598421470903491}
+  - component: {fileID: 255246361513744040}
+  m_Layer: 3
+  m_Name: COL_Basketballhoop_06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!4 &2401098615807463017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8286040151037382636}
+  m_LocalRotation: {x: -0.6459447, y: -0.7311651, z: 0.21476923, w: 0.045024324}
+  m_LocalPosition: {x: -0.765, y: 4.494, z: -12.73}
+  m_LocalScale: {x: 0.23457764, y: 0.6661119, z: 0.0021474075}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1253636788506247291}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 14.827, y: -159.199, z: 85.654}
+--- !u!33 &3201598421470903491
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8286040151037382636}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &255246361513744040
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8286040151037382636}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1652655557200029584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 111300000, guid: 3da2af5025a35bf4686b3ffd5d2eefd6, type: 2}
+    - target: {fileID: -2546970862803128349, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2546970862803128349, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_Name
+      value: MSH_Guts_Basketballhoop
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605068730165349350, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605068730165349350, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4862650558432850098}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 149615165276092490}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7260445113886468940}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5540435071121316958}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6480233206140048720}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2401098615807463017}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6261839631401501997}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6740408444534298656}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1387171171557753757}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4563130649219802120}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 590650298268599985}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3245388058978808157}
+  m_SourcePrefab: {fileID: 100100000, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+--- !u!4 &1253636788506247291 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+  m_PrefabInstance: {fileID: 1652655557200029584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1886446019679787713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e9c0fa33bb7eff94fbd67d1f2c5a85c4, type: 3}
+  m_PrefabInstance: {fileID: 1652655557200029584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3245388058978808157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886446019679787713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b70a4a10f24c12be8fe19fb5a68378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - standard:
+      m_AssetGUID: 731db1db1e8947340ab0f569528ed86a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    simple:
+      m_AssetGUID: 58e7950b6d9142e4aa8455fb80c7bce9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
