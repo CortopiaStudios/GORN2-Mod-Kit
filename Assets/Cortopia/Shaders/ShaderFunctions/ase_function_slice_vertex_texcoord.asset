@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
-  m_Name: ase_function_slice_vertex_position
+  m_Name: ase_function_slice_vertex_texcoord
   m_EditorClassIdentifier: 
   m_functionInfo: "// Made with Amplify Shader Editor v1.9.2\n// Available at the
-    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.CustomExpressionNode;2;95.17352,-67.5;Inherit;False;const
-    int offset = vertex_id * _VertexStride@$const float3 pos = asfloat(_SkinnedVertices.Load3(offset))@$return
-    mul(_ObjectToWorld, float4(pos, 1.0f))@;3;Create;1;True;vertex_id;INT;0;In;;Inherit;False;SliceVertexPosition;True;False;0;;False;1;0;INT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.VertexIdVariableNode;4;-87.66353,-73.15901;Inherit;False;0;1;INT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;358.4379,-70.6227;Inherit;False;True;-1;Output;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nWireConnection;2;0;4;0\nWireConnection;0;0;2;0\nASEEND*/\n//CHKSM=8C0FEA5AC8830F048698CE68B5BCFD1877041952"
+    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.VertexIdVariableNode;6;-245.1961,-54.32318;Inherit;False;0;1;INT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;5;-70.40369,-52.51185;Inherit;False;return
+    float2(_TexCoords[vertex_id].texcoord0, _TexCoords[vertex_id].texcoord1)@;2;Create;1;True;vertex_id;INT;0;In;;Inherit;False;SliceVertexTexcoord;True;False;0;;False;1;0;INT;0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.FunctionOutput;0;168.3395,-53.41509;Inherit;False;True;-1;Output;0;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0\nWireConnection;5;0;6;0\nWireConnection;0;0;5;0\nASEEND*/\n//CHKSM=A53EB0D9925CE94B01CBFD0038471D0EEABE5B84"
   m_functionName: 
   m_description: 
   m_additionalIncludes:

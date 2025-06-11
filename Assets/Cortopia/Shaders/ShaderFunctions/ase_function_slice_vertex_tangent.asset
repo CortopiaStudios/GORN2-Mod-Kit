@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: ase_function_slice_vertex_tangent
   m_EditorClassIdentifier: 
   m_functionInfo: "// Made with Amplify Shader Editor v1.9.2\n// Available at the
-    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.FunctionInput;3;-141.6,-72.5;Inherit;False;Input;1;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;354,-67.00002;Inherit;False;True;-1;Output;0;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.CustomExpressionNode;2;83.39996,-68.5;Inherit;False;const
+    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.VertexIdVariableNode;5;-381.9501,-63.40097;Inherit;False;0;1;INT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;94.98114,-59.75475;Inherit;False;True;-1;Output;0;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4;0\nNode;AmplifyShaderEditor.CustomExpressionNode;2;-183.7699,-62.16037;Inherit;False;const
     int offset = vertex_id * _VertexStride + 24@$const float4 tan = asfloat(_SkinnedVertices.Load4(offset))@$return
-    normalize(mul(tan, _ObjectToWorld))@;4;Create;1;True;vertex_id;INT;0;In;;Inherit;False;My
-    Custom Expression;True;False;0;;False;1;0;INT;0;False;1;FLOAT4;0\nWireConnection;0;0;2;0\nWireConnection;2;0;3;0\nASEEND*/\n//CHKSM=9967A00EC2B28008570A8F4CB164FAFE5746E90D"
+    normalize(mul(tan, _ObjectToWorld))@;4;Create;1;True;vertex_id;INT;0;In;;Inherit;False;SliceVertexTangent;True;False;0;;False;1;0;INT;0;False;1;FLOAT4;0\nWireConnection;0;0;2;0\nWireConnection;2;0;5;0\nASEEND*/\n//CHKSM=97DE7FD2840FC865BE92FEDD87ADA1647D431300"
   m_functionName: 
   m_description: 
   m_additionalIncludes:

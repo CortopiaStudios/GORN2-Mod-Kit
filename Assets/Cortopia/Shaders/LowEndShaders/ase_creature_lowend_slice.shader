@@ -183,6 +183,10 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			#include "UnityPBSLighting.cginc"
 			#include "AutoLight.cginc"
 
+			#define ASE_NEEDS_VERT_POSITION
+			#define ASE_NEEDS_VERT_NORMAL
+			#define ASE_NEEDS_VERT_TANGENT
+			#pragma multi_compile __ _Slicable
 			#pragma shader_feature _SmoothnessView
 			#pragma shader_feature _DiffuseOnlyMode
 			#pragma shader_feature_local _ISMETALLIC_ON
@@ -195,6 +199,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
@@ -229,6 +234,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 screenPos : TEXCOORD8;
 				#endif
 				float4 ase_texcoord9 : TEXCOORD9;
+				float4 ase_texcoord10 : TEXCOORD10;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
@@ -257,28 +263,28 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			uniform sampler2D _BreakUpNoise;
 
 
-			float3 MyCustomExpression2_g10( int vertex_id )
+			float3 SliceVertexPosition2_g13( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride;
 				const float3 pos = asfloat(_SkinnedVertices.Load3(offset));
 				return mul(_ObjectToWorld, float4(pos, 1.0f));
 			}
 			
-			float3 MyCustomExpression2_g9( int vertex_id )
+			float3 SliceVertexNormal2_g12( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 12;
 				const float3 norm = asfloat(_SkinnedVertices.Load3(offset));
 				return normalize(mul(norm, (float3x3)_WorldToObject));
 			}
 			
-			float4 MyCustomExpression2_g8( int vertex_id )
+			float4 SliceVertexTangent2_g14( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 24;
 				const float4 tan = asfloat(_SkinnedVertices.Load4(offset));
 				return normalize(mul(tan, _ObjectToWorld));
 			}
 			
-			float2 Texcoord101( int vertex_id )
+			float2 SliceVertexTexcoord5_g15( int vertex_id )
 			{
 				return float2(_TexCoords[vertex_id].texcoord0, _TexCoords[vertex_id].texcoord1);
 			}
@@ -296,28 +302,44 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				UNITY_TRANSFER_INSTANCE_ID(v,o);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 
-				int vertex_id2_g10 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g10 = MyCustomExpression2_g10( vertex_id2_g10 );
-				float3 SkinnedPosition105 = localMyCustomExpression2_g10;
+				int vertex_id2_g13 = v.ase_vertexID;
+				float3 localSliceVertexPosition2_g13 = SliceVertexPosition2_g13( vertex_id2_g13 );
+				#ifdef _Slicable
+				float3 staticSwitch16_g11 = localSliceVertexPosition2_g13;
+				#else
+				float3 staticSwitch16_g11 = v.vertex.xyz;
+				#endif
+				float3 SkinnedPosition105 = staticSwitch16_g11;
 				
-				int vertex_id2_g9 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g9 = MyCustomExpression2_g9( vertex_id2_g9 );
-				float3 SkinnedNormal104 = localMyCustomExpression2_g9;
+				int vertex_id2_g12 = v.ase_vertexID;
+				float3 localSliceVertexNormal2_g12 = SliceVertexNormal2_g12( vertex_id2_g12 );
+				#ifdef _Slicable
+				float3 staticSwitch12_g11 = localSliceVertexNormal2_g12;
+				#else
+				float3 staticSwitch12_g11 = v.normal;
+				#endif
+				float3 SkinnedNormal104 = staticSwitch12_g11;
 				
-				int vertex_id2_g8 = (int)(float)v.ase_vertexID;
-				float4 localMyCustomExpression2_g8 = MyCustomExpression2_g8( vertex_id2_g8 );
-				float4 vertexToFrag108 = localMyCustomExpression2_g8;
-				float4 SkinnedTangent102 = vertexToFrag108;
+				int vertex_id2_g14 = v.ase_vertexID;
+				float4 localSliceVertexTangent2_g14 = SliceVertexTangent2_g14( vertex_id2_g14 );
+				float4 vertexToFrag6_g11 = localSliceVertexTangent2_g14;
+				#ifdef _Slicable
+				float4 staticSwitch11_g11 = vertexToFrag6_g11;
+				#else
+				float4 staticSwitch11_g11 = float4( v.tangent.xyz , 0.0 );
+				#endif
+				float4 SkinnedTangent102 = staticSwitch11_g11;
 				
-				int vertex_id101 = v.ase_vertexID;
-				float2 localTexcoord101 = Texcoord101( vertex_id101 );
-				float2 vertexToFrag100 = localTexcoord101;
-				o.ase_texcoord9.xy = vertexToFrag100;
+				int vertex_id5_g15 = v.ase_vertexID;
+				float2 localSliceVertexTexcoord5_g15 = SliceVertexTexcoord5_g15( vertex_id5_g15 );
+				float2 vertexToFrag9_g11 = localSliceVertexTexcoord5_g15;
+				o.ase_texcoord9.zw = vertexToFrag9_g11;
 				
-				o.ase_texcoord9.z = v.ase_vertexID;
+				o.ase_texcoord9.xy = v.ase_texcoord.xy;
+				o.ase_texcoord10.x = v.ase_vertexID;
 				
 				//setting value to unused interpolator channels and avoid initialization warnings
-				o.ase_texcoord9.w = 0;
+				o.ase_texcoord10.yzw = 0;
 				#ifdef ASE_ABSOLUTE_VERTEX_POS
 					float3 defaultVertexValue = v.vertex.xyz;
 				#else
@@ -391,6 +413,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
@@ -413,6 +436,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = v.texcoord2;
 				o.vertex = v.vertex;
 				o.ase_vertexID = v.ase_vertexID;
+				o.ase_texcoord = v.ase_texcoord;
 				return o;
 			}
 
@@ -456,6 +480,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = patch[0].texcoord2 * bary.x + patch[1].texcoord2 * bary.y + patch[2].texcoord2 * bary.z;
 				o.vertex = patch[0].vertex * bary.x + patch[1].vertex * bary.y + patch[2].vertex * bary.z;
 				o.ase_vertexID = patch[0].ase_vertexID * bary.x + patch[1].ase_vertexID * bary.y + patch[2].ase_vertexID * bary.z;
+				o.ase_texcoord = patch[0].ase_texcoord * bary.x + patch[1].ase_texcoord * bary.y + patch[2].ase_texcoord * bary.z;
 				#if defined(ASE_PHONG_TESSELLATION)
 				float3 pp[3];
 				for (int i = 0; i < 3; ++i)
@@ -504,8 +529,13 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 ScreenPos = IN.screenPos;
 				#endif
 
-				float2 vertexToFrag100 = IN.ase_texcoord9.xy;
-				float2 TexCoord103 = vertexToFrag100;
+				float2 vertexToFrag9_g11 = IN.ase_texcoord9.zw;
+				#ifdef _Slicable
+				float2 staticSwitch10_g11 = vertexToFrag9_g11;
+				#else
+				float2 staticSwitch10_g11 = IN.ase_texcoord9.xy;
+				#endif
+				float2 TexCoord103 = staticSwitch10_g11;
 				float4 tex2DNode72 = tex2D( _Albedo_Smoothness, TexCoord103 );
 				float4 color1_g3 = IsGammaSpace() ? float4(0.490566,0.06317896,0,0) : float4(0.2054128,0.005227456,0,0);
 				float4 tex2DNode80 = tex2D( _MaskTexture, TexCoord103 );
@@ -548,7 +578,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 staticSwitch3_g7 = staticSwitch5_g7;
 				#endif
 				
-				int vertex_id123 = IN.ase_texcoord9.z;
+				int vertex_id123 = IN.ase_texcoord10.x;
 				float localColor123 = Color123( vertex_id123 );
 				#ifdef _ISMETALLIC_ON
 				float staticSwitch122 = localColor123;
@@ -762,6 +792,10 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			#include "UnityPBSLighting.cginc"
 			#include "AutoLight.cginc"
 
+			#define ASE_NEEDS_VERT_POSITION
+			#define ASE_NEEDS_VERT_NORMAL
+			#define ASE_NEEDS_VERT_TANGENT
+			#pragma multi_compile __ _Slicable
 			#pragma shader_feature _SmoothnessView
 			#pragma shader_feature _DiffuseOnlyMode
 			#pragma shader_feature_local _ISMETALLIC_ON
@@ -774,6 +808,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 			struct v2f {
@@ -801,6 +836,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 screenPos : TEXCOORD8;
 				#endif
 				float4 ase_texcoord9 : TEXCOORD9;
+				float4 ase_texcoord10 : TEXCOORD10;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
@@ -829,28 +865,28 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			uniform sampler2D _BreakUpNoise;
 
 
-			float3 MyCustomExpression2_g10( int vertex_id )
+			float3 SliceVertexPosition2_g13( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride;
 				const float3 pos = asfloat(_SkinnedVertices.Load3(offset));
 				return mul(_ObjectToWorld, float4(pos, 1.0f));
 			}
 			
-			float3 MyCustomExpression2_g9( int vertex_id )
+			float3 SliceVertexNormal2_g12( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 12;
 				const float3 norm = asfloat(_SkinnedVertices.Load3(offset));
 				return normalize(mul(norm, (float3x3)_WorldToObject));
 			}
 			
-			float4 MyCustomExpression2_g8( int vertex_id )
+			float4 SliceVertexTangent2_g14( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 24;
 				const float4 tan = asfloat(_SkinnedVertices.Load4(offset));
 				return normalize(mul(tan, _ObjectToWorld));
 			}
 			
-			float2 Texcoord101( int vertex_id )
+			float2 SliceVertexTexcoord5_g15( int vertex_id )
 			{
 				return float2(_TexCoords[vertex_id].texcoord0, _TexCoords[vertex_id].texcoord1);
 			}
@@ -868,28 +904,44 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				UNITY_TRANSFER_INSTANCE_ID(v,o);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 
-				int vertex_id2_g10 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g10 = MyCustomExpression2_g10( vertex_id2_g10 );
-				float3 SkinnedPosition105 = localMyCustomExpression2_g10;
+				int vertex_id2_g13 = v.ase_vertexID;
+				float3 localSliceVertexPosition2_g13 = SliceVertexPosition2_g13( vertex_id2_g13 );
+				#ifdef _Slicable
+				float3 staticSwitch16_g11 = localSliceVertexPosition2_g13;
+				#else
+				float3 staticSwitch16_g11 = v.vertex.xyz;
+				#endif
+				float3 SkinnedPosition105 = staticSwitch16_g11;
 				
-				int vertex_id2_g9 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g9 = MyCustomExpression2_g9( vertex_id2_g9 );
-				float3 SkinnedNormal104 = localMyCustomExpression2_g9;
+				int vertex_id2_g12 = v.ase_vertexID;
+				float3 localSliceVertexNormal2_g12 = SliceVertexNormal2_g12( vertex_id2_g12 );
+				#ifdef _Slicable
+				float3 staticSwitch12_g11 = localSliceVertexNormal2_g12;
+				#else
+				float3 staticSwitch12_g11 = v.normal;
+				#endif
+				float3 SkinnedNormal104 = staticSwitch12_g11;
 				
-				int vertex_id2_g8 = (int)(float)v.ase_vertexID;
-				float4 localMyCustomExpression2_g8 = MyCustomExpression2_g8( vertex_id2_g8 );
-				float4 vertexToFrag108 = localMyCustomExpression2_g8;
-				float4 SkinnedTangent102 = vertexToFrag108;
+				int vertex_id2_g14 = v.ase_vertexID;
+				float4 localSliceVertexTangent2_g14 = SliceVertexTangent2_g14( vertex_id2_g14 );
+				float4 vertexToFrag6_g11 = localSliceVertexTangent2_g14;
+				#ifdef _Slicable
+				float4 staticSwitch11_g11 = vertexToFrag6_g11;
+				#else
+				float4 staticSwitch11_g11 = float4( v.tangent.xyz , 0.0 );
+				#endif
+				float4 SkinnedTangent102 = staticSwitch11_g11;
 				
-				int vertex_id101 = v.ase_vertexID;
-				float2 localTexcoord101 = Texcoord101( vertex_id101 );
-				float2 vertexToFrag100 = localTexcoord101;
-				o.ase_texcoord9.xy = vertexToFrag100;
+				int vertex_id5_g15 = v.ase_vertexID;
+				float2 localSliceVertexTexcoord5_g15 = SliceVertexTexcoord5_g15( vertex_id5_g15 );
+				float2 vertexToFrag9_g11 = localSliceVertexTexcoord5_g15;
+				o.ase_texcoord9.zw = vertexToFrag9_g11;
 				
-				o.ase_texcoord9.z = v.ase_vertexID;
+				o.ase_texcoord9.xy = v.ase_texcoord.xy;
+				o.ase_texcoord10.x = v.ase_vertexID;
 				
 				//setting value to unused interpolator channels and avoid initialization warnings
-				o.ase_texcoord9.w = 0;
+				o.ase_texcoord10.yzw = 0;
 				#ifdef ASE_ABSOLUTE_VERTEX_POS
 					float3 defaultVertexValue = v.vertex.xyz;
 				#else
@@ -943,6 +995,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
@@ -965,6 +1018,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = v.texcoord2;
 				o.vertex = v.vertex;
 				o.ase_vertexID = v.ase_vertexID;
+				o.ase_texcoord = v.ase_texcoord;
 				return o;
 			}
 
@@ -1008,6 +1062,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = patch[0].texcoord2 * bary.x + patch[1].texcoord2 * bary.y + patch[2].texcoord2 * bary.z;
 				o.vertex = patch[0].vertex * bary.x + patch[1].vertex * bary.y + patch[2].vertex * bary.z;
 				o.ase_vertexID = patch[0].ase_vertexID * bary.x + patch[1].ase_vertexID * bary.y + patch[2].ase_vertexID * bary.z;
+				o.ase_texcoord = patch[0].ase_texcoord * bary.x + patch[1].ase_texcoord * bary.y + patch[2].ase_texcoord * bary.z;
 				#if defined(ASE_PHONG_TESSELLATION)
 				float3 pp[3];
 				for (int i = 0; i < 3; ++i)
@@ -1057,8 +1112,13 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				#endif
 
 
-				float2 vertexToFrag100 = IN.ase_texcoord9.xy;
-				float2 TexCoord103 = vertexToFrag100;
+				float2 vertexToFrag9_g11 = IN.ase_texcoord9.zw;
+				#ifdef _Slicable
+				float2 staticSwitch10_g11 = vertexToFrag9_g11;
+				#else
+				float2 staticSwitch10_g11 = IN.ase_texcoord9.xy;
+				#endif
+				float2 TexCoord103 = staticSwitch10_g11;
 				float4 tex2DNode72 = tex2D( _Albedo_Smoothness, TexCoord103 );
 				float4 color1_g3 = IsGammaSpace() ? float4(0.490566,0.06317896,0,0) : float4(0.2054128,0.005227456,0,0);
 				float4 tex2DNode80 = tex2D( _MaskTexture, TexCoord103 );
@@ -1101,7 +1161,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 staticSwitch3_g7 = staticSwitch5_g7;
 				#endif
 				
-				int vertex_id123 = IN.ase_texcoord9.z;
+				int vertex_id123 = IN.ase_texcoord10.x;
 				float localColor123 = Color123( vertex_id123 );
 				#ifdef _ISMETALLIC_ON
 				float staticSwitch122 = localColor123;
@@ -1267,6 +1327,10 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			#include "Lighting.cginc"
 			#include "UnityPBSLighting.cginc"
 
+			#define ASE_NEEDS_VERT_POSITION
+			#define ASE_NEEDS_VERT_NORMAL
+			#define ASE_NEEDS_VERT_TANGENT
+			#pragma multi_compile __ _Slicable
 			#pragma shader_feature _SmoothnessView
 			#pragma shader_feature _DiffuseOnlyMode
 			#pragma shader_feature_local _ISMETALLIC_ON
@@ -1279,6 +1343,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
@@ -1302,6 +1367,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 tSpace1 : TEXCOORD6;
 				float4 tSpace2 : TEXCOORD7;
 				float4 ase_texcoord8 : TEXCOORD8;
+				float4 ase_texcoord9 : TEXCOORD9;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
@@ -1323,28 +1389,28 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			uniform sampler2D _BreakUpNoise;
 
 
-			float3 MyCustomExpression2_g10( int vertex_id )
+			float3 SliceVertexPosition2_g13( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride;
 				const float3 pos = asfloat(_SkinnedVertices.Load3(offset));
 				return mul(_ObjectToWorld, float4(pos, 1.0f));
 			}
 			
-			float3 MyCustomExpression2_g9( int vertex_id )
+			float3 SliceVertexNormal2_g12( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 12;
 				const float3 norm = asfloat(_SkinnedVertices.Load3(offset));
 				return normalize(mul(norm, (float3x3)_WorldToObject));
 			}
 			
-			float4 MyCustomExpression2_g8( int vertex_id )
+			float4 SliceVertexTangent2_g14( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 24;
 				const float4 tan = asfloat(_SkinnedVertices.Load4(offset));
 				return normalize(mul(tan, _ObjectToWorld));
 			}
 			
-			float2 Texcoord101( int vertex_id )
+			float2 SliceVertexTexcoord5_g15( int vertex_id )
 			{
 				return float2(_TexCoords[vertex_id].texcoord0, _TexCoords[vertex_id].texcoord1);
 			}
@@ -1362,28 +1428,44 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				UNITY_TRANSFER_INSTANCE_ID(v,o);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 
-				int vertex_id2_g10 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g10 = MyCustomExpression2_g10( vertex_id2_g10 );
-				float3 SkinnedPosition105 = localMyCustomExpression2_g10;
+				int vertex_id2_g13 = v.ase_vertexID;
+				float3 localSliceVertexPosition2_g13 = SliceVertexPosition2_g13( vertex_id2_g13 );
+				#ifdef _Slicable
+				float3 staticSwitch16_g11 = localSliceVertexPosition2_g13;
+				#else
+				float3 staticSwitch16_g11 = v.vertex.xyz;
+				#endif
+				float3 SkinnedPosition105 = staticSwitch16_g11;
 				
-				int vertex_id2_g9 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g9 = MyCustomExpression2_g9( vertex_id2_g9 );
-				float3 SkinnedNormal104 = localMyCustomExpression2_g9;
+				int vertex_id2_g12 = v.ase_vertexID;
+				float3 localSliceVertexNormal2_g12 = SliceVertexNormal2_g12( vertex_id2_g12 );
+				#ifdef _Slicable
+				float3 staticSwitch12_g11 = localSliceVertexNormal2_g12;
+				#else
+				float3 staticSwitch12_g11 = v.normal;
+				#endif
+				float3 SkinnedNormal104 = staticSwitch12_g11;
 				
-				int vertex_id2_g8 = (int)(float)v.ase_vertexID;
-				float4 localMyCustomExpression2_g8 = MyCustomExpression2_g8( vertex_id2_g8 );
-				float4 vertexToFrag108 = localMyCustomExpression2_g8;
-				float4 SkinnedTangent102 = vertexToFrag108;
+				int vertex_id2_g14 = v.ase_vertexID;
+				float4 localSliceVertexTangent2_g14 = SliceVertexTangent2_g14( vertex_id2_g14 );
+				float4 vertexToFrag6_g11 = localSliceVertexTangent2_g14;
+				#ifdef _Slicable
+				float4 staticSwitch11_g11 = vertexToFrag6_g11;
+				#else
+				float4 staticSwitch11_g11 = float4( v.tangent.xyz , 0.0 );
+				#endif
+				float4 SkinnedTangent102 = staticSwitch11_g11;
 				
-				int vertex_id101 = v.ase_vertexID;
-				float2 localTexcoord101 = Texcoord101( vertex_id101 );
-				float2 vertexToFrag100 = localTexcoord101;
-				o.ase_texcoord8.xy = vertexToFrag100;
+				int vertex_id5_g15 = v.ase_vertexID;
+				float2 localSliceVertexTexcoord5_g15 = SliceVertexTexcoord5_g15( vertex_id5_g15 );
+				float2 vertexToFrag9_g11 = localSliceVertexTexcoord5_g15;
+				o.ase_texcoord8.zw = vertexToFrag9_g11;
 				
-				o.ase_texcoord8.z = v.ase_vertexID;
+				o.ase_texcoord8.xy = v.ase_texcoord.xy;
+				o.ase_texcoord9.x = v.ase_vertexID;
 				
 				//setting value to unused interpolator channels and avoid initialization warnings
-				o.ase_texcoord8.w = 0;
+				o.ase_texcoord9.yzw = 0;
 				#ifdef ASE_ABSOLUTE_VERTEX_POS
 					float3 defaultVertexValue = v.vertex.xyz;
 				#else
@@ -1439,6 +1521,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
@@ -1461,6 +1544,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = v.texcoord2;
 				o.vertex = v.vertex;
 				o.ase_vertexID = v.ase_vertexID;
+				o.ase_texcoord = v.ase_texcoord;
 				return o;
 			}
 
@@ -1504,6 +1588,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = patch[0].texcoord2 * bary.x + patch[1].texcoord2 * bary.y + patch[2].texcoord2 * bary.z;
 				o.vertex = patch[0].vertex * bary.x + patch[1].vertex * bary.y + patch[2].vertex * bary.z;
 				o.ase_vertexID = patch[0].ase_vertexID * bary.x + patch[1].ase_vertexID * bary.y + patch[2].ase_vertexID * bary.z;
+				o.ase_texcoord = patch[0].ase_texcoord * bary.x + patch[1].ase_texcoord * bary.y + patch[2].ase_texcoord * bary.z;
 				#if defined(ASE_PHONG_TESSELLATION)
 				float3 pp[3];
 				for (int i = 0; i < 3; ++i)
@@ -1552,8 +1637,13 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float3 worldViewDir = normalize(UnityWorldSpaceViewDir(worldPos));
 				half atten = 1;
 
-				float2 vertexToFrag100 = IN.ase_texcoord8.xy;
-				float2 TexCoord103 = vertexToFrag100;
+				float2 vertexToFrag9_g11 = IN.ase_texcoord8.zw;
+				#ifdef _Slicable
+				float2 staticSwitch10_g11 = vertexToFrag9_g11;
+				#else
+				float2 staticSwitch10_g11 = IN.ase_texcoord8.xy;
+				#endif
+				float2 TexCoord103 = staticSwitch10_g11;
 				float4 tex2DNode72 = tex2D( _Albedo_Smoothness, TexCoord103 );
 				float4 color1_g3 = IsGammaSpace() ? float4(0.490566,0.06317896,0,0) : float4(0.2054128,0.005227456,0,0);
 				float4 tex2DNode80 = tex2D( _MaskTexture, TexCoord103 );
@@ -1596,7 +1686,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 staticSwitch3_g7 = staticSwitch5_g7;
 				#endif
 				
-				int vertex_id123 = IN.ase_texcoord8.z;
+				int vertex_id123 = IN.ase_texcoord9.x;
 				float localColor123 = Color123( vertex_id123 );
 				#ifdef _ISMETALLIC_ON
 				float staticSwitch122 = localColor123;
@@ -1760,6 +1850,10 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			#include "UnityPBSLighting.cginc"
 			#include "UnityMetaPass.cginc"
 
+			#define ASE_NEEDS_VERT_POSITION
+			#define ASE_NEEDS_VERT_NORMAL
+			#define ASE_NEEDS_VERT_TANGENT
+			#pragma multi_compile __ _Slicable
 			#pragma shader_feature _SmoothnessView
 			#pragma shader_feature _DiffuseOnlyMode
 			#include "../skinned_vertices_with_color.cginc"
@@ -1771,6 +1865,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 			struct v2f {
@@ -1801,28 +1896,28 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			uniform sampler2D _BreakUpNoise;
 
 
-			float3 MyCustomExpression2_g10( int vertex_id )
+			float3 SliceVertexPosition2_g13( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride;
 				const float3 pos = asfloat(_SkinnedVertices.Load3(offset));
 				return mul(_ObjectToWorld, float4(pos, 1.0f));
 			}
 			
-			float3 MyCustomExpression2_g9( int vertex_id )
+			float3 SliceVertexNormal2_g12( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 12;
 				const float3 norm = asfloat(_SkinnedVertices.Load3(offset));
 				return normalize(mul(norm, (float3x3)_WorldToObject));
 			}
 			
-			float4 MyCustomExpression2_g8( int vertex_id )
+			float4 SliceVertexTangent2_g14( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 24;
 				const float4 tan = asfloat(_SkinnedVertices.Load4(offset));
 				return normalize(mul(tan, _ObjectToWorld));
 			}
 			
-			float2 Texcoord101( int vertex_id )
+			float2 SliceVertexTexcoord5_g15( int vertex_id )
 			{
 				return float2(_TexCoords[vertex_id].texcoord0, _TexCoords[vertex_id].texcoord1);
 			}
@@ -1835,27 +1930,40 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				UNITY_TRANSFER_INSTANCE_ID(v,o);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 
-				int vertex_id2_g10 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g10 = MyCustomExpression2_g10( vertex_id2_g10 );
-				float3 SkinnedPosition105 = localMyCustomExpression2_g10;
+				int vertex_id2_g13 = v.ase_vertexID;
+				float3 localSliceVertexPosition2_g13 = SliceVertexPosition2_g13( vertex_id2_g13 );
+				#ifdef _Slicable
+				float3 staticSwitch16_g11 = localSliceVertexPosition2_g13;
+				#else
+				float3 staticSwitch16_g11 = v.vertex.xyz;
+				#endif
+				float3 SkinnedPosition105 = staticSwitch16_g11;
 				
-				int vertex_id2_g9 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g9 = MyCustomExpression2_g9( vertex_id2_g9 );
-				float3 SkinnedNormal104 = localMyCustomExpression2_g9;
+				int vertex_id2_g12 = v.ase_vertexID;
+				float3 localSliceVertexNormal2_g12 = SliceVertexNormal2_g12( vertex_id2_g12 );
+				#ifdef _Slicable
+				float3 staticSwitch12_g11 = localSliceVertexNormal2_g12;
+				#else
+				float3 staticSwitch12_g11 = v.normal;
+				#endif
+				float3 SkinnedNormal104 = staticSwitch12_g11;
 				
-				int vertex_id2_g8 = (int)(float)v.ase_vertexID;
-				float4 localMyCustomExpression2_g8 = MyCustomExpression2_g8( vertex_id2_g8 );
-				float4 vertexToFrag108 = localMyCustomExpression2_g8;
-				float4 SkinnedTangent102 = vertexToFrag108;
+				int vertex_id2_g14 = v.ase_vertexID;
+				float4 localSliceVertexTangent2_g14 = SliceVertexTangent2_g14( vertex_id2_g14 );
+				float4 vertexToFrag6_g11 = localSliceVertexTangent2_g14;
+				#ifdef _Slicable
+				float4 staticSwitch11_g11 = vertexToFrag6_g11;
+				#else
+				float4 staticSwitch11_g11 = float4( v.tangent.xyz , 0.0 );
+				#endif
+				float4 SkinnedTangent102 = staticSwitch11_g11;
 				
-				int vertex_id101 = v.ase_vertexID;
-				float2 localTexcoord101 = Texcoord101( vertex_id101 );
-				float2 vertexToFrag100 = localTexcoord101;
-				o.ase_texcoord3.xy = vertexToFrag100;
+				int vertex_id5_g15 = v.ase_vertexID;
+				float2 localSliceVertexTexcoord5_g15 = SliceVertexTexcoord5_g15( vertex_id5_g15 );
+				float2 vertexToFrag9_g11 = localSliceVertexTexcoord5_g15;
+				o.ase_texcoord3.zw = vertexToFrag9_g11;
 				
-				
-				//setting value to unused interpolator channels and avoid initialization warnings
-				o.ase_texcoord3.zw = 0;
+				o.ase_texcoord3.xy = v.ase_texcoord.xy;
 				#ifdef ASE_ABSOLUTE_VERTEX_POS
 					float3 defaultVertexValue = v.vertex.xyz;
 				#else
@@ -1897,6 +2005,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				float4 texcoord1 : TEXCOORD1;
 				float4 texcoord2 : TEXCOORD2;
 				uint ase_vertexID : SV_VertexID;
+				float4 ase_texcoord : TEXCOORD0;
 
 				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
@@ -1919,6 +2028,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = v.texcoord2;
 				o.vertex = v.vertex;
 				o.ase_vertexID = v.ase_vertexID;
+				o.ase_texcoord = v.ase_texcoord;
 				return o;
 			}
 
@@ -1962,6 +2072,7 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				o.texcoord2 = patch[0].texcoord2 * bary.x + patch[1].texcoord2 * bary.y + patch[2].texcoord2 * bary.z;
 				o.vertex = patch[0].vertex * bary.x + patch[1].vertex * bary.y + patch[2].vertex * bary.z;
 				o.ase_vertexID = patch[0].ase_vertexID * bary.x + patch[1].ase_vertexID * bary.y + patch[2].ase_vertexID * bary.z;
+				o.ase_texcoord = patch[0].ase_texcoord * bary.x + patch[1].ase_texcoord * bary.y + patch[2].ase_texcoord * bary.z;
 				#if defined(ASE_PHONG_TESSELLATION)
 				float3 pp[3];
 				for (int i = 0; i < 3; ++i)
@@ -1997,8 +2108,13 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 					SurfaceOutputStandard o = (SurfaceOutputStandard)0;
 				#endif
 
-				float2 vertexToFrag100 = IN.ase_texcoord3.xy;
-				float2 TexCoord103 = vertexToFrag100;
+				float2 vertexToFrag9_g11 = IN.ase_texcoord3.zw;
+				#ifdef _Slicable
+				float2 staticSwitch10_g11 = vertexToFrag9_g11;
+				#else
+				float2 staticSwitch10_g11 = IN.ase_texcoord3.xy;
+				#endif
+				float2 TexCoord103 = staticSwitch10_g11;
 				float4 tex2DNode72 = tex2D( _Albedo_Smoothness, TexCoord103 );
 				float4 color1_g3 = IsGammaSpace() ? float4(0.490566,0.06317896,0,0) : float4(0.2054128,0.005227456,0,0);
 				float4 tex2DNode80 = tex2D( _MaskTexture, TexCoord103 );
@@ -2111,6 +2227,10 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			#include "Lighting.cginc"
 			#include "UnityPBSLighting.cginc"
 
+			#define ASE_NEEDS_VERT_POSITION
+			#define ASE_NEEDS_VERT_NORMAL
+			#define ASE_NEEDS_VERT_TANGENT
+			#pragma multi_compile __ _Slicable
 			#include "../skinned_vertices_with_color.cginc"
 
 			struct appdata {
@@ -2143,21 +2263,21 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 			#endif
 			
 
-			float3 MyCustomExpression2_g10( int vertex_id )
+			float3 SliceVertexPosition2_g13( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride;
 				const float3 pos = asfloat(_SkinnedVertices.Load3(offset));
 				return mul(_ObjectToWorld, float4(pos, 1.0f));
 			}
 			
-			float3 MyCustomExpression2_g9( int vertex_id )
+			float3 SliceVertexNormal2_g12( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 12;
 				const float3 norm = asfloat(_SkinnedVertices.Load3(offset));
 				return normalize(mul(norm, (float3x3)_WorldToObject));
 			}
 			
-			float4 MyCustomExpression2_g8( int vertex_id )
+			float4 SliceVertexTangent2_g14( int vertex_id )
 			{
 				const int offset = vertex_id * _VertexStride + 24;
 				const float4 tan = asfloat(_SkinnedVertices.Load4(offset));
@@ -2172,18 +2292,33 @@ Shader "Cortopia/_LowEnd/ase_creature_lowend_slice"
 				UNITY_TRANSFER_INSTANCE_ID(v,o);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 
-				int vertex_id2_g10 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g10 = MyCustomExpression2_g10( vertex_id2_g10 );
-				float3 SkinnedPosition105 = localMyCustomExpression2_g10;
+				int vertex_id2_g13 = v.ase_vertexID;
+				float3 localSliceVertexPosition2_g13 = SliceVertexPosition2_g13( vertex_id2_g13 );
+				#ifdef _Slicable
+				float3 staticSwitch16_g11 = localSliceVertexPosition2_g13;
+				#else
+				float3 staticSwitch16_g11 = v.vertex.xyz;
+				#endif
+				float3 SkinnedPosition105 = staticSwitch16_g11;
 				
-				int vertex_id2_g9 = (int)(float)v.ase_vertexID;
-				float3 localMyCustomExpression2_g9 = MyCustomExpression2_g9( vertex_id2_g9 );
-				float3 SkinnedNormal104 = localMyCustomExpression2_g9;
+				int vertex_id2_g12 = v.ase_vertexID;
+				float3 localSliceVertexNormal2_g12 = SliceVertexNormal2_g12( vertex_id2_g12 );
+				#ifdef _Slicable
+				float3 staticSwitch12_g11 = localSliceVertexNormal2_g12;
+				#else
+				float3 staticSwitch12_g11 = v.normal;
+				#endif
+				float3 SkinnedNormal104 = staticSwitch12_g11;
 				
-				int vertex_id2_g8 = (int)(float)v.ase_vertexID;
-				float4 localMyCustomExpression2_g8 = MyCustomExpression2_g8( vertex_id2_g8 );
-				float4 vertexToFrag108 = localMyCustomExpression2_g8;
-				float4 SkinnedTangent102 = vertexToFrag108;
+				int vertex_id2_g14 = v.ase_vertexID;
+				float4 localSliceVertexTangent2_g14 = SliceVertexTangent2_g14( vertex_id2_g14 );
+				float4 vertexToFrag6_g11 = localSliceVertexTangent2_g14;
+				#ifdef _Slicable
+				float4 staticSwitch11_g11 = vertexToFrag6_g11;
+				#else
+				float4 staticSwitch11_g11 = float4( v.tangent.xyz , 0.0 );
+				#endif
+				float4 SkinnedTangent102 = staticSwitch11_g11;
 				
 				#ifdef ASE_ABSOLUTE_VERTEX_POS
 					float3 defaultVertexValue = v.vertex.xyz;
@@ -2389,7 +2524,6 @@ Node;AmplifyShaderEditor.RegisterLocalVarNode;105;535.2404,-863.8588;Inherit;Fal
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;117;-1926.39,268.8072;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.GetLocalVarNode;116;-2144.39,198.8072;Inherit;False;103;TexCoord;1;0;OBJECT;;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.Vector2Node;119;-2119.39,305.8072;Inherit;False;Constant;_Vector0;Vector 0;4;0;Create;True;0;0;0;False;0;False;8,8;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
-Node;AmplifyShaderEditor.VertexToFragmentNode;100;92.30441,-613.8088;Inherit;False;False;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.RegisterLocalVarNode;103;538.9615,-607.4232;Inherit;False;TexCoord;-1;True;1;0;FLOAT2;0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.GetLocalVarNode;112;206.4518,-81.05479;Inherit;False;105;SkinnedPosition;1;0;OBJECT;;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.GetLocalVarNode;113;206.2997,-11.47883;Inherit;False;104;SkinnedNormal;1;0;OBJECT;;False;1;FLOAT3;0
@@ -2398,19 +2532,14 @@ Node;AmplifyShaderEditor.GetLocalVarNode;115;-2039.209,-143.4811;Inherit;False;1
 Node;AmplifyShaderEditor.GetLocalVarNode;114;-1184.08,-665.6669;Inherit;False;103;TexCoord;1;0;OBJECT;;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.OneMinusNode;92;-408.5489,64.98114;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SaturateNode;93;-254.4118,-42.99662;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.CustomExpressionNode;101;-86.58747,-614.7385;Inherit;False;return float2(_TexCoords[vertex_id].texcoord0, _TexCoords[vertex_id].texcoord1)@;2;Create;1;True;vertex_id;INT;0;In;;Inherit;False;Texcoord;True;False;0;;False;1;0;INT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.RangedFloatNode;120;-419.0771,241.2761;Inherit;False;Constant;_NoMetallic1;No Metallic;6;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.VertexIdVariableNode;124;-556.3584,349.9806;Inherit;False;0;1;INT;0
 Node;AmplifyShaderEditor.CustomExpressionNode;123;-404.2344,351.1614;Inherit;False;return (_TexCoords[vertex_id].color & 0xFF) > 0 ? 1 : 0@;1;Create;1;True;vertex_id;INT;0;In;;Inherit;False;Color;True;False;0;;False;1;0;INT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.FunctionNode;79;-1605.236,-341.0033;Inherit;False;ase_function_bloodcolor;-1;;3;439e2ac262e7b8a4db20b11e6f95045c;0;0;2;COLOR;0;COLOR;3
 Node;AmplifyShaderEditor.FunctionNode;90;161.6746,-281.1722;Inherit;False;ase_function_DifSmooth;-1;;7;4551715450b1c93418e0161fef7c1ebf;0;4;10;FLOAT4;0,0,0,0;False;11;FLOAT;0;False;17;FLOAT4;0,0,0,0;False;13;FLOAT;0;False;4;FLOAT4;0;FLOAT4;14;FLOAT;15;FLOAT;16
 Node;AmplifyShaderEditor.StaticSwitch;122;-160.3308,291.0655;Inherit;False;Property;_IsMetallic;IsMetallic;1;0;Create;True;0;0;0;False;0;False;0;0;0;True;;Toggle;2;Key0;Key1;Create;True;True;All;9;1;FLOAT;0;False;0;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.VertexToFragmentNode;108;216.5045,-698.7967;Inherit;False;False;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT4;0
-Node;AmplifyShaderEditor.FunctionNode;125;-100.6346,-700.3449;Inherit;False;ase_function_slice_vertex_tangent;-1;;8;73b1ffb3d895a0a4888d8af76591fd83;0;1;3;FLOAT;0;False;1;FLOAT4;0
-Node;AmplifyShaderEditor.FunctionNode;126;-99.3347,-773.1436;Inherit;False;ase_function_slice_vertex_normal;-1;;9;6dba14a7d67abd648ac013c25cc006ab;0;1;3;FLOAT;0;False;1;FLOAT3;0
-Node;AmplifyShaderEditor.FunctionNode;127;-96.19191,-848.0829;Inherit;False;ase_function_slice_vertex_position;-1;;10;3b65cf277995d1a49a7c273f0596ca4b;0;1;3;FLOAT;0;False;1;FLOAT3;0
-Node;AmplifyShaderEditor.VertexIdVariableNode;106;-330.1685,-734.4605;Inherit;False;0;1;INT;0
 Node;AmplifyShaderEditor.RangedFloatNode;78;-1079.181,61.66542;Inherit;False;Constant;_BloodNoise;BloodNoise;4;0;Create;True;0;0;0;False;0;False;0.75;0.75;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.FunctionNode;128;132.0059,-768.8361;Inherit;False;ase_function_slice_vertex;-1;;11;a50857cedb7c3cf46a5350d53761078b;0;0;4;FLOAT3;22;FLOAT3;21;FLOAT4;20;FLOAT2;0
 WireConnection;69;0;80;1
 WireConnection;69;1;71;1
 WireConnection;70;0;80;1
@@ -2445,25 +2574,19 @@ WireConnection;95;5;90;16
 WireConnection;95;15;112;0
 WireConnection;95;16;113;0
 WireConnection;95;17;111;0
-WireConnection;102;0;108;0
-WireConnection;104;0;126;0
-WireConnection;105;0;127;0
+WireConnection;102;0;128;20
+WireConnection;104;0;128;21
+WireConnection;105;0;128;22
 WireConnection;117;0;116;0
 WireConnection;117;1;119;0
-WireConnection;100;0;101;0
-WireConnection;103;0;100;0
+WireConnection;103;0;128;0
 WireConnection;92;0;74;0
 WireConnection;93;0;92;0
-WireConnection;101;0;106;0
 WireConnection;123;0;124;0
 WireConnection;90;10;88;0
 WireConnection;90;11;86;0
 WireConnection;90;13;91;0
 WireConnection;122;1;120;0
 WireConnection;122;0;123;0
-WireConnection;108;0;125;0
-WireConnection;125;3;106;0
-WireConnection;126;3;106;0
-WireConnection;127;3;106;0
 ASEEND*/
-//CHKSM=4F0567D84D902ED98E9E5C7EDAA0AD8E51332DCF
+//CHKSM=3FE558E61B56516995E13BF13EF071EB00C73264

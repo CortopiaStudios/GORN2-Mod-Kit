@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ShrokMat
-  m_Shader: {fileID: 4800000, guid: 7d38922810f601a408f8fa8796d603d7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 01418f24d7bccb644bad3477daa277fc, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Flesh_Normal:
-        m_Texture: {fileID: 2800000, guid: b40b938aa922e60418384e628ed2d66e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0dc9a9827bd71a246b8ea1cfc3782a15, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
