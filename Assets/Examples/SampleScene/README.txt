@@ -1,0 +1,1 @@
+Set the scene asset to addressable with the addressable label "Scene" to make the scene appear in the mod scenes menu. Similar to all other assets it's possible to replace an existing scene in the core game by giving the mod scene address the same as one in the main game, for example BloodArena01.

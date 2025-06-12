@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: ase_function_slice_vertex_position
   m_EditorClassIdentifier: 
   m_functionInfo: "// Made with Amplify Shader Editor v1.9.2\n// Available at the
-    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.FunctionOutput;0;354,-67.00002;Inherit;False;True;-1;Output;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;3;-141.6,-72.5;Inherit;False;Input;1;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;2;83.39996,-67.5;Inherit;False;const
+    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.CustomExpressionNode;2;95.17352,-67.5;Inherit;False;const
     int offset = vertex_id * _VertexStride@$const float3 pos = asfloat(_SkinnedVertices.Load3(offset))@$return
-    mul(_ObjectToWorld, float4(pos, 1.0f))@;3;Create;1;True;vertex_id;INT;0;In;;Inherit;False;My
-    Custom Expression;True;False;0;;False;1;0;INT;0;False;1;FLOAT3;0\nWireConnection;0;0;2;0\nWireConnection;2;0;3;0\nASEEND*/\n//CHKSM=DAD5AEA1C2BE16A828BA7C12CA8026156CAB18B0"
+    mul(_ObjectToWorld, float4(pos, 1.0f))@;3;Create;1;True;vertex_id;INT;0;In;;Inherit;False;SliceVertexPosition;True;False;0;;False;1;0;INT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.VertexIdVariableNode;4;-87.66353,-73.15901;Inherit;False;0;1;INT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;358.4379,-70.6227;Inherit;False;True;-1;Output;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nWireConnection;2;0;4;0\nWireConnection;0;0;2;0\nASEEND*/\n//CHKSM=8C0FEA5AC8830F048698CE68B5BCFD1877041952"
   m_functionName: 
   m_description: 
   m_additionalIncludes:

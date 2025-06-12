@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: ase_function_slice_vertex_normal
   m_EditorClassIdentifier: 
   m_functionInfo: "// Made with Amplify Shader Editor v1.9.2\n// Available at the
-    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.FunctionOutput;0;354,-67.00002;Inherit;False;True;-1;Output;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;3;-141.6,-72.5;Inherit;False;Input;1;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;2;83.39996,-67.5;Inherit;False;const
+    Unity Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=19200\nNode;AmplifyShaderEditor.CustomExpressionNode;2;-77.80762,-51.19812;Inherit;False;const
     int offset = vertex_id * _VertexStride + 12@$const float3 norm = asfloat(_SkinnedVertices.Load3(offset))@$return
-    normalize(mul(norm, (float3x3)_WorldToObject))@;3;Create;1;True;vertex_id;INT;0;In;;Inherit;False;My
-    Custom Expression;True;False;0;;False;1;0;INT;0;False;1;FLOAT3;0\nWireConnection;0;0;2;0\nWireConnection;2;0;3;0\nASEEND*/\n//CHKSM=E6438E7F6DE3CCAA4528DAE4BAB2F994B37A3263"
+    normalize(mul(norm, (float3x3)_WorldToObject))@;3;Create;1;True;vertex_id;INT;0;In;;Inherit;False;SliceVertexNormal;True;False;0;;False;1;0;INT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.VertexIdVariableNode;4;-270.8468,-55.24997;Inherit;False;0;1;INT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;166.5283,-57.03777;Inherit;False;True;-1;Output;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nWireConnection;2;0;4;0\nWireConnection;0;0;2;0\nASEEND*/\n//CHKSM=9B6428D53EB106D1A6A6AE129A5809545AD53996"
   m_functionName: 
   m_description: 
   m_additionalIncludes:

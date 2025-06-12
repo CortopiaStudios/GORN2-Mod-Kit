@@ -22,8 +22,7 @@ Shader "ase_vignetteMovement"
 		Cull Back
 		ColorMask RGBA
 		ZWrite Off
-		ZTest LEqual
-		Offset 0 , 0
+		ZTest NotEqual
 		
 		
 		
@@ -128,10 +127,10 @@ Node;AmplifyShaderEditor.CeilOpNode;63;-124,-90.5;Inherit;False;1;0;FLOAT;0;Fals
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;62;90,-282.5;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SmoothstepOpNode;53;381,-281.5;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0.22;False;2;FLOAT;0.3;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SaturateNode;20;584,-281.5;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;785,-280;Float;False;True;-1;2;ASEMaterialInspector;100;5;ase_vignetteMovement;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;True;6;2;False;;0;False;;0;2;False;;0;False;;True;0;False;;0;False;;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;True;True;True;True;True;True;0;False;;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;True;True;2;False;;True;3;False;;True;True;0;False;;0;False;;True;1;RenderType=Opaque=RenderType;True;2;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;0;1;True;False;;False;0
-Node;AmplifyShaderEditor.RangedFloatNode;8;-569,-90.5;Inherit;False;Global;VignetteScale;VignetteScale;0;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;54;91,-183.5;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0.15;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TFHCRemapNode;23;-125.8909,-16.63071;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0.4;False;4;FLOAT;0.22;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;785,-280;Float;False;True;-1;2;ASEMaterialInspector;100;5;ase_vignetteMovement;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;True;6;2;False;;0;False;;0;2;False;;0;False;;True;0;False;;0;False;;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;True;True;True;True;True;True;0;False;;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;True;True;2;False;;True;6;False;;True;False;0;False;;0;False;;True;1;RenderType=Opaque=RenderType;True;2;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;0;1;True;False;;False;0
+Node;AmplifyShaderEditor.RangedFloatNode;8;-569,-90.5;Inherit;False;Global;VignetteScale;VignetteScale;0;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
 WireConnection;17;0;13;0
 WireConnection;63;0;8;0
 WireConnection;62;0;17;0
@@ -140,8 +139,8 @@ WireConnection;53;0;62;0
 WireConnection;53;1;54;0
 WireConnection;53;2;23;0
 WireConnection;20;0;53;0
-WireConnection;0;0;20;0
 WireConnection;54;0;23;0
 WireConnection;23;0;8;0
+WireConnection;0;0;20;0
 ASEEND*/
-//CHKSM=539FE4A82318BB1751D1D8FA28D1054066BC34F7
+//CHKSM=92C83A62487F9B8346362BFEC9BBC6E03207F6A1

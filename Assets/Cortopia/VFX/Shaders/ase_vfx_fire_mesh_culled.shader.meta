@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 48d325ef8d71e6f42a2799c91937d05c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Deform: {fileID: 2800000, guid: f644a77509d7115418578d7f75059191, type: 3}
+  - _AlphaNosie: {fileID: 2800000, guid: 21b46c6e6bfb16e4abfced00ad9152cd, type: 3}
+  - _TextureSample0: {fileID: 2800000, guid: 278a58f6d52875c4e9adfe3404fb480e, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

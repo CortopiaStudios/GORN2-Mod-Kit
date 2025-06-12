@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 57a5ad4272b218146a6f09550128224b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _DeformNoise: {fileID: 2800000, guid: 138dff2decdf168479497897cb336dd6, type: 3}
+  - _RippleNoise: {fileID: 2800000, guid: 138dff2decdf168479497897cb336dd6, type: 3}
+  - _Texture0: {fileID: 2800000, guid: 7cf6afe4105669349bd222f33ba5795d, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1 @@
+Replace the standard dismemberment FX by setting the new prefab addressable address to Assets/Cortopia/VFX/Prefabs/CharacterFX/vfx_dismember_root_large.prefab. It's possible to do the same with all other VFX's in the core game.
