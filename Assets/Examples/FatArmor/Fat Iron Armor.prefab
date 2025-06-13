@@ -5906,9 +5906,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5281231087981978803}
-  - component: {fileID: 8426250194889865756}
-  - component: {fileID: 8396094567647133444}
-  - component: {fileID: 5969965172641469905}
   - component: {fileID: 207842179428476988}
   m_Layer: 10
   m_Name: Fat Iron Armor
@@ -5934,62 +5931,6 @@ Transform:
   - {fileID: 6485144313525774641}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8426250194889865756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4756191661533052425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf2e48200374bafb174b5594e304095, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveToTransform:
-    reference: {fileID: 5969965172641469905}
-    propertyName: BoundValue
-    defaultValue: {fileID: 0}
-    breakOnChange: 0
-  setRigidBodies: 0
---- !u!114 &8396094567647133444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4756191661533052425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02ae5dd5ff3b483fa059ab3c8fd3ad8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parameterName: Root
-  direction: 2
-  boundValue:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue: {fileID: 1177173098213877006}
-    breakOnChange: 0
---- !u!114 &5969965172641469905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4756191661533052425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02ae5dd5ff3b483fa059ab3c8fd3ad8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parameterName: SpawnPos
-  direction: 1
-  boundValue:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue: {fileID: 0}
-    breakOnChange: 0
 --- !u!114 &207842179428476988
 MonoBehaviour:
   m_ObjectHideFlags: 0
