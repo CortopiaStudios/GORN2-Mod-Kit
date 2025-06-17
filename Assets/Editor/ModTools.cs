@@ -26,7 +26,7 @@ namespace Editor
 
             foreach (var component in prefabRoot.GetComponents<Component>())
             {
-                if (component is SpawnerParameter)
+                if (component is SpawnerParameter or Transform)
                     continue;
 
                 Object.DestroyImmediate(component);
@@ -44,7 +44,7 @@ namespace Editor
                 var defaultValue = boundValue.FindPropertyRelative("defaultValue");
 
                 reference.objectReferenceValue = null;
-                if (defaultValue.objectReferenceValue)
+                if (defaultValue != null && defaultValue.objectReferenceValue)
                     defaultValue.objectReferenceValue = null;
 
                 serializedObject.ApplyModifiedProperties();
