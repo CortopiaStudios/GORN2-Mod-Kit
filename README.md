@@ -13,6 +13,22 @@ The official mod kit for the VR game GORN2
 9. Activate the mod in the Modio menu inside the game.
 
 ## Limitations
-# Custom scripts
+### Custom scripts
 Custom scripts cannot be exported in mods. Instead we recommend using the various behaviour tree components that exist in the project to create complex behaviors. Also, the different "reactive"-components can be used to hook up properties between objects to create custom behaviors.
 
+## Referencing core game assets inside a mod
+
+## Physics materials
+
+## Shaders
+
+## Overriding existing assets
+
+## Adding custom weapons
+
+## Adding custom armors
+
+## Adding custom 
+
+## Further reading
+### Guideline documents
