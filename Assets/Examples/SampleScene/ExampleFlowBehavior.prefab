@@ -851,7 +851,7 @@ MonoBehaviour:
   minDelay:
     reference: {fileID: 0}
     propertyName: 
-    defaultValue: 2
+    defaultValue: 3
     breakOnChange: 0
   maxDelay:
     reference: {fileID: 0}

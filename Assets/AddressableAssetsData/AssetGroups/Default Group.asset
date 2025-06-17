@@ -17,16 +17,16 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: da5015a523adb904bb9788ad3d91823e
   m_SerializeEntries:
-  - m_GUID: 2d8c94100c6a96e4d88118dc05fb3adf
-    m_Address: Assets/Cortopia/Assets/Cortopia
+  - m_GUID: 86d108553b781e740b01faece4445dc5
+    m_Address: Assets/Examples/SampleScene/ExampleFlowBehavior.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f347dcb69d0f64d4b90ea9b09d6ac521
-    m_Address: Assets/Cortopia/Prefabs/Weapons/Sword.prefab
+  - m_GUID: bc3fc4c1005c0ca479da53a4ce4296b8
+    m_Address: SampleScene
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Weapon
+    - Scene
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f5f1916af8f7f2a428936297f3c33015, type: 2}
