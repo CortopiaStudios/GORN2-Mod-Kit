@@ -11,17 +11,17 @@ TagManager:
   - Environment
   - Water
   - UI
-  - 
+  - Character
   - Grabbable
-  - 
-  - 
+  - PlayerMovement
+  - PlayerDamage
   - Armor
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - DoorOpener
+  - Boss
+  - BloodPaint
+  - WaterParticleSystem
+  - Lava
   - 
   - 
   - 

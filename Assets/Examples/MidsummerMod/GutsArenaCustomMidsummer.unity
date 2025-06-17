@@ -9336,7 +9336,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7642376712583413239, guid: feb6ab5584687684c9525249237d3836, type: 3}
   m_PrefabInstance: {fileID: 1620650309396338399}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1620650309396338400}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58310f2e7fca14343b2bf8ea32f03894, type: 3}
@@ -11119,11 +11119,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: GutsArenaController
       objectReference: {fileID: 0}
+    - target: {fileID: 4965256435078337529, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1620650309396338401}
+    - target: {fileID: 4965256435078337529, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrySetValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965256435078337529, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Cortopia.Scripts.AssetReferenceProperties.AssetReferenceProperty`1[[System.Int32,
+        mscorlib
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2893762363944412645, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1620650309396338401}
   m_SourcePrefab: {fileID: 100100000, guid: feb6ab5584687684c9525249237d3836, type: 3}
+--- !u!1 &1620650309396338400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2893762363944412645, guid: feb6ab5584687684c9525249237d3836, type: 3}
+  m_PrefabInstance: {fileID: 1620650309396338399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1620650309396338401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620650309396338400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ef1589222c466798c3c47e4798a4d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetReference:
+    m_AssetGUID: 1f28cf3bd69950b4b96e331e69adff49
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  propertyName: Variable
+  defaultValue: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
