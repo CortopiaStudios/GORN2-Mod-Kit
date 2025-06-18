@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8216201434577469378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3346282829883290751}
+  - component: {fileID: 7785303765326964788}
+  - component: {fileID: 1643005554504939918}
+  m_Layer: 0
+  m_Name: ModuloSpawnChickenType
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3346282829883290751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216201434577469378}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1423645610657770897}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7785303765326964788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216201434577469378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0af3178ed6bfe4b9e3c1b8f437d931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    reference: {fileID: 11400000, guid: d57e752bc2d8f3c4196aa88bcff84613, type: 2}
+    propertyName: Variable
+    defaultValue: 0
+    breakOnChange: 0
+  moduloValue:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: 2
+    breakOnChange: 0
+--- !u!114 &1643005554504939918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216201434577469378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fbc180c58c0c64bb6f9a005ae5fb41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    reference: {fileID: 7785303765326964788}
+    propertyName: Result
+    defaultValue: 0
+    breakOnChange: 0
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d57e752bc2d8f3c4196aa88bcff84613, type: 2}
+        m_TargetAssemblyTypeName: Cortopia.Scripts.Reactivity.Singletons.GlobalVariable`1[[System.Int32,
+          mscorlib
+        m_MethodName: Set
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &9073021208590172866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423645610657770897}
+  - component: {fileID: 1848832050737638024}
+  - component: {fileID: 1666250405066484258}
+  - component: {fileID: 821751532546490355}
+  - component: {fileID: 6145914986602727983}
+  m_Layer: 0
+  m_Name: OverriderRokibeWithChicken
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423645610657770897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073021208590172866}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3346282829883290751}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1848832050737638024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073021208590172866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750c0e921623cca4c8207bb6ea5f890e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  queue: {fileID: 0}
+--- !u!114 &1666250405066484258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073021208590172866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769d2909c77146cb87197decb08d1e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab:
+    reference: {fileID: 821751532546490355}
+    propertyName: SelectedItem
+    defaultValue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    breakOnChange: 0
+  address:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: 
+    breakOnChange: 0
+  spawnAsChild: 0
+  spawnLocation:
+    reference: {fileID: 0}
+    propertyName: 
+    defaultValue: {fileID: 0}
+    breakOnChange: 0
+--- !u!114 &821751532546490355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073021208590172866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a14115f3cf5a674fa32fddc4251f0cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index:
+    reference: {fileID: 11400000, guid: d57e752bc2d8f3c4196aa88bcff84613, type: 2}
+    propertyName: Variable
+    defaultValue: 0
+    breakOnChange: 0
+  items:
+  - m_AssetGUID: 0794e27d13a34c240babb1bc5d0bc4eb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 4719ee06ef2d98447be362a382837af3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+--- !u!114 &6145914986602727983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073021208590172866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffafc898917c8cc4a90e4224cb8b9173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    reference: {fileID: 1666250405066484258}
+    propertyName: IsFullySpawned
+    defaultValue: 1
+    breakOnChange: 0
+  onTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d57e752bc2d8f3c4196aa88bcff84613, type: 2}
+        m_TargetAssemblyTypeName: Cortopia.Scripts.Reactivity.Singletons.Types.IntGlobalVariable,
+          Reactivity
+        m_MethodName: Increment
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1848832050737638024}
+        m_TargetAssemblyTypeName: Cortopia.Scripts.CleanupSystem.CleanupGameObject,
+          Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
