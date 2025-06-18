@@ -53,7 +53,12 @@ MonoBehaviour:
           m_SubObjectType: 
           m_EditorAssetChanged: 0
     materialFx:
-    - material: {fileID: 13400000, guid: c655cfbb640e9b34d99bd9d020339fad, type: 2}
+    - material: {fileID: 0}
+      materialReference:
+        m_AssetGUID: c655cfbb640e9b34d99bd9d020339fad
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
       fx:
         attachedFX:
           entryFX:

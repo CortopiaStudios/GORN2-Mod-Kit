@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7232668634437490859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3955726447069842679}
+  m_Layer: 0
+  m_Name: VFX_Hub_Portal_Confetti_Brain_Burst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3955726447069842679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7232668634437490859}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.54254067, y: -0.5425372, z: -0.45348105, w: 0.45349535}
+  m_LocalPosition: {x: 5.6761904, y: 26.31543, z: 105.85747}
+  m_LocalScale: {x: 1.2281002, y: 0.814266, z: 1.1913002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -100.218, y: 0.0039978027, z: -90.00299}

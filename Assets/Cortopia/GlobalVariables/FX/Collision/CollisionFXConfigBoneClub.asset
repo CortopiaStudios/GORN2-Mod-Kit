@@ -48,7 +48,12 @@ MonoBehaviour:
           m_SubObjectType: 
           m_EditorAssetChanged: 0
     materialFx:
-    - material: {fileID: 13400000, guid: 9f030f953b1d746499fc167ef2c309fb, type: 2}
+    - material: {fileID: 0}
+      materialReference:
+        m_AssetGUID: 9f030f953b1d746499fc167ef2c309fb
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
       fx:
         attachedFX:
           entryFX:
@@ -82,7 +87,12 @@ MonoBehaviour:
             m_SubObjectName: 
             m_SubObjectType: 
             m_EditorAssetChanged: 0
-    - material: {fileID: 13400000, guid: 20bd18b4fe282dd49b75923b44677ebf, type: 2}
+    - material: {fileID: 0}
+      materialReference:
+        m_AssetGUID: 20bd18b4fe282dd49b75923b44677ebf
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
       fx:
         attachedFX:
           entryFX:
@@ -116,7 +126,12 @@ MonoBehaviour:
             m_SubObjectName: 
             m_SubObjectType: 
             m_EditorAssetChanged: 0
-    - material: {fileID: 13400000, guid: b5c0b8ecfb9879948973c7d36ed1c629, type: 2}
+    - material: {fileID: 0}
+      materialReference:
+        m_AssetGUID: b5c0b8ecfb9879948973c7d36ed1c629
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
       fx:
         attachedFX:
           entryFX:
@@ -151,6 +166,11 @@ MonoBehaviour:
             m_SubObjectType: 
             m_EditorAssetChanged: 0
     - material: {fileID: 13400000, guid: 8bd8eeb148cf0c34d96f692dc6b51f77, type: 2}
+      materialReference:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
       fx:
         attachedFX:
           entryFX:
@@ -184,7 +204,12 @@ MonoBehaviour:
             m_SubObjectName: 
             m_SubObjectType: 
             m_EditorAssetChanged: 0
-    - material: {fileID: 13400000, guid: 3fe8628fcf2daeb449db57c005f721c9, type: 2}
+    - material: {fileID: 0}
+      materialReference:
+        m_AssetGUID: 3fe8628fcf2daeb449db57c005f721c9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
       fx:
         attachedFX:
           entryFX:
