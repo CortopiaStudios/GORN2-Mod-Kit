@@ -7,6 +7,7 @@
 using System;
 using Cortopia.Scripts.Effects;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Cortopia.Scripts.FX
 {
@@ -31,6 +32,7 @@ namespace Cortopia.Scripts.FX
         private struct Mapping
         {
             public PhysicMaterial material;
+            public AssetReferenceT<PhysicMaterial> materialReference;
             public AirFixedHitFXSpawner fx;
         }
     }
