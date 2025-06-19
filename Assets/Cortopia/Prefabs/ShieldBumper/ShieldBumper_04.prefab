@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 576e55de217a44840b0f032af60a6308, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e9c7897a689d45c4b836f5982bce3a85, type: 2}
+      objectReference: {fileID: 2100000, guid: 46aaeb0002599f44b92ffb9ea8dcd43b, type: 2}
     - target: {fileID: 919132149155446097, guid: 576e55de217a44840b0f032af60a6308, type: 3}
       propertyPath: m_Name
       value: MSH_ShieldBumper_04

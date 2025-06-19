@@ -827,8 +827,8 @@ MonoBehaviour:
     defaultValue: 0
     breakOnChange: 0
   priority:
-    reference: {fileID: 0}
-    propertyName: 
+    reference: {fileID: 2836010226618662283}
+    propertyName: Result
     defaultValue: 0
     breakOnChange: 0
   outsideRadiusLifetime:
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7307471192511714012}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcb3519c205b50d438ac857aded2ba23, type: 3}
   m_Name: 

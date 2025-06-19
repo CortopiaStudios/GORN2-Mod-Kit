@@ -16,7 +16,12 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: da5015a523adb904bb9788ad3d91823e
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: ff584f281964ade47ac3de8bd1d133af
+    m_Address: GutsArenaCustom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f5f1916af8f7f2a428936297f3c33015, type: 2}
   m_SchemaSet:
