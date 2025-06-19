@@ -1550,6 +1550,63 @@ MonoBehaviour:
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     breakOnChange: 0
+--- !u!1001 &209418480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 578402403464486971, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_Name
+      value: SlowMotionOnKillSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073299722567621167, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5075f48a7ce4a364c96bcf60bdbf5e72, type: 3}
 --- !u!1 &238990457
 GameObject:
   m_ObjectHideFlags: 0
@@ -15060,6 +15117,7 @@ GameObject:
   - component: {fileID: 2043980648}
   - component: {fileID: 2043980647}
   - component: {fileID: 2043980650}
+  - component: {fileID: 2043980651}
   m_Layer: 0
   m_Name: ArenaController
   m_TagString: Untagged
@@ -15140,10 +15198,10 @@ MonoBehaviour:
   counterIncreased:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 80f9ca114030fa543ae771b61a545a79, type: 2}
-        m_TargetAssemblyTypeName: Cortopia.Scripts.ReactiveComponents.IntegerCounterGlobalVariable,
+      - m_Target: {fileID: 2043980651}
+        m_TargetAssemblyTypeName: Cortopia.Scripts.AssetReferenceProperties.Types.AssetReferencePropertyCounter,
           Assembly-CSharp
-        m_MethodName: IncreaseCounter
+        m_MethodName: TryIncrement
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15193,6 +15251,24 @@ MonoBehaviour:
     m_EditorAssetChanged: 0
   propertyName: Variable
   defaultValue: 0
+--- !u!114 &2043980651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043980645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65773ee91d9ab1e4f972c9a09c95c0a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetReference:
+    m_AssetGUID: 80f9ca114030fa543ae771b61a545a79
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  propertyName: Variable
 --- !u!1 &2048445755
 GameObject:
   m_ObjectHideFlags: 0
@@ -19521,3 +19597,4 @@ SceneRoots:
   - {fileID: 1011319409}
   - {fileID: 2361619290813292307}
   - {fileID: 2048445766}
+  - {fileID: 209418480}

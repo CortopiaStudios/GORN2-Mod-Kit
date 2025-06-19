@@ -1998,18 +1998,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2131393003}
     m_Modifications:
-    - target: {fileID: -7511558181221131132, guid: bfec48a9c9871f040af0d71222c860d5, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: bfec48a9c9871f040af0d71222c860d5, type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: bfec48a9c9871f040af0d71222c860d5, type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a521143f8b203cb42957e2dbd25a2fd2, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2081,6 +2069,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a521143f8b203cb42957e2dbd25a2fd2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bfec48a9c9871f040af0d71222c860d5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bfec48a9c9871f040af0d71222c860d5, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bfec48a9c9871f040af0d71222c860d5, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6865,6 +6865,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2131393003}
     m_Modifications:
+    - target: {fileID: 7440329976189806110, guid: 86c1f34f34b43b440be92a1b239ecc6f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440329976189806110, guid: 86c1f34f34b43b440be92a1b239ecc6f, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0579b4c03b882ae45877398ef0e41b35, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6920,14 +6928,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0579b4c03b882ae45877398ef0e41b35, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7440329976189806110, guid: 86c1f34f34b43b440be92a1b239ecc6f, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7440329976189806110, guid: 86c1f34f34b43b440be92a1b239ecc6f, type: 3}
-      propertyPath: m_CastShadows
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11119,6 +11119,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: GutsArenaController
       objectReference: {fileID: 0}
+    - target: {fileID: 3829341990661256693, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      propertyPath: counterIncreased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1620650309396338402}
+    - target: {fileID: 3829341990661256693, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      propertyPath: counterIncreased.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TryIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829341990661256693, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      propertyPath: counterIncreased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Cortopia.Scripts.AssetReferenceProperties.Types.AssetReferencePropertyCounter,
+        Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4965256435078337529, guid: feb6ab5584687684c9525249237d3836, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -11139,6 +11152,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2893762363944412645, guid: feb6ab5584687684c9525249237d3836, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1620650309396338401}
+    - targetCorrespondingSourceObject: {fileID: 2893762363944412645, guid: feb6ab5584687684c9525249237d3836, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1620650309396338402}
   m_SourcePrefab: {fileID: 100100000, guid: feb6ab5584687684c9525249237d3836, type: 3}
 --- !u!1 &1620650309396338400 stripped
 GameObject:
@@ -11164,6 +11180,24 @@ MonoBehaviour:
     m_EditorAssetChanged: 0
   propertyName: Variable
   defaultValue: 0
+--- !u!114 &1620650309396338402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620650309396338400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65773ee91d9ab1e4f972c9a09c95c0a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetReference:
+    m_AssetGUID: 80f9ca114030fa543ae771b61a545a79
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  propertyName: Variable
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
