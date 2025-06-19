@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BloodCutBruiseMask:
-        m_Texture: {fileID: 2800000, guid: e279d4b75d53aaf448adc778a75bdb26, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5657507ec4511ef43a15e0e101373dad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -109,7 +109,6 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Telekinesis_Int: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
