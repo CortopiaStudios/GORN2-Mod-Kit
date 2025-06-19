@@ -3360,6 +3360,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageContext: {fileID: 6284820138709029505}
+--- !u!1 &8866530223723674199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3512238460309060138}
+  - component: {fileID: 8920336062580861327}
+  - component: {fileID: 5804460420629502766}
+  m_Layer: 7
+  m_Name: ArmorDestroyer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3512238460309060138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8866530223723674199}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5679524137995392253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8920336062580861327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8866530223723674199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a486d0704f58a54db776ee290b5901f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1e+10
+  rigidbody: {fileID: 6556610833262719793}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  castColliders:
+  - {fileID: 5804460420629502766}
+--- !u!136 &5804460420629502766
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8866530223723674199}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.03
+  m_Height: 1.1932606
+  m_Direction: 0
+  m_Center: {x: -0.5937987, y: 5.8078423e-13, z: 1.1669637e-13}
 --- !u!1 &8872777517854759132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3404,6 +3479,7 @@ Transform:
   - {fileID: 5156689246083685868}
   - {fileID: 2444573674019364278}
   - {fileID: 3912673907002889306}
+  - {fileID: 3512238460309060138}
   m_Father: {fileID: 7519048024021664353}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &6556610833262719793
