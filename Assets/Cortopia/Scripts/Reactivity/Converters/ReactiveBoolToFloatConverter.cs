@@ -22,7 +22,7 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<float> trueValue;
 
         [UsedImplicitly]
-        public Reactive<float> Result => this.condition.Reactive.DistinctUntilChanged().Select(x => x ? this.trueValue.Reactive : this.falseValue.Reactive).Switch();
+        public Reactive<float> Result => new();
         
         public string GetName(string propertyName)
         {

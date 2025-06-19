@@ -22,16 +22,11 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private BoundValue<float> conditionFloat;
 
         [UsedImplicitly]
-        public Reactive<bool> ConditionMet => this.active.Reactive.Combine(this.conditionFloat.Reactive).Select(this.Selector);
+        public Reactive<bool> ConditionMet => new();
 
         [UsedImplicitly]
-        public Reactive<bool> ConditionMetDistinct => this.ConditionMet.DistinctUntilChanged();
+        public Reactive<bool> ConditionMetDistinct => new();
 
-        private bool Selector(float arg1, float arg2)
-        {
-            return arg1.CompareTo(arg2, this.conditionOperator);
-        }
-        
         public string GetName(string propertyName)
         {
             return string.IsNullOrWhiteSpace(this.reactiveName) ? "" : $"{this.reactiveName}.{propertyName}";
