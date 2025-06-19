@@ -24,6 +24,7 @@ namespace Cortopia.Scripts.Character
         private List<BoundValue<GameObject>> spawnedOrgans;
 
         public Reactive<float> Scale => new();
+        public Reactive<float> InverseScale => new();
 
         public void Init()
         {
