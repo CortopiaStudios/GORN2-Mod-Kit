@@ -15,6 +15,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<float> inputValue;
 
         [UsedImplicitly]
-        public Reactive<int> Result => this.inputValue.Reactive.DistinctUntilChanged().Select(f => (int) f);
+        public Reactive<int> Result => new();
     }
 }

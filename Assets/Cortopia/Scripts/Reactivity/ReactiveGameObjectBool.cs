@@ -19,7 +19,7 @@ namespace Cortopia.Scripts.Reactivity
         private new BoundValue<GameObject> gameObject;
 
         [UsedImplicitly]
-        public Reactive<bool> HasValue => this.gameObject.Reactive.Select(go => go != null);
+        public Reactive<bool> HasValue => new();
         
         public string GetName(string propertyName)
         {

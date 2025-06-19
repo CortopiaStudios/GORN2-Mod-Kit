@@ -13,7 +13,7 @@ namespace Cortopia.Scripts.Reactivity.Operators
         [SerializeField]
         private BoundValue<object> value;
 
-        public Reactive<bool> IsNull => this.value.Reactive.Select(x => x == null);
-        public Reactive<bool> IsNotNull => this.value.Reactive.Select(x => x != null);
+        public Reactive<bool> IsNull => new();
+        public Reactive<bool> IsNotNull => new();
     }
 }

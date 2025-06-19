@@ -15,20 +15,14 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<float> alpha;
 
-        private bool _doSubscribe;
-        private ReactiveSubscription _subscription;
-        private TMP_Text _text;
-
-        private TMP_Text Text => this._text ??= this.GetComponent<TMP_Text>();
+        private TMP_Text Text => null;
 
         private void OnEnable()
         {
-            this._subscription = this.alpha.Reactive.OnValue(f => { this.Text.color = new Color(this.Text.color.r, this.Text.color.g, this.Text.color.b, f); });
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

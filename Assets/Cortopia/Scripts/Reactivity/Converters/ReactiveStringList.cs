@@ -19,6 +19,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private List<string> strings;
         
         [UsedImplicitly]
-        public Reactive<string> SelectedString => this.index.Reactive.Select(i => i < 0 || i >= this.strings.Count ? string.Empty : this.strings[i]);
+        public Reactive<string> SelectedString => new();
     }
 }

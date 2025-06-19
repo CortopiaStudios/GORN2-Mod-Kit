@@ -22,23 +22,8 @@ namespace Cortopia.Scripts.Reactivity.Operators
         [SerializeField]
         private string conditionState;
 
-        private readonly ReactiveSource<bool> _conditionMet = new(false);
-        private int _conditionInt;
-        private ReactiveSubscription _subscribes;
-
         [UsedImplicitly]
-        public Reactive<bool> ConditionMet => this._conditionMet.Reactive;
-
-        private void Awake()
-        {
-            this._conditionInt = this.stateVariable.States.IndexOf(this.conditionState);
-            this._subscribes = this.stateVariable.Variable.Reactive.OnValue(this.CheckCondition);
-        }
-
-        private void OnDestroy()
-        {
-            this._subscribes.Dispose();
-        }
+        public Reactive<bool> ConditionMet => new();
 
         private void OnValidate()
         {
@@ -51,11 +36,6 @@ namespace Cortopia.Scripts.Reactivity.Operators
         public string GetName(string propertyName)
         {
             return string.IsNullOrWhiteSpace(this.reactiveName) ? "" : $"{this.reactiveName}.{propertyName}";
-        }
-
-        private void CheckCondition(int arg)
-        {
-            this._conditionMet.Value = arg.CompareTo(this._conditionInt, this.conditionOperator);
         }
     }
 }

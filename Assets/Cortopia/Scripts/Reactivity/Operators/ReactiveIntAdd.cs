@@ -17,6 +17,6 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private BoundValue<int> valueB;
 
         [UsedImplicitly]
-        public Reactive<int> Sum => this.valueA.Reactive.Combine(this.valueB.Reactive).Select((a, b) => a + b);
+        public Reactive<int> Sum => new();
     }
 }

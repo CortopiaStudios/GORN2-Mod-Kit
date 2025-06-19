@@ -17,6 +17,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<float> defaultValue;
 
         [UsedImplicitly]
-        public Reactive<float> Result => this.inputValue.Reactive.Combine(this.defaultValue.Reactive).Select(t => float.TryParse(t.Item1, out float y) ? y : t.Item2);
+        public Reactive<float> Result => new();
     }
 }

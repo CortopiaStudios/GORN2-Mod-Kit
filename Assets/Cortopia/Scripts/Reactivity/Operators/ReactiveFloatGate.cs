@@ -17,48 +17,18 @@ namespace Cortopia.Scripts.Reactivity.Operators
         [SerializeField]
         private BoundValue<float> @return;
 
-        private readonly ReactiveSource<bool> _output = new(false);
-
-        private ReactiveSubscription _subscription;
-
-        public Reactive<float> Input => this.input.Reactive;
-        public Reactive<float> Threshold => this.threshold.Reactive;
-        public Reactive<float> Return => this.@return.Reactive;
-        public Reactive<bool> Output => this._output.Reactive;
+        public Reactive<float> Input => new();
+        public Reactive<float> Threshold => new();
+        public Reactive<float> Return => new();
+        public Reactive<bool> Output => new();
 
         private void OnEnable()
         {
-            var gates = this.threshold.Reactive.Combine(this.@return.Reactive).Select(t => (threshold: t.Item1, @return: t.Item2, direction: !(t.Item1 < t.Item2)));
-            this._subscription &= this._output.Reactive.DistinctUntilChanged()
-                .Combine(this.input.Reactive, gates)
-                .OnValue(t =>
-                {
-                    (bool state, float value, (float threshold, float @return, bool direction) g) = t;
-                    switch (state)
-                    {
-                        case false:
-                            bool atThreshold = !(g.direction ? value < g.threshold : value > g.threshold);
-                            if (atThreshold)
-                            {
-                                this._output.Value = true;
-                            }
-
-                            break;
-                        case true:
-                            bool belowReturn = g.direction ? value < g.@return : value > g.@return;
-                            if (belowReturn)
-                            {
-                                this._output.Value = false;
-                            }
-
-                            break;
-                    }
-                });
+          
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private BoundValue<bool> value;
 
         [UsedImplicitly]
-        public Reactive<bool> Inverse => this.value.Reactive.Select(val => !val);
+        public Reactive<bool> Inverse => new();
         
         public string GetName(string propertyName)
         {

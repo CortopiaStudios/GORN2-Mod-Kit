@@ -20,12 +20,6 @@ namespace Cortopia.Scripts.Reactivity.Operators
         [SerializeField]
         private bool invertConditionB;
 
-        public ReactiveAndCompare()
-        {
-            this.AllConditionsTrue = Reactive.Lazy(() => this.conditionA.Reactive.Value ^ this.invertConditionA && this.conditionB.Reactive.Value ^ this.invertConditionB,
-                () => this.conditionA.Reactive.Combine(this.conditionB.Reactive).Select(t => t.Item1 ^ this.invertConditionA && t.Item2 ^ this.invertConditionB));
-        }
-
         [UsedImplicitly]
         public Reactive<bool> AllConditionsTrue { get; }
     }

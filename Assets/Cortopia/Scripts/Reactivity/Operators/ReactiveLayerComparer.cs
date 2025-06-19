@@ -17,11 +17,6 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private BoundValue<LayerMask> requiredLayer;
 
         [UsedImplicitly]
-        public Reactive<bool> ConditionMet => this.active.Reactive.Combine(this.requiredLayer.Reactive).Select(this.Selector);
-
-        private bool Selector(GameObject arg1, LayerMask arg2)
-        {
-            return arg1 ? (arg2.value & (1 << arg1.layer)) != 0 : false;
-        }
+        public Reactive<bool> ConditionMet => new();
     }
 }

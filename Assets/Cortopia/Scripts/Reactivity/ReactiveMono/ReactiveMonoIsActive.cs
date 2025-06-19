@@ -10,18 +10,14 @@ namespace Cortopia.Scripts.Reactivity.ReactiveMono
 {
     public class ReactiveMonoIsActive : MonoBehaviour
     {
-        private readonly ReactiveSource<bool> _isActive = new(false);
-
-        public Reactive<bool> IsActive => this._isActive.Reactive;
+        public Reactive<bool> IsActive => new();
 
         private void OnEnable()
         {
-            this._isActive.Value = true;
         }
 
         private void OnDisable()
         {
-            this._isActive.Value = false;
         }
     }
 }

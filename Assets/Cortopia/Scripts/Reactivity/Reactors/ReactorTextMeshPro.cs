@@ -15,22 +15,12 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<string> text;
 
-        private ReactiveSubscription _subscription;
-        private TMP_Text _text;
-
-        private void Awake()
-        {
-            this._text = this.GetComponent<TMP_Text>();
-        }
-
         private void OnEnable()
         {
-            this._subscription = this.text.Reactive.OnValue(x => this._text.text = x);
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

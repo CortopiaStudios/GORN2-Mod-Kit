@@ -16,20 +16,12 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private string parameterName = "IsActive";
 
-        private Animator _animator;
-        private int? _parameterHash;
-        private ReactiveSubscription _subscription;
-
         private void OnEnable()
         {
-            this._animator ??= this.GetComponent<Animator>();
-            this._parameterHash ??= Animator.StringToHash(this.parameterName);
-            this._subscription = this.boolValue.Reactive.OnValue(b => this._animator.SetBool(this._parameterHash.Value, b));
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

@@ -14,18 +14,12 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<Color> color;
 
-        private Renderer _renderer;
-        private ReactiveSubscription _subscription;
-
         private void OnEnable()
         {
-            this._renderer ??= this.GetComponent<Renderer>();
-            this._subscription = this.color.Reactive.OnValue(c => this._renderer.material.color = c);
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

@@ -18,26 +18,15 @@ namespace Cortopia.Scripts.Reactivity
         [SerializeField]
         private BoundValue<Color> trueColor = new(UnityEngine.Color.green);
 
-        private readonly ReactiveSource<Color> _color = new(UnityEngine.Color.white);
-        private ReactiveSubscription _subscription;
-
         [UsedImplicitly]
-        public Reactive<Color> Color => this._color.Reactive;
+        public Reactive<Color> Color => new();
 
         private void OnEnable()
         {
-            this._subscription = this.valueSwitch.Reactive.DistinctUntilChanged()
-                .Combine(this.trueColor.Reactive, this.falseColor.Reactive)
-                .OnValue(values =>
-                {
-                    (bool active, Color aColor, Color iColor) = values;
-                    this._color.Value = active ? aColor : iColor;
-                });
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

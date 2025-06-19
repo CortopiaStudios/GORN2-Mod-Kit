@@ -12,14 +12,7 @@ namespace Cortopia.Scripts.Reactivity
     [DefaultExecutionOrder(-5)]
     public class ReactiveGameObject : MonoBehaviour
     {
-        private readonly ReactiveSource<GameObject> _gameObjectSource = new(null);
-
         [UsedImplicitly]
-        public Reactive<GameObject> GameObject => this._gameObjectSource.Reactive;
-
-        private void Awake()
-        {
-            this._gameObjectSource.Value = this.gameObject;
-        }
+        public Reactive<GameObject> GameObject => new();
     }
 }

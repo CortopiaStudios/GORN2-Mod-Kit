@@ -35,7 +35,7 @@ namespace Cortopia.Scripts.FX
         [SerializeField]
         private StudioEventEmitter sfxEmitter;
 
-        public Reactive<float> Acceleration => default;
+        public Reactive<float> Acceleration => new();
 
         protected override void OnEnable()
         {

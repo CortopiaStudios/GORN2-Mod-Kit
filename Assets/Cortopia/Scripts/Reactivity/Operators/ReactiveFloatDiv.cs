@@ -17,6 +17,6 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private BoundValue<float> valueB;
 
         [UsedImplicitly]
-        public Reactive<float> Result => this.valueA.Reactive.Combine(this.valueB.Reactive).Select((a, b) => a / b);
+        public Reactive<float> Result => new();
     }
 }

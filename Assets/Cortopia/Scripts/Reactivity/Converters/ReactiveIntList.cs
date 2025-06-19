@@ -19,6 +19,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private List<int> ints;
 
         [UsedImplicitly]
-        public Reactive<int> SelectedInt => this.index.Reactive.Select(i => i < 0 || i >= this.ints.Count ? this.ints[0] : this.ints[i]);
+        public Reactive<int> SelectedInt => new();
     }
 }

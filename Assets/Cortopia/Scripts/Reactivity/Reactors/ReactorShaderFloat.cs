@@ -18,24 +18,12 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<float> value;
 
-        private Renderer _renderer;
-        private int _shaderProperty;
-        private ReactiveSubscription _subscribe;
-
-        private void Awake()
-        {
-            this._shaderProperty = Shader.PropertyToID(this.shaderPropertyName);
-            this._renderer = this.GetComponent<Renderer>();
-        }
-
         private void OnEnable()
         {
-            this._subscribe &= this.value.Reactive.OnValue(f => this._renderer.materials[this.materialSubIndex].SetFloat(this._shaderProperty, f));
         }
 
         private void OnDisable()
         {
-            this._subscribe.Dispose();
         }
     }
 }

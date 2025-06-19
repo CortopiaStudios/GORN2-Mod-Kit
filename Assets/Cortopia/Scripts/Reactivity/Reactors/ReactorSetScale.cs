@@ -13,16 +13,12 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<Vector3> scale;
 
-        private ReactiveSubscription _subscription;
-
         private void OnEnable()
         {
-            this._subscription &= this.scale.Reactive.OnValue(s => this.transform.localScale = s);
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

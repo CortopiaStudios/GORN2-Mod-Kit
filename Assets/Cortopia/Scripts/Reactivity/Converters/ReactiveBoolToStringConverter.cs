@@ -20,6 +20,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<string> falseValue;
 
         [UsedImplicitly]
-        public Reactive<string> Result => this.condition.Reactive.DistinctUntilChanged().Select(x => x ? this.trueValue.Reactive : this.falseValue.Reactive).Switch();
+        public Reactive<string> Result => new();
     }
 }

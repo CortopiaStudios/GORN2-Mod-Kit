@@ -21,20 +21,9 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private BoundValue<string> conditionString;
 
         [UsedImplicitly]
-        public Reactive<bool> ConditionMet => this.active.Reactive.Combine(this.conditionString.Reactive).Select(this.Selector);
+        public Reactive<bool> ConditionMet => new();
 
         [UsedImplicitly]
-        public Reactive<bool> ConditionMetDistinct => this.ConditionMet.DistinctUntilChanged();
-
-        private bool Selector(string arg1, string arg2)
-        {
-            if (!this.isCaseSensitive)
-            {
-                arg1 = arg1.ToLowerInvariant();
-                arg2 = arg2.ToLowerInvariant();
-            }
-
-            return this.allowPartialMatch ? arg1.Contains(arg2) : arg1.Equals(arg2);
-        }
+        public Reactive<bool> ConditionMetDistinct => new();
     }
 }

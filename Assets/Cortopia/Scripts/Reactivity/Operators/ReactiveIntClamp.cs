@@ -17,7 +17,6 @@ namespace Cortopia.Scripts.Reactivity.Operators
         [SerializeField]
         private BoundValue<int> maxValue;
 
-        public Reactive<int> ClampedValue =>
-            this.source.Reactive.Combine(this.minValue.Reactive, this.maxValue.Reactive).Select(x => Mathf.Clamp(x.Item1, x.Item2, x.Item3));
+        public Reactive<int> ClampedValue => new();
     }
 }

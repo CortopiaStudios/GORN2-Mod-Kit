@@ -10,19 +10,11 @@ namespace Cortopia.Scripts.Reactivity.Reactors
 {
     public class ReactorIntSelectReactiveTrigger : ReactorIntSelectObject<ReactiveTriggerCollider>
     {
-        private readonly ReactiveSource<ReactiveTriggerCollider> _selectedReactiveSource = new(null);
-
         [UsedImplicitly]
-        public Reactive<bool> IsColliderPresent => this._selectedReactiveSource.Reactive.Select(x => x ? x.IsColliderPresent : Reactive.Constant(false)).Switch();
+        public Reactive<bool> IsColliderPresent => new();
 
         protected override void OnSelectedStateChange(ReactiveTriggerCollider obj, bool isSelected)
         {
-            obj.gameObject.SetActive(isSelected);
-
-            if (isSelected)
-            {
-                this._selectedReactiveSource.Value = obj;
-            }
         }
     }
 }

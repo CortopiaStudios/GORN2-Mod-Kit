@@ -6,7 +6,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -26,9 +25,7 @@ namespace Cortopia.Scripts.Reactivity.Operators
         public string defaultValue;
 
         [UsedImplicitly]
-        public Reactive<string> SelectedString =>
-            Reactive.Lazy(() => this.cases.Select(x => x.condition.Reactive.Select(b => b ^ x.invertCondition ? x.value : null)).Combine())
-                .Select(x => x.FirstOrDefault(y => y != null) ?? this.defaultValue);
+        public Reactive<string> SelectedString => new();
 
         public string GetName(string propertyName)
         {

@@ -22,41 +22,17 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         private AnimationCurve interpolationCurve;
         [SerializeField]
         private float animationTime;
-        
-        private float _elapsedTime;
-        private ReactiveSubscription _subscription;
-        private bool _isActive;
 
         private void OnEnable()
         {
-            this._subscription = this.isActive.Reactive.OnValue(x => this._isActive = x);
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
 
         private void Update()
         {
-            if (!this._isActive)
-            {
-                return;
-            }
-            
-            if (this._elapsedTime > this.animationTime)
-            {
-                if (!this.isLooping)
-                {
-                    return;
-                }
-
-                this._elapsedTime -= this.animationTime;
-            }
-
-            this._elapsedTime += Time.deltaTime;
-            float delta = this.interpolationCurve.Evaluate(this._elapsedTime / this.animationTime);
-            this.transform.localScale = Vector3.Lerp(this.startScale, this.endScale, delta);
         }
     }
 }

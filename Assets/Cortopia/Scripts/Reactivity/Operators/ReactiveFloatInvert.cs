@@ -15,6 +15,6 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private BoundValue<float> value;
 
         [UsedImplicitly]
-        public Reactive<float> Inverse => this.value.Reactive.Select(val => -val);
+        public Reactive<float> Inverse => new();
     }
 }

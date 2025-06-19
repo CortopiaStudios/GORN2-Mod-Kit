@@ -15,25 +15,7 @@ namespace Cortopia.Scripts.Reactivity
         [Tooltip("If left null, this script will check against any collider that enters the trigger.")]
         private Collider targetCollider;
 
-        private readonly ReactiveSource<bool> _isColliderPresent = new(false);
-
         [UsedImplicitly]
-        public Reactive<bool> IsColliderPresent => this._isColliderPresent.Reactive;
-
-        private void OnTriggerEnter(Collider other)
-        {
-            if (this.targetCollider == null || other.Equals(this.targetCollider))
-            {
-                this._isColliderPresent.Value = true;
-            }
-        }
-
-        private void OnTriggerExit(Collider other)
-        {
-            if (this.targetCollider == null || other.Equals(this.targetCollider))
-            {
-                this._isColliderPresent.Value = false;
-            }
-        }
+        public Reactive<bool> IsColliderPresent => new();
     }
 }

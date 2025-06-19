@@ -16,23 +16,12 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<bool> isKinematic;
 
-        private Rigidbody _rigidbody;
-        private ReactiveSubscription _subscription;
-
-        private void Awake()
-        {
-            this._rigidbody = this.GetComponent<Rigidbody>();
-        }
-
         private void OnEnable()
         {
-            this._subscription &= this.useGravity.Reactive.OnValue(b => this._rigidbody.useGravity = b);
-            this._subscription &= this.isKinematic.Reactive.OnValue(b => this._rigidbody.isKinematic = b);
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

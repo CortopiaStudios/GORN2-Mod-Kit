@@ -24,7 +24,7 @@ namespace Cortopia.Scripts.Crowd
         [SerializeField]
         private float scaleVariationMax = 1.1f;
 
-        public Reactive<float> CrowdSizePercentage => default;
+        public Reactive<float> CrowdSizePercentage => new();
 
         private void OnEnable()
         {

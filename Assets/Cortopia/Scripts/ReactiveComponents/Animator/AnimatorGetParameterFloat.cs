@@ -12,10 +12,9 @@ namespace Cortopia.Scripts.ReactiveComponents.Animator
 {
     public class AnimatorGetParameterFloat : AnimatorControllerBase, INamedBindableReactiveOwner
     {
-        [SerializeField]
-        private string parameterName;
+        [SerializeField] private string parameterName;
 
-        public ReactiveSource<float> Value => default;
+        public ReactiveSource<float> Value => new(0);
 
         private void Update()
         {
@@ -24,7 +23,7 @@ namespace Cortopia.Scripts.ReactiveComponents.Animator
 
         public string GetName(string propertyName)
         {
-            return propertyName == nameof(this.Value) ? this.parameterName : null;
+            return propertyName == nameof(Value) ? parameterName : null;
         }
     }
 }

@@ -15,22 +15,12 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<float> value;
 
-        private Slider _slider;
-        private ReactiveSubscription _subscription;
-
-        private void Awake()
-        {
-            this._slider = this.GetComponent<Slider>();
-        }
-
         private void OnEnable()
         {
-            this._subscription = this.value.Reactive.OnValue(x => this._slider.value = x);
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

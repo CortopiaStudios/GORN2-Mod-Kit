@@ -12,14 +12,12 @@ namespace Cortopia.Scripts.Reactivity
     public class ReactiveCloseToCamera : MonoBehaviour
     {
         public BoundValue<float> thresholdDistance;
-        private readonly ReactiveSource<float> _distanceSqrToCamera = new(0);
 
         [UsedImplicitly]
-        public Reactive<bool> IsCloseToCamera => this._distanceSqrToCamera.Reactive.Combine(this.thresholdDistance.Reactive).Select((a, b) => a <= b * b);
+        public Reactive<bool> IsCloseToCamera => new();
 
         private void FixedUpdate()
         {
-            this._distanceSqrToCamera.Value = Camera.main ? (Camera.main.transform.position - this.transform.position).sqrMagnitude : 0;
         }
     }
 }

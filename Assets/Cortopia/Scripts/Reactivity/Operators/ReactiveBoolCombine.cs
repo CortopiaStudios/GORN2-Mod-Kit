@@ -5,7 +5,6 @@
 // forbidden except by express written permission of Cortopia Studios.
 
 using System.Collections.Generic;
-using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -19,22 +18,22 @@ namespace Cortopia.Scripts.Reactivity.Operators
         private List<BoundValue<bool>> parameters;
 
         [UsedImplicitly]
-        public Reactive<bool> All => Reactive.Lazy(() => this.parameters.Select(x => x.Reactive).Combine().Select(x => x.All(y => y)));
+        public Reactive<bool> All => new();
 
         [UsedImplicitly]
-        public Reactive<bool> AllDistinct => this.All.DistinctUntilChanged();
+        public Reactive<bool> AllDistinct => new();
 
         [UsedImplicitly]
-        public Reactive<bool> Any => Reactive.Lazy(() => this.parameters.Select(x => x.Reactive).Combine().Select(x => x.Any(y => y)));
+        public Reactive<bool> Any => new();
 
         [UsedImplicitly]
-        public Reactive<bool> AnyDistinct => this.Any.DistinctUntilChanged();
+        public Reactive<bool> AnyDistinct => new();
 
         [UsedImplicitly]
-        public Reactive<bool> AnyEx => this.parameters.Aggregate(Reactive.Constant(false), (acc, x) => acc.Combine(x.Reactive).Select(y => y.Item1 || y.Item2));
+        public Reactive<bool> AnyEx => new();
 
         [UsedImplicitly]
-        public Reactive<bool> AllEx => this.parameters.Aggregate(Reactive.Constant(true), (acc, x) => acc.Combine(x.Reactive).Select(y => y.Item1 && y.Item2));
+        public Reactive<bool> AllEx => new();
 
         public string GetName(string propertyName)
         {

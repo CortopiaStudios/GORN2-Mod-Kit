@@ -20,31 +20,15 @@ namespace Cortopia.Scripts.Reactivity.Transitions
         [SerializeField]
         private BoundValue<bool> toValue = new(true);
 
-        private readonly ReactiveSource<bool> _output = new(false);
-        private ReactiveSubscription _subscription;
-
         [UsedImplicitly]
-        public Reactive<bool> Output => this._output.Reactive;
-
-        private void Awake()
-        {
-            this._output.Value = this.startValue;
-        }
+        public Reactive<bool> Output => new();
 
         private void OnEnable()
         {
-            this._subscription &= this.doTransition.Reactive.OnValue(b =>
-            {
-                if (b && this._output.Value == this.fromValue.Reactive.Value)
-                {
-                    this._output.Value = this.toValue.Reactive.Value;
-                }
-            });
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

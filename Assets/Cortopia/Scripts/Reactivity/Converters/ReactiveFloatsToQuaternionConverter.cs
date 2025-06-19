@@ -19,6 +19,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<float> z;
 
         [UsedImplicitly]
-        public Reactive<Quaternion> Quaternion => this.x.Reactive.Combine(this.y.Reactive, this.z.Reactive).Select(UnityEngine.Quaternion.Euler);
+        public Reactive<Quaternion> Quaternion => new();
     }
 }

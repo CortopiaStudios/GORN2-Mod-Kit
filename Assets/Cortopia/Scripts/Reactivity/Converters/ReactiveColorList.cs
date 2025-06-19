@@ -19,6 +19,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private List<Color> colors;
         
         [UsedImplicitly]
-        public Reactive<Color> SelectedColor => this.index.Reactive.Select(i => i < 0 || i >= this.colors.Count ? Color.black : this.colors[i]);
+        public Reactive<Color> SelectedColor => new();
     }
 }

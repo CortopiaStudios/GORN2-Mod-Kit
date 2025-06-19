@@ -17,6 +17,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<int> moduloValue;
 
         [UsedImplicitly]
-        public Reactive<int> Result => this.value.Reactive.Combine(this.moduloValue.Reactive).Select((a, b) => a % b);
+        public Reactive<int> Result => new();
     }
 }

@@ -17,24 +17,15 @@ namespace Cortopia.Scripts.Reactivity
         private BoundValue<Transform> transformB;
         [SerializeField]
         private float maxDistance;
-        private readonly ReactiveSource<float> _currentDistance = new(0.0f);
-        private readonly ReactiveSource<bool> _isClose = new(false);
 
         [UsedImplicitly]
-        public Reactive<bool> IsClose => this._isClose.Reactive.DistinctUntilChanged();
+        public Reactive<bool> IsClose => new();
 
         [UsedImplicitly]
-        public Reactive<float> CurrentDistance => this._currentDistance.Reactive;
+        public Reactive<float> CurrentDistance => new();
 
         private void Update()
         {
-            if (this.transformA.Reactive.Value == null || this.transformB.Reactive.Value == null)
-            {
-                return;
-            }
-
-            this._currentDistance.Value = (this.transformA.Reactive.Value.position - this.transformB.Reactive.Value.transform.position).magnitude;
-            this._isClose.Value = this._currentDistance.Value <= this.maxDistance;
         }
     }
 }

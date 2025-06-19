@@ -18,21 +18,15 @@ namespace Cortopia.Scripts.Reactivity
         [SerializeField]
         private Sprite trueSprite;
 
-        private readonly ReactiveSource<Sprite> _sprite = new(null);
-
-        private ReactiveSubscription _subscription;
-
         [UsedImplicitly]
-        public Reactive<Sprite> Sprite => this._sprite.Reactive;
+        public Reactive<Sprite> Sprite => new();
 
         private void OnEnable()
         {
-            this._subscription = this.valueSwitch.Reactive.DistinctUntilChanged().OnValue(active => { this._sprite.Value = active ? this.trueSprite : this.falseSprite; });
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
         }
     }
 }

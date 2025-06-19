@@ -17,29 +17,14 @@ namespace Cortopia.Scripts.Reactivity.Input
         [Tooltip("The Input System Action that will be used to read data from the hand controller.")]
         private InputActionProperty inputAction = new(new InputAction("Input action"));
 
-        private readonly ReactiveSource<bool> _currentInput = new(false);
-        public Reactive<bool> CurrentInput => this._currentInput.Reactive.DistinctUntilChanged();
+        public Reactive<bool> CurrentInput => new();
 
         private void OnEnable()
         {
-            this.inputAction.action.started += this.OnActionStarted;
-            this.inputAction.action.canceled += this.OnActionCanceled;
         }
 
         private void OnDisable()
         {
-            this.inputAction.action.started -= this.OnActionStarted;
-            this.inputAction.action.canceled -= this.OnActionCanceled;
-        }
-
-        private void OnActionStarted(InputAction.CallbackContext obj)
-        {
-            this._currentInput.Value = true;
-        }
-
-        private void OnActionCanceled(InputAction.CallbackContext obj)
-        {
-            this._currentInput.Value = false;
         }
 
         public string GetName(string propertyName)

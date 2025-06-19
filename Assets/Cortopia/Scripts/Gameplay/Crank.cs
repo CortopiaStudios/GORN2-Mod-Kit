@@ -45,10 +45,10 @@ namespace Cortopia.Scripts.Gameplay
         [SerializeField]
         private bool debugDraw;
 
-        public Reactive<float> CurrentSpeed => default;
-        public Reactive<bool> IsRotating => default;
-        public Reactive<IntegerCounter> Ticker => default;
-        public Reactive<IntegerCounter> OnCrankInWrongDirection => default;
+        public Reactive<float> CurrentSpeed => new();
+        public Reactive<bool> IsRotating => new();
+        public Reactive<IntegerCounter> Ticker => new();
+        public Reactive<IntegerCounter> OnCrankInWrongDirection => new();
 
         private void Update()
         {

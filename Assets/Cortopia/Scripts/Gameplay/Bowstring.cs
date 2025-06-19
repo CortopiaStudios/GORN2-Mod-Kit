@@ -59,13 +59,13 @@ namespace Cortopia.Scripts.Gameplay
         [SerializeField]
         private float maxNockingRotationY;
 
-        public Reactive<float> PullBackDistanceNormalized => default;
-        public Reactive<float> PullBackSpeed => default;
-        public Reactive<float> ReleasedPower => default;
-        public Reactive<IntegerCounter> OnPoweredRelease => default;
-        public Reactive<IntegerCounter> OnNonPoweredRelease => default;
+        public Reactive<float> PullBackDistanceNormalized => new();
+        public Reactive<float> PullBackSpeed => new();
+        public Reactive<float> ReleasedPower => new();
+        public Reactive<IntegerCounter> OnPoweredRelease => new();
+        public Reactive<IntegerCounter> OnNonPoweredRelease => new();
 
-        public Transform ReferenceTransform => default;
+        public Transform ReferenceTransform => null;
 
         private void Update()
         {

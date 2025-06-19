@@ -18,6 +18,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private string format = "f2";
 
         [UsedImplicitly]
-        public Reactive<string> Result => this.inputValue.Reactive.DistinctUntilChanged().Select(x => x.ToString(this.format));
+        public Reactive<string> Result => new();
     }
 }

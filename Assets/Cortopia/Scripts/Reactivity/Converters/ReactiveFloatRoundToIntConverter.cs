@@ -4,7 +4,6 @@
 // and/or confidential. Reproduction or distribution, in whole or in part, is
 // forbidden except by express written permission of Cortopia Studios.
 
-using System;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -16,6 +15,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<float> inputValue;
 
         [UsedImplicitly]
-        public Reactive<int> Result => this.inputValue.Reactive.DistinctUntilChanged().Select(f => (int) Math.Round(f, 0));
+        public Reactive<int> Result => new();
     }
 }

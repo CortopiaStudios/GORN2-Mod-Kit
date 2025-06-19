@@ -14,27 +14,14 @@ namespace Cortopia.Scripts.Reactivity.Reactors
         [SerializeField]
         private BoundValue<float> alpha;
 
-        private CanvasGroup _canvasGroup;
-        private ReactiveSubscription _subscription;
-
-        private CanvasGroup CanvasGroup => this._canvasGroup ??= this.GetComponent<CanvasGroup>();
+        private CanvasGroup CanvasGroup => null;
 
         private void OnEnable()
         {
-            this._subscription &= this.alpha.Reactive.OnValue(this.SetAlpha);
         }
 
         private void OnDisable()
         {
-            this._subscription.Dispose();
-        }
-
-        private void SetAlpha(float a)
-        {
-            this.CanvasGroup.alpha = a;
-            bool fullyVisible = Mathf.Approximately(this.CanvasGroup.alpha, 1f);
-            this.CanvasGroup.interactable = fullyVisible;
-            this.CanvasGroup.blocksRaycasts = fullyVisible;
         }
     }
 }

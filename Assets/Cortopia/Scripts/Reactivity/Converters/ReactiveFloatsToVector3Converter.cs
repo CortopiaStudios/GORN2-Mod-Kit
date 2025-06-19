@@ -19,6 +19,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<float> z;
 
         [UsedImplicitly]
-        public Reactive<Vector3> Vector3 => this.x.Reactive.Combine(this.y.Reactive, this.z.Reactive).Select((xx, yy, zz) => new Vector3(xx, yy, zz));
+        public Reactive<Vector3> Vector3 => new();
     }
 }

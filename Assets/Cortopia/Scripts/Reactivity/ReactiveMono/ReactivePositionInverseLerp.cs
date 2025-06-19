@@ -16,21 +16,11 @@ namespace Cortopia.Scripts.Reactivity.ReactiveMono
         [SerializeField]
         private Vector3 maxPosition;
 
-        private readonly ReactiveSource<float> _inverseLerp = new(0f);
-
         [UsedImplicitly]
-        public Reactive<float> InverseLerpValue => this._inverseLerp.Reactive;
+        public Reactive<float> InverseLerpValue => new();
         
         private void Update()
         {
-            this._inverseLerp.Value = InverseLerp(this.transform.localPosition, this.minPosition, this.maxPosition);
-        }
-
-        private static float InverseLerp(Vector3 value, Vector3 a, Vector3 b)
-        {
-            Vector3 ab = b - a;
-            Vector3 av = value - a;
-            return Mathf.Clamp01(Vector3.Dot(av, ab) / Vector3.Dot(ab, ab));
         }
     }
 }

@@ -15,6 +15,6 @@ namespace Cortopia.Scripts.Reactivity.Converters
         private BoundValue<int> inputValue;
 
         [UsedImplicitly]
-        public Reactive<string> Result => this.inputValue.Reactive.DistinctUntilChanged().Select(x => x.ToString());
+        public Reactive<string> Result => new();
     }
 }
