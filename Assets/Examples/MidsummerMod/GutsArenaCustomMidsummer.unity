@@ -9145,6 +9145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1756478358}
   - component: {fileID: 1756478359}
+  - component: {fileID: 1756478360}
   m_Layer: 0
   m_Name: Set CanCarryGrabbablesAcrossScenes False
   m_TagString: Untagged
@@ -9187,10 +9188,10 @@ MonoBehaviour:
   onTrue:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: db5a8f3f4fe81394b877889c515334cc, type: 2}
-        m_TargetAssemblyTypeName: Cortopia.Scripts.Reactivity.Singletons.GlobalVariable`1[[System.Boolean,
+      - m_Target: {fileID: 1756478360}
+        m_TargetAssemblyTypeName: Cortopia.Scripts.AssetReferenceProperties.AssetReferenceProperty`1[[System.Boolean,
           mscorlib
-        m_MethodName: Set
+        m_MethodName: TrySetValue
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9200,6 +9201,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1756478360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756478357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5624c3fe51a2410f9c69363e3ac13ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetReference:
+    m_AssetGUID: db5a8f3f4fe81394b877889c515334cc
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  propertyName: 
+  defaultValue: 0
 --- !u!1 &1758412532
 GameObject:
   m_ObjectHideFlags: 0
