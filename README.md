@@ -1,5 +1,5 @@
 # GORN2-Mod-Kit
-The official mod kit for the VR game GORN2
+The official mod kit for the VR game GORN2.
 
 ## How to export a mod
 1. Mark the assets you want to export as [addressable](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/AddressableAssetsGettingStarted.html).
