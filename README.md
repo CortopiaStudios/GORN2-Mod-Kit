@@ -21,6 +21,20 @@ There are a couple of example mods in the project under `Assets/Examples/`. Most
 
 Various guideline documents are also included under the folder `Assets/Guidelines/`.
 
+## Adding custom weapons
+It's possible to create custom weapons that are selectable in the Custom Mode weapons menu. Create a prefab for the weapon (currently it's recommended to see how existing weapons are implemented, for example `Assets/Cortopia/Prefabs/Weapons/BoneClub.prefab`), mark it as an addressable with the addressable label `Weapon` to make it appear in Custom Mode.
+
+Add the component `ObjectDescrption` in the root object in the prefab to give the weapon a specific sprite that will be shown in the Custom Mode weapons menu. The name that will be shown is the name of the prefab.
+
+## Adding custom armors
+
+Custom armors will appear in the Custom Mode menu where the player can toggle what armor sets the enemies in the game should spawn with. Similar to custom weapons, create a prefab for the armor set (see `Assets/Cortopia/Prefabs/Armor/ArmorSet_Iron.prefab` how armor sets are implemented in the game), mark it as an addressable with the addressable label `Armor` to make it appear in Custom Mode.
+
+Add the component `ObjectDescrption` in the root object in the prefab to give the armor a spefific sprite that will be shown in the Custom Mode menu. The name that will be shown is the name of the prefab.
+
+## Adding custom
+
+
 ## Referencing core game assets inside a mod
 
 ## Physics materials
@@ -28,12 +42,6 @@ Various guideline documents are also included under the folder `Assets/Guideline
 ## Shaders
 
 ## Overriding existing assets
-
-## Adding custom weapons
-
-## Adding custom armors
-
-## Adding custom 
 
 ## Further reading
 ### Guideline documents
