@@ -2,7 +2,7 @@
 The official mod kit for the VR game GORN2.
 
 ## How to export a mod
-1. Mark the assets you want to export as [addressable](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/AddressableAssetsGettingStarted.html).
+1. Mark the assets you want to export as [addressable](https://docs.unity3d.com/Packages/com.unity.addressables@1.22/manual/get-started-make-addressable.html).
 2. Switch to either Windows or Android in [Build Settings](https://docs.unity3d.com/2022.3/Documentation/Manual/BuildSettings.html) depending on what platform the mod should target.
 3. Build the mod to a zip file using Mod Tools -> Build.
 4. Find the zip-file in the explorer (follow the link printed in the [Console window](https://docs.unity3d.com/2022.3/Documentation/Manual/Console.html))
@@ -13,14 +13,16 @@ The official mod kit for the VR game GORN2.
 9. Activate the mod in the Modio menu inside the game.
 
 ## ⛔ Limitations
-
 ### No custom scripts
 Custom scripts cannot be exported in mods. Instead we recommend using the various behaviour tree components that exist in the project to create complex behaviors. Also, the different "reactive"-components can be used to hook up properties between objects to create custom behaviors.
 
 ### Cannot fully test the mod in Unity editor
 Most components from the main game has been imported to the mod kit project but many of the scripts are missing the full implementation details. Therefor the components can be used in the mods but cannot be tested directly in the Unity editor. To test the mod one have to upload the mod to [Modio](https://mod.io/g/gorn-2) and download and play the mod inside the game.
 
-## 📄 Examples and guidelines
+### Everything isn't moddable
+
+
+## Examples and guidelines
 There are a couple of example mods in the project under `Assets/Examples/`. Most of the examples contain README-files with details of how mods can be exported and things that can be done with mods.
 
 Various guideline documents are also included under the folder `Assets/Guidelines/`.
@@ -51,6 +53,4 @@ The mod kit includes the component `ColliderMaterialReference` which is put on g
 The mod kit project contains a bunch of prefabs imported from the main game. Most of these don't contain the full implemention but can still be referenced in mods to for example spawn weapons from the main game, etc. To use these prefab they need to be referenced as "addressables" and not through direct references. An example is to use the component `SingleSpawner`. This component references assets with Unity's addressables system to spawn the full object inside the game using the mod.
 
 ## Overriding existing assets
-
-## Further reading
-### Guideline documents
+Some assets can be overridden in the main game, for example giving enemies shovels instead of swords when they spawn throughout the game, or just spawn chicken instead of Rokibes, new armor sets, levels, etc. To do this the assets that are exported in the mod by marking them as addressable and changing the address to the same as an asset from the main game. The address of a main game asset can be found by selecting the asset in the `Assets/Cortopia/` folder (or inspect `Assets/AddressableAssetEntries.txt`) and copy the address that is shown in the inspector next to the addressable toggle. Then paste that address to the mod asset that should override.
