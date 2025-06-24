@@ -35,7 +35,9 @@ Add the component `ObjectDescrption` in the root object in the prefab to give th
 ## 💥 Using GORN2 physic materials
 Physic material assets from the core game are included in the mod kit project. They are used for not only controlling how the objects behave in the physics engine but also selecting the correct VFX's and sounds on collisions, determine if objects are penetrable by the `Piercing` component and other things.
 
-To use the included physic materials with their other properties, you need to reference these assets as "addressables" and not use direct referencing, for example using the materials directly in `Collider` components. Otherwise, when exporting the mod, the assets will be copied resulting in their own unique objects that aren't recognized in the core game when for example playing collision VFX's, etc. The mod kit includes the component `ColliderMaterialReference` which is put on game objects with colliders to set the collider material using physic materials as "addressables" references. When exporting the mod the `ColliderMaterialReference` will use the correct material material in the game.
+To use the included physic materials with their other properties, you need to reference these assets as "addressables" and not use direct referencing, for example using the materials directly in `Collider` components. Otherwise, when exporting the mod, the assets will be copied resulting in their own unique objects that aren't recognized in the core game when for example playing collision VFX's, etc.
+
+The mod kit includes the component `ColliderMaterialReference` which is put on game objects with colliders to set the collider material using physic materials as "addressables" references. When exporting the mod the `ColliderMaterialReference` will use the correct material material in the game.
 
 ## Shaders
 
