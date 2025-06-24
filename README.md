@@ -16,7 +16,7 @@ The official mod kit for the VR game GORN2.
 ### Custom scripts
 Custom scripts cannot be exported in mods. Instead we recommend using the various behaviour tree components that exist in the project to create complex behaviors. Also, the different "reactive"-components can be used to hook up properties between objects to create custom behaviors.
 
-## Examples
+## Example mods
 There are a couple of example mods in the project under `Assets/Examples/`. Most of the examples contain README-files with details of how mods can be exported and things that can be done with mods.
 
 Various guideline documents are also included under the folder `Assets/Guidelines/`.
@@ -31,9 +31,6 @@ Add the component `ObjectDescrption` in the root object in the prefab to give th
 Custom armors will appear in the Custom Mode menu where the player can toggle what armor sets the enemies in the game should spawn with. Similar to custom weapons, create a prefab for the armor set (see `Assets/Cortopia/Prefabs/Armor/ArmorSet_Iron.prefab` how armor sets are implemented in the game), mark it as an addressable with the addressable label `Armor` to make it appear in Custom Mode.
 
 Add the component `ObjectDescrption` in the root object in the prefab to give the armor a spefific sprite that will be shown in the Custom Mode menu. The name that will be shown is the name of the prefab.
-
-## Adding custom
-
 
 ## Referencing core game assets inside a mod
 
