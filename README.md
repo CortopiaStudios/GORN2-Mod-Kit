@@ -1,6 +1,5 @@
 ![](Documents/GORN2ModKitLogo.png)
 
-# GORN2 Mod Kit  
 The official modding toolkit for the VR game **GORN2**.
 
 ## 🛠️ How to Export a Mod  
