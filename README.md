@@ -21,7 +21,7 @@ There are a couple of example mods in the project under `Assets/Examples/`. Most
 
 Various guideline documents are also included under the folder `Assets/Guidelines/`.
 
-## Adding custom weapons
+## :hocho:Adding custom weapons
 It's possible to create custom weapons that are selectable in the Custom Mode weapons menu. Create a prefab for the weapon (currently it's recommended to see how existing weapons are implemented, for example `Assets/Cortopia/Prefabs/Weapons/BoneClub.prefab`), mark it as an addressable with the addressable label `Weapon` to make it appear in Custom Mode.
 
 Add the component `ObjectDescrption` in the root object in the prefab to give the weapon a specific sprite that will be shown in the Custom Mode weapons menu. The name that will be shown is the name of the prefab.
