@@ -34,6 +34,9 @@ Add the component `ObjectDescrption` in the root object in the prefab to give th
 
 ## ⛰️ Adding custom levels
 
+Similar to custom weapons and armor sets it's possible to add custom levels that are accessible from the Mod Levels menu at the Custom/Endless Mode portal. Mark the scene as addressable with the label "Scene" and export it with the mod. See the example level `Assets/Examples/SampleScene/SampleScene.unity` in the mod kit project for how a level can be set up.
+
+The component `PlayerStartPoint` is used in levels to control where the player should start. The prefab `Assets/Cortopia/Prefabs/PlayerStartPoint.prefab` can be used in the scene as well. 
 
 ## 💥 Using GORN2 physic materials
 Physic material assets from the core game are included in the mod kit project. They are used for not only controlling how the objects behave in the physics engine but also selecting the correct VFX's and sounds on collisions, determine if objects are penetrable by the `Piercing` component and other things.
