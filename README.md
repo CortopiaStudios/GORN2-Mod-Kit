@@ -42,8 +42,6 @@ To use the included physic materials with their other properties, you need to re
 
 The mod kit includes the component `ColliderMaterialReference` which is put on game objects with colliders to set the collider material using physic materials as "addressables" references. When exporting the mod the `ColliderMaterialReference` will use the correct material material in the game.
 
-## Shaders
-
 ## Referencing core game assets inside a mod
 
 ## Overriding existing assets
