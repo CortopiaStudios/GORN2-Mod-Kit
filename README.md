@@ -16,7 +16,7 @@ The official mod kit for the VR game GORN2.
 ### Custom scripts
 Custom scripts cannot be exported in mods. Instead we recommend using the various behaviour tree components that exist in the project to create complex behaviors. Also, the different "reactive"-components can be used to hook up properties between objects to create custom behaviors.
 
-## 📄 Example mods
+## 📄 Example mods and guidelines
 There are a couple of example mods in the project under `Assets/Examples/`. Most of the examples contain README-files with details of how mods can be exported and things that can be done with mods.
 
 Various guideline documents are also included under the folder `Assets/Guidelines/`.
