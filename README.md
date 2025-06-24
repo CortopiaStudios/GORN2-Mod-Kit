@@ -26,7 +26,7 @@ It's possible to create custom weapons that are selectable in the Custom Mode we
 
 Add the component `ObjectDescrption` in the root object in the prefab to give the weapon a specific sprite that will be shown in the Custom Mode weapons menu. The name that will be shown is the name of the prefab.
 
-## 🪖 Adding custom armors
+## 🪖 Adding custom armor sets
 
 Custom armors will appear in the Custom Mode menu where the player can toggle what armor sets the enemies in the game should spawn with. Similar to custom weapons, create a prefab for the armor set (see `Assets/Cortopia/Prefabs/Armor/ArmorSet_Iron.prefab` how armor sets are implemented in the game), mark it as an addressable with the addressable label `Armor` to make it appear in Custom Mode.
 
