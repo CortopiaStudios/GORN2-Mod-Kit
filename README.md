@@ -13,14 +13,14 @@ The official modding toolkit for the VR game **GORN2**.
 
 ## ⛔ Limitations
 
-### ❌ No Custom Scripts  
+### No Custom Scripts  
 Custom scripts cannot be included in mods. Instead, use the available **behavior tree components** provided in the project to create complex logic. You can also use the various **"reactive" components** to link properties between objects and build interactive behaviors.
 
-### ⚠️ Limited Testing in the Unity Editor  
+### Limited Testing in the Unity Editor  
 While most components from the main game have been imported into the mod kit, many lack full implementation details. These components can be used in mods but cannot be fully tested in the Unity Editor.  
 To test your mod, upload it to [Mod.io](https://mod.io/g/gorn-2), download it in-game, and test it within the GORN2 runtime.
 
-### 🛑 Not Everything is Moddable  
+### Not Everything is Moddable  
 Certain systems and content from the main game are not exposed for modding.
 
 ## 📂 Examples and Guidelines  
@@ -59,13 +59,13 @@ To use them:
 - Instead, reference them via the `ColliderMaterialReference` component on your objects.  
 This ensures that the correct materials are used in-game without duplicating them, which could cause issues with collisions or effects.
 
-## 🎮 Referencing Main Game Assets  
+## 👉 Referencing Main Game Assets  
 The mod kit includes many prefabs from the main game. While most do not contain full implementations, they can still be referenced via the Addressables system.
 
 Example:  
 Use the `SingleSpawner` component to spawn main game assets using Addressable references.
 
-## 🧩 Overriding Existing Game Assets  
+## 🔀 Overriding Existing Game Assets  
 Mods can override certain game assets. For example, you could replace swords with shovels, swap enemy types like Rokibes with chickens or change the armor sets used in the campaign levels.
 
 To do this:
