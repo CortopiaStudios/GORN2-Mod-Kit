@@ -7,7 +7,7 @@ The Mod Kit requires the Unity game engine to create and export mods to GORN2.
 1. Download and install [Unity Hub](https://unity.com/download).
 2. Locate and install the Unity version **2022.3.60f1** from [here](https://unity.com/releases/editor/archive).
    - Make sure to include the module **Android Build Support** during the installation to be able to export mods for android devices.
-3. Download the Mod Kit project by either cloning the repository using `git` or download it a `.zip` file using the dropdown **Code → Download ZIP** at the top of this page and unzip the file.
+3. Download the Mod Kit project by either cloning the repository using [git](https://git-scm.com/) or download it a `.zip` file using the dropdown **Code → Download ZIP** at the top of this page and unzip the file.
 4. In **Unity Hub**, **Add project from disk** and select the root folder of the unzipped project.
 5. Open the project from **Unity Hub**.
 
