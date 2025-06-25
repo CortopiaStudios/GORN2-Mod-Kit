@@ -2,6 +2,15 @@
 
 The official modding toolkit for the VR game **GORN2**.
 
+## 🔩 How to Install the Mod Kit
+The Mod Kit requires the Unity game engine to create and export mods to GORN2.
+1. Download and install [Unity Hub](https://unity.com/download).
+2. Locate and install the Unity version **2022.3.60f1** from [here](https://unity.com/releases/editor/archive).
+   - Make sure to include the module **Android Build Support** during the installation to be able to export mods for android devices.
+3. Download the Mod Kit project by either cloning the repository using `git` or download it a `.zip` file using the dropdown **Code → Download ZIP** at the top of this page and unzip the file.
+4. In **Unity Hub**, **Add project from disk** and select the root folder of the unzipped project.
+5. Open the project from **Unity Hub**.
+
 ## 🛠️ How to Export a Mod  
 1. Mark the assets you want to export as [Addressable](https://docs.unity3d.com/Packages/com.unity.addressables@1.22/manual/get-started-make-addressable.html).
 2. Switch the platform in [Build Settings](https://docs.unity3d.com/2022.3/Documentation/Manual/BuildSettings.html) to either **Windows** or **Android**, depending on your target platform.
@@ -18,7 +27,7 @@ The official modding toolkit for the VR game **GORN2**.
 Custom scripts cannot be included in mods. Instead, use the available **behavior tree components** provided in the project to create complex logic. You can also use the various **"reactive" components** to link properties between objects and build interactive behaviors.
 
 ### Limited Testing in the Unity Editor  
-While most components from the main game have been imported into the mod kit, many lack full implementation details. These components can be used in mods but cannot be fully tested in the Unity Editor.  
+While most components from the main game have been imported into the Mod Kit, many lack full implementation details. These components can be used in mods but cannot be fully tested in the Unity Editor.  
 To test your mod, upload it to [Mod.io](https://mod.io/g/gorn-2), download it in-game, and test it within the GORN2 runtime.
 
 ### Not Everything is Moddable  
@@ -52,7 +61,7 @@ You can create custom levels accessible from the **Mod Levels** portal in **Cust
 - Use the `PlayerStartPoint` component to define the player’s spawn location. You can place the prefab from `Assets/Cortopia/Prefabs/PlayerStartPoint.prefab` in your scene.
 
 ## 💥 Using GORN2 Physic Materials  
-The mod kit includes physic materials from the main game. These not only define physical interactions but also control collision effects, audio, VFX, and penetration logic via the `Piercing` component.
+The Mod Kit includes physic materials from the main game. These not only define physical interactions but also control collision effects, audio, VFX, and penetration logic via the `Piercing` component.
 
 To use them:
 
@@ -61,7 +70,7 @@ To use them:
 This ensures that the correct materials are used in-game without duplicating them, which could cause issues with collisions or effects.
 
 ## 👉 Referencing Main Game Assets  
-The mod kit includes many prefabs from the main game. While most do not contain full implementations, they can still be referenced via the Addressables system.
+The Mod Kit includes many prefabs from the main game. While most do not contain full implementations, they can still be referenced via the Addressables system.
 
 Example:  
 Use the `SingleSpawner` component to spawn main game assets using Addressable references.
