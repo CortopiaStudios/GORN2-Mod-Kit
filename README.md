@@ -22,12 +22,12 @@ While most components from the main game have been imported into the mod kit, ma
 To test your mod, upload it to [Mod.io](https://mod.io/g/gorn-2), download it in-game, and test it within the GORN2 runtime.
 
 ### Not Everything is Moddable  
-Certain systems and content from the main game are not exposed for modding.
+Some systems and content from the main game are not exposed for modding, for example player movement. It is possible that this will change and be exposed to modders in future GORN2 patches.
 
 ## 📂 Examples and Guidelines  
 Example mods can be found under `Assets/Examples/`, most of which include `README` files with export instructions and usage tips.
 
-Additional guidelines are located in `Assets/Guidelines/`.
+Additional guidelines are located in `Documentation/`.
 
 ## 🔪 Adding Custom Weapons  
 You can create custom weapons that appear in the **Custom Mode** weapons menu.
@@ -75,5 +75,5 @@ To do this:
 2. Change its address to match the address of the asset you want to override.
    - To find an asset's address:  
      - Locate it in the `Assets/Cortopia/` folder,  
-     - Or refer to `Assets/AddressableAssetEntries.txt`.
+     - Or refer to `Documentation/AddressableAssetEntries.txt`.
    - Copy the address from the **Inspector** and paste it into your mod asset's address.
