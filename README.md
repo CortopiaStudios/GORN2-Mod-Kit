@@ -1,4 +1,4 @@
-![](Documents/GORN2ModKitLogo.png)
+![](Documentation/Resources/GORN2ModKitLogo.png)
 
 The official modding toolkit for the VR game **GORN2**.
 
