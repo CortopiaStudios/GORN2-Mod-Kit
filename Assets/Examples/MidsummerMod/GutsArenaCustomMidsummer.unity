@@ -10773,6 +10773,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: GutsArenaController
       objectReference: {fileID: 0}
+    - target: {fileID: 3829341990661256693, guid: 051d5cf36de351144b0dcc0cdb41a8fe, type: 3}
+      propertyPath: counterIncreased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1620650309396338402}
+    - target: {fileID: 3829341990661256693, guid: 051d5cf36de351144b0dcc0cdb41a8fe, type: 3}
+      propertyPath: counterIncreased.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TryIncrement
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829341990661256693, guid: 051d5cf36de351144b0dcc0cdb41a8fe, type: 3}
+      propertyPath: counterIncreased.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Cortopia.Scripts.AssetReferenceProperties.Types.AssetReferencePropertyCounter,
+        Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965256435078337529, guid: 051d5cf36de351144b0dcc0cdb41a8fe, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1620650309396338401}
+    - target: {fileID: 4965256435078337529, guid: 051d5cf36de351144b0dcc0cdb41a8fe, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrySetValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965256435078337529, guid: 051d5cf36de351144b0dcc0cdb41a8fe, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Cortopia.Scripts.AssetReferenceProperties.AssetReferenceProperty`1[[System.Int32,
+        mscorlib
+      objectReference: {fileID: 0}
     - target: {fileID: 3829341990661256693, guid: feb6ab5584687684c9525249237d3836, type: 3}
       propertyPath: counterIncreased.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
