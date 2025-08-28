@@ -17,8 +17,14 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: da5015a523adb904bb9788ad3d91823e
   m_SerializeEntries:
-  - m_GUID: ff584f281964ade47ac3de8bd1d133af
-    m_Address: GutsArenaCustom
+  - m_GUID: 359b9e54047366144a6133dae57afee6
+    m_Address: Assets/Cortopia/Prefabs/Characters/Rokibe/RokibeDefaultArmorSet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e86731a97e2174bbc866b28f1a50fc
+    m_Address: Assets/Cortopia/Graphics/Characters/Rokibe/Textures/TEX_Rokibe_01_DifA.tif
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

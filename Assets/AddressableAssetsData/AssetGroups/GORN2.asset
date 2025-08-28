@@ -16,12 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 1d16f502d860ef4469ca73f079c95c77
-  m_SerializeEntries:
-  - m_GUID: 2d3a7582a2aaa67439aca13737354701
-    m_Address: Assets/Cortopia
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f5f1916af8f7f2a428936297f3c33015, type: 2}
   m_SchemaSet:
