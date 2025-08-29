@@ -17,14 +17,24 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: da5015a523adb904bb9788ad3d91823e
   m_SerializeEntries:
+  - m_GUID: 0764d367a36b82a4db04760a5a41d1c2
+    m_Address: Assets/Cortopia/Graphics/Characters/Rokibe/Material/MAT_Rokibe_01_Simple_Sliced.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 359b9e54047366144a6133dae57afee6
     m_Address: Assets/Cortopia/Prefabs/Characters/Rokibe/RokibeDefaultArmorSet.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - Armor
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 74e86731a97e2174bbc866b28f1a50fc
-    m_Address: Assets/Cortopia/Graphics/Characters/Rokibe/Textures/TEX_Rokibe_01_DifA.tif
+  - m_GUID: 60be78a7a5789664e95098de03cc7ee9
+    m_Address: Assets/Cortopia/Graphics/Characters/Rokibe/Material/MAT_SliceCap.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b769602ea6d89ff43b3d59a1a62dbfee
+    m_Address: Assets/Cortopia/Graphics/Characters/Rokibe/Material/MAT_Rokibe_01_Sliced.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
