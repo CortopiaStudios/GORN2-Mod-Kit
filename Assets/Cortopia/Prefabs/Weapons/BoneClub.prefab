@@ -1,40 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &130886304356026101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 840490216065614271}
-  m_Layer: 7
-  m_Name: GlobalVariableReferences
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &840490216065614271
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130886304356026101}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6634429922046744257}
-  - {fileID: 1865376567528478021}
-  - {fileID: 6425976663932503322}
-  - {fileID: 6522296210122465179}
-  m_Father: {fileID: 8689088760121646851}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &192393139581951852
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,7 +21,6 @@ GameObject:
   - component: {fileID: 6757424905896849103}
   - component: {fileID: 6679217501875672000}
   - component: {fileID: 5971664262538269390}
-  - component: {fileID: 3482471744755759235}
   m_Layer: 7
   m_Name: BoneClub
   m_TagString: Untagged
@@ -79,7 +43,6 @@ Transform:
   m_Children:
   - {fileID: 5141326315854279043}
   - {fileID: 7321315790754260506}
-  - {fileID: 840490216065614271}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7736599046518990179
@@ -135,8 +98,8 @@ MonoBehaviour:
   parameterName: AttackType
   direction: 2
   boundValue:
-    reference: {fileID: 5143878242519168999}
-    propertyName: Value
+    reference: {fileID: 11400000, guid: 2240590cb61e5614daa6041778cca5ae, type: 2}
+    propertyName: Variable
     defaultValue: 2
     breakOnChange: 0
 --- !u!114 &7816619279920622958
@@ -226,10 +189,10 @@ MonoBehaviour:
   counterIncreased:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4083957614370753217}
-        m_TargetAssemblyTypeName: Cortopia.Scripts.AssetReferenceProperties.Types.AssetReferencePropertyCounter,
+      - m_Target: {fileID: 11400000, guid: 486c28d82ce8d85449194154f60b5a33, type: 2}
+        m_TargetAssemblyTypeName: Cortopia.Scripts.ReactiveComponents.IntegerCounterGlobalVariable,
           Assembly-CSharp
-        m_MethodName: TryIncrement
+        m_MethodName: IncreaseCounter
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -258,10 +221,10 @@ MonoBehaviour:
   counterIncreased:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 486357202768724142}
-        m_TargetAssemblyTypeName: Cortopia.Scripts.AssetReferenceProperties.Types.AssetReferencePropertyCounter,
+      - m_Target: {fileID: 11400000, guid: 4435bb4cea7f18347b39b1bf03be9d74, type: 2}
+        m_TargetAssemblyTypeName: Cortopia.Scripts.ReactiveComponents.IntegerCounterGlobalVariable,
           Assembly-CSharp
-        m_MethodName: TryIncrement
+        m_MethodName: IncreaseCounter
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -352,89 +315,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ignoreMethod: 0
   keepCollision: []
---- !u!114 &3482471744755759235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192393139581951852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15602da4cba4f184caba53893d5b40d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value:
-    reference: {fileID: 1710313319494085426}
-    propertyName: LatestDamage
-    defaultValue: 0
-    breakOnChange: 0
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5421935828107165454}
-        m_TargetAssemblyTypeName: Cortopia.Scripts.AssetReferenceProperties.AssetReferenceProperty`1[[System.Single,
-          mscorlib
-        m_MethodName: TrySetValue
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!1 &872190239103942932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1865376567528478021}
-  - component: {fileID: 486357202768724142}
-  m_Layer: 7
-  m_Name: BluntDamageHit
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1865376567528478021
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872190239103942932}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 840490216065614271}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &486357202768724142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872190239103942932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65773ee91d9ab1e4f972c9a09c95c0a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetReference:
-    m_AssetGUID: 4435bb4cea7f18347b39b1bf03be9d74
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
-  propertyName: Variable
 --- !u!1 &2243545803955753437
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +496,6 @@ GameObject:
   - component: {fileID: 1001256369652234221}
   - component: {fileID: 7974609307036253568}
   - component: {fileID: 7792108645418165935}
-  - component: {fileID: 9192026894036766873}
   m_Layer: 7
   m_Name: Col_BoneClub_Middle_02
   m_TagString: Untagged
@@ -675,27 +554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageContext: {fileID: 1710313319494085426}
---- !u!114 &9192026894036766873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2911904170332781422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterialReference:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue:
-      m_AssetGUID: 3fe8628fcf2daeb449db57c005f721c9
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    breakOnChange: 0
 --- !u!1 &3534777312031781738
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +565,6 @@ GameObject:
   - component: {fileID: 4818033600183548776}
   - component: {fileID: 1154069401658134385}
   - component: {fileID: 1602361896988553817}
-  - component: {fileID: 2697210485437868036}
   m_Layer: 7
   m_Name: Col_BoneClub_Middle_01
   m_TagString: Untagged
@@ -766,78 +623,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageContext: {fileID: 1710313319494085426}
---- !u!114 &2697210485437868036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3534777312031781738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterialReference:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue:
-      m_AssetGUID: 3fe8628fcf2daeb449db57c005f721c9
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    breakOnChange: 0
---- !u!1 &3564542458065136104
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6425976663932503322}
-  - component: {fileID: 5421935828107165454}
-  m_Layer: 7
-  m_Name: BluntDamageAmount
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6425976663932503322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3564542458065136104}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 840490216065614271}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5421935828107165454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3564542458065136104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b1caa8ccaa667649947de5847f1ff7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetReference:
-    m_AssetGUID: 0003e8c9235485c4595802874228c00b
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
-  propertyName: Variable
-  defaultValue: 0
 --- !u!1 &4366922408398420190
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,56 +656,6 @@ Transform:
   - {fileID: 2384336667116161517}
   m_Father: {fileID: 5141326315854279043}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: -90}
---- !u!1 &4886935589892849556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6634429922046744257}
-  - component: {fileID: 4083957614370753217}
-  m_Layer: 7
-  m_Name: BluntDamageKill
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6634429922046744257
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4886935589892849556}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 840490216065614271}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4083957614370753217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4886935589892849556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65773ee91d9ab1e4f972c9a09c95c0a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetReference:
-    m_AssetGUID: 486c28d82ce8d85449194154f60b5a33
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
-  propertyName: Variable
 --- !u!1 &4893512158610774337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,57 +744,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.36091852, y: -0.037041485, z: -0.050631166}
     m_Extent: {x: 0.7218944, y: 0.13409671, z: 0.11433548}
   m_DirtyAABB: 0
---- !u!1 &4915384074192018059
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6522296210122465179}
-  - component: {fileID: 5143878242519168999}
-  m_Layer: 7
-  m_Name: AttackType_Slashing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6522296210122465179
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4915384074192018059}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 840490216065614271}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5143878242519168999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4915384074192018059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94ef1589222c466798c3c47e4798a4d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetReference:
-    m_AssetGUID: 2240590cb61e5614daa6041778cca5ae
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
-  propertyName: Variable
-  defaultValue: 0
 --- !u!1 &5069823664967205655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,7 +1056,7 @@ MonoBehaviour:
   parryCooldownDuration:
     reference: {fileID: 0}
     propertyName: 
-    defaultValue: 1
+    defaultValue: 0.2
     breakOnChange: 0
   parryVelocityThreshold:
     reference: {fileID: 0}
@@ -1387,12 +1071,12 @@ MonoBehaviour:
   parriedForceApplyVelocity:
     reference: {fileID: 0}
     propertyName: 
-    defaultValue: 15
+    defaultValue: 25
     breakOnChange: 0
   parriedForceUpAngle:
     reference: {fileID: 0}
     propertyName: 
-    defaultValue: 20
+    defaultValue: 10
     breakOnChange: 0
 --- !u!114 &4262316597227790844
 MonoBehaviour:
@@ -1630,7 +1314,6 @@ GameObject:
   - component: {fileID: 1038748101045652659}
   - component: {fileID: 7504723796639927675}
   - component: {fileID: 4438162589705792083}
-  - component: {fileID: 504410564513292830}
   m_Layer: 7
   m_Name: Root
   m_TagString: Untagged
@@ -1984,27 +1667,6 @@ MonoBehaviour:
     breakOnChange: 0
   behaviour: {fileID: 7504723796639927675}
   inverseBoundRelation: 0
---- !u!114 &504410564513292830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6484088232444857488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterialReference:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue:
-      m_AssetGUID: 3fe8628fcf2daeb449db57c005f721c9
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    breakOnChange: 0
 --- !u!1 &6573077861829842710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,7 +1678,6 @@ GameObject:
   - component: {fileID: 405015053876043336}
   - component: {fileID: 1163354938825918359}
   - component: {fileID: 2201367898717952408}
-  - component: {fileID: 8632705242709671348}
   m_Layer: 7
   m_Name: Col_BoneClub_Top
   m_TagString: Untagged
@@ -2075,27 +1736,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageContext: {fileID: 1710313319494085426}
---- !u!114 &8632705242709671348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6573077861829842710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterialReference:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue:
-      m_AssetGUID: 3fe8628fcf2daeb449db57c005f721c9
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    breakOnChange: 0
 --- !u!1 &6598218588587018498
 GameObject:
   m_ObjectHideFlags: 0
@@ -2172,7 +1812,6 @@ GameObject:
   - component: {fileID: 5540357354129566756}
   - component: {fileID: 7039213729470527718}
   - component: {fileID: 4958255823179488479}
-  - component: {fileID: 7965581736736804927}
   m_Layer: 7
   m_Name: Col_BoneClub_Bottom
   m_TagString: Untagged
@@ -2229,27 +1868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageContext: {fileID: 1710313319494085426}
---- !u!114 &7965581736736804927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7399950358140972667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ddc59de68999e4c9bc6fcf31d054e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  physicMaterialReference:
-    reference: {fileID: 0}
-    propertyName: 
-    defaultValue:
-      m_AssetGUID: 3fe8628fcf2daeb449db57c005f721c9
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    breakOnChange: 0
 --- !u!1 &8884356709174147823
 GameObject:
   m_ObjectHideFlags: 0

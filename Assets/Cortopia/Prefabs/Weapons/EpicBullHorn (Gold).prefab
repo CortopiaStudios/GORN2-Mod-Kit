@@ -44,6 +44,14 @@ PrefabInstance:
       propertyPath: lockVelocityThreshold.defaultValue
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 789206760996881696, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: currentGrabbingHands.reference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 904932547190089240, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: boundValue.defaultValue
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 969564542003097732, guid: 95728f597c946424594b2696d22f6af2, type: 3}
       propertyPath: crushOnExit
       value: 0
@@ -88,6 +96,10 @@ PrefabInstance:
       propertyPath: m_SlerpDrive.positionSpring
       value: 500000
       objectReference: {fileID: 0}
+    - target: {fileID: 2398022896986090322, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: boundValue.defaultValue
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2466097689536482031, guid: 95728f597c946424594b2696d22f6af2, type: 3}
       propertyPath: slashDamage
       value: 25
@@ -99,6 +111,18 @@ PrefabInstance:
     - target: {fileID: 4544166191488854933, guid: 95728f597c946424594b2696d22f6af2, type: 3}
       propertyPath: slashDamage
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614667106860118475, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: boundValue.reference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692347935241608431, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: weaponHandlesIsGrabbed.Array.data[0].reference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7413866656204267441, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+      propertyPath: handsGrabbingWeapon.reference
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7597551505166996510, guid: 95728f597c946424594b2696d22f6af2, type: 3}
       propertyPath: m_Mass
@@ -165,7 +189,9 @@ PrefabInstance:
       value: EpicBullHorn (Gold)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3825341597966563787, guid: 95728f597c946424594b2696d22f6af2, type: 3}
+    - {fileID: 8834086556643608857, guid: 95728f597c946424594b2696d22f6af2, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95728f597c946424594b2696d22f6af2, type: 3}
