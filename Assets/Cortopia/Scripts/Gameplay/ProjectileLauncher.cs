@@ -90,6 +90,8 @@ namespace Cortopia.Scripts.Gameplay
 
         public Reactive<int> RemainingAmmo => default;
 
+        public Reactive<bool> HasAmmo => default;
+
         private void FixedUpdate()
         {
             throw new NotImplementedException();
